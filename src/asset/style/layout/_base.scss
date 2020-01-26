@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,600,700&display=swap');
 
 :root {
-  --color-bg: $colorLight;
-  --color-text: $colorDark;
-  --color-primary: $colorPrimary;
-  --column-width: $columnWidthSmall;
-  --gutter-width: $columnGutterSmall;
-  --column-amount: $columnAmountSmall;
+  --color-bg: #{$colorLight};
+  --color-text: #{$colorDark};
+  --color-primary: #{$colorPrimary};
+  --column-width: #{$columnWidthSmall};
+  --gutter-width: #{$columnGutterSmall};
+  --column-amount: #{$columnAmountSmall};
 }
 
 html {
@@ -47,7 +47,9 @@ img {
 }
 
 @include respond-to(MEDIUM) {
-  --column-width: $columnWidthLarge;
-  --gutter-width: $columnGutterLarge;
-  --column-amount: $columnAmountLarge;
+  :root {
+    --column-width: #{$columnWidthLarge};
+    --gutter-width: #{$columnGutterLarge};
+    --column-amount: #{$columnAmountLarge};
+  }
 }
