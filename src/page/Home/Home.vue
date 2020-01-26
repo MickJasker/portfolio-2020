@@ -3,6 +3,8 @@
 
 <template>
   <div :class="[$style.home]">
-    <h2>Home</h2>
+    <Container>
+      <h2>Home</h2>
+    </Container>
   </div>
 </template>

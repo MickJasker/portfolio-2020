@@ -1,4 +1,5 @@
 import Icon from './Icon';
+import Container from './Container';
 
 // add components you want to register globally.
 // Warning: only use this for small components without much logic as registering a component
@@ -6,4 +7,5 @@ import Icon from './Icon';
 // in your component
 export default {
   Icon,
+  Container,
 };

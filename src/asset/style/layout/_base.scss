@@ -1,6 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,600,700&display=swap');
+
+:root {
+  --color-bg: #{$colorLight};
+  --color-text: #{$colorDark};
+  --color-primary: #{$colorPrimary};
+  --column-width: #{$columnWidthSmall};
+  --gutter-width: #{$columnGutterSmall};
+  --column-amount: #{$columnAmountSmall};
+}
+
 html {
-  font-size: 10px;
+  font-size: 8px;
   box-sizing: border-box;
+  font-family: $fontPrimary;
+  background: var(--color-bg);
+  color: var(--color-text);
 }
 
 *,
@@ -30,4 +44,12 @@ ol {
 
 img {
   display: block;
+}
+
+@include respond-to(MEDIUM) {
+  :root {
+    --column-width: #{$columnWidthLarge};
+    --gutter-width: #{$columnGutterLarge};
+    --column-amount: #{$columnAmountLarge};
+  }
 }

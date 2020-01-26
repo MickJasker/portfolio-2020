@@ -1,0 +1,9 @@
+/* stylelint-disable-next-line block-no-empty */
+.container {
+  display: grid;
+  grid-template-columns: repeat(var(--column-amount), 1fr);
+  max-width: 1250px;
+  grid-column-gap: var(--gutter-width);
+  margin: 0 auto;
+  padding: 0 2rem;
+}
