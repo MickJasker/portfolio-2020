@@ -1,4 +1,4 @@
-import HomePage from '../page/HomePage';
+import HomePage from '../page/Home';
 
 export const RouteNames = {
   HOME: 'home',
