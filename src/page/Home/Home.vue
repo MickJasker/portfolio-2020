@@ -2,9 +2,7 @@
 <script src="./Home.js"></script>
 
 <template>
-  <div :class="[$style.home]">
-    <Container>
-      <h2>Home</h2>
-    </Container>
-  </div>
+  <main :class="[$style.home]">
+    <Hero :class="$style.hero" />
+  </main>
 </template>

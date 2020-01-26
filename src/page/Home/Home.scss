@@ -1,4 +1,14 @@
 /* stylelint-disable-next-line block-no-empty */
 .home {
+  height: 100vh;
 
+  @include respond-to(MEDIUM) {
+    display: grid;
+    grid-template-columns: 10vw 60rem 3fr 1fr;
+    grid-template-rows: 2fr auto;
+
+    .hero {
+      grid-column: 2 / 5  ;
+    }
+  }
 }

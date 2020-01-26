@@ -1,0 +1,62 @@
+/* stylelint-disable-next-line block-no-empty */
+.button {
+  padding: 0;
+  border: 0;
+  background: none;
+  font-size: 2rem;
+  font-weight: 700;
+  position: relative;
+  cursor: pointer;
+  width: fit-content;
+  margin: 0;
+  color: var(--color-text);
+
+  &:after {
+    content: '';
+    height: 0.5rem;
+    background: var(--color-primary);
+    transition: 0.3s ease-out;
+    width: 40%;
+    min-width: 4rem;
+    display: block;
+    margin-top: 0.5rem;
+  }
+
+  @media (hover: hover) {
+
+    &:hover, &:focus {
+      outline: none;
+
+      &:after {
+        width: 100%;
+      }
+    }
+  }
+
+  &:active {
+    &:after {
+      width: 100%;
+      background: var(--color-text);
+    }
+  }
+
+  &.inverted {
+    color: $colorLight;
+
+    &:after {
+      opacity: 0.5;
+      background: $colorLight;
+    }
+
+    &:active {
+      &:after {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.anchor {
+  text-decoration: none;
+  display: contents;
+}
