@@ -1,0 +1,27 @@
+/* stylelint-disable-next-line block-no-empty */
+.article-highlight {
+  padding: 6rem 0;
+  color: $colorLight;
+  background: var(--color-primary);
+
+  ::selection {
+    background: $colorLight;
+    color: $colorDark
+  }
+
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  @include respond-to(MEDIUM) {
+    padding: 6rem 4rem;
+  }
+}

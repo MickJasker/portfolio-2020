@@ -4,5 +4,6 @@
 <template>
   <main :class="[$style.home]">
     <Hero :class="$style.hero" />
+    <ArticleHighlight :class="$style.articleHighlight" />
   </main>
 </template>
