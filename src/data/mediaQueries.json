@@ -3,12 +3,14 @@
     "XSMALL": "(max-width: 479px)",
     "SMALL": "(min-width: 480px)",
     "MEDIUM": "(min-width: 768px)",
-    "LARGE": "(min-width: 1024px)"
+    "LARGE": "(min-width: 1024px)",
+    "XLARGE": "(min-width: 1400px)"
   },
   "deviceState": {
     "XSMALL": 0,
     "SMALL": 1,
     "MEDIUM": 2,
-    "LARGE": 3
+    "LARGE": 3,
+    "XLARGE": 4
   }
 }

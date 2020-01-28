@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display:400,400i|Montserrat:300,400,400i,600,700&display=swap');
 
 :root {
   --color-bg: #{$colorLight};
@@ -51,6 +51,10 @@ ol {
 
 img {
   display: block;
+}
+
+.highlight {
+  color: var(--color-primary);
 }
 
 @include respond-to(MEDIUM) {

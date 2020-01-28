@@ -2,6 +2,7 @@ import { AbstractPageTransitionComponent } from 'vue-transition-component';
 import HomeTransitionController from './HomeTransitionController';
 import Hero from '../../component/Hero';
 import ArticleHighlight from '../../component/ArticleHighlight';
+import VideoBlock from '../../component/VideoBlock';
 
 // @vue/component
 export default {
@@ -9,6 +10,7 @@ export default {
   components: {
     Hero,
     ArticleHighlight,
+    VideoBlock,
   },
   extends: AbstractPageTransitionComponent,
   methods: {

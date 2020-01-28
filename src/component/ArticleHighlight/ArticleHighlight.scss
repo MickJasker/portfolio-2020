@@ -1,8 +1,10 @@
 /* stylelint-disable-next-line block-no-empty */
 .article-highlight {
-  padding: 6rem 0;
+  padding: 6rem 2rem;
   color: $colorLight;
   background: var(--color-primary);
+  display: flex;
+  align-items: center;
 
   ::selection {
     background: $colorLight;
@@ -21,7 +23,7 @@
     margin-bottom: 2rem;
   }
 
-  @include respond-to(MEDIUM) {
+  @include respond-to(LARGE) {
     padding: 6rem 4rem;
   }
 }

@@ -5,35 +5,48 @@
   <section :class="[$style.hero]">
     <main>
       <Subtitle
+        v-if="subtitle"
         :class="$style.subtitle"
-        copy="S6 Startup Experience"
+        :copy="subtitle"
       />
       <h1 :class="$style.title">
-        Mick Jasker
+        <slot />
       </h1>
-      <p :class="$style.copy">
-        Het laatste semester is voor mij inmiddels aangebroken. In dit portfolio laat ik al het werk
-        zien wat ik in dit semester gedaan heb.
+      <p
+        v-if="copy"
+        :class="$style.copy"
+      >
+        {{ copy }}
       </p>
-      <div :class="$style.callToAction">
+      <div
+        v-if="callToActions"
+        :class="$style.callToAction"
+      >
         <Button
-          to="/portfolio"
-          copy="Bekijk mijn portfolio"
+          v-for="(callToAction, index) in callToActions"
+          :key="`${$route.name}-hero-cta-${index}`"
+          :to="callToAction.to"
+          :copy="callToAction.copy"
         />
       </div>
     </main>
 
-    <picture :class="$style.heroImage">
+    <picture
+      v-if="image"
+      :class="$style.heroImage"
+    >
       <source
-        srcset="../../asset/image/hero@3x.jpg"
+        v-if="image.x3"
+        :srcset="image.x3"
         media="(min-width: 768px)"
       >
       <source
-        srcset="../../asset/image/hero@2x.jpg"
+        v-if="image.x2"
+        :srcset="image.x2"
         media="(min-width: 465px)"
       >
       <img
-        src="../../asset/image/hero.jpg"
+        :src="image.src"
         alt="hero"
       >
     </picture>

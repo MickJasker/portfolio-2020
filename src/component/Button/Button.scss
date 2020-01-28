@@ -8,6 +8,7 @@
   position: relative;
   cursor: pointer;
   width: fit-content;
+  font-family: $fontPrimary;
   margin: 0;
   color: var(--color-text);
 
@@ -36,7 +37,7 @@
   &:active {
     &:after {
       width: 100%;
-      background: var(--color-text);
+      opacity: 0.5;
     }
   }
 
