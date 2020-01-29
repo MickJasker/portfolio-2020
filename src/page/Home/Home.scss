@@ -18,6 +18,10 @@
     .video-block {
       grid-column: 2 / 3;
     }
+
+    .social-links {
+      grid-column: 1 / 3;
+    }
   }
 
   @include respond-to(XLARGE) {
@@ -35,6 +39,10 @@
 
     .video-block {
       grid-column: 3 / 4;
+    }
+
+    .social-links {
+      grid-column: 4 / 5;
     }
   }
 }

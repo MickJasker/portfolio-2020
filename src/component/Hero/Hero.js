@@ -31,6 +31,7 @@ export default {
     handleAllComponentsReady() {
       this.transitionController = new HeroTransitionController(this);
       this.isReady();
+      this.transitionIn();
     },
   },
 };

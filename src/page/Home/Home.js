@@ -3,6 +3,7 @@ import HomeTransitionController from './HomeTransitionController';
 import Hero from '../../component/Hero';
 import ArticleHighlight from '../../component/ArticleHighlight';
 import VideoBlock from '../../component/VideoBlock';
+import SocialLinks from '../../component/SocialLinks';
 
 // @vue/component
 export default {
@@ -11,6 +12,7 @@ export default {
     Hero,
     ArticleHighlight,
     VideoBlock,
+    SocialLinks,
   },
   extends: AbstractPageTransitionComponent,
   methods: {

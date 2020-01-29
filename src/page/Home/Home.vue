@@ -24,5 +24,6 @@
     </Hero>
     <ArticleHighlight :class="$style.articleHighlight" />
     <VideoBlock :class="$style.videoBlock" />
+    <SocialLinks :class="$style.socialLinks" />
   </main>
 </template>

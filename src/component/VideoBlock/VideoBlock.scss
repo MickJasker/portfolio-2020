@@ -23,8 +23,9 @@
       pointer-events: none;
     }
 
-    &:hover {
+    &:hover, &:focus-within{
       .button {
+        outline: none;
         opacity: 1;
       }
     }
