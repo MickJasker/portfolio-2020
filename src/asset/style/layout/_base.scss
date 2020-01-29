@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display:400,400i|Montserrat:300,400,400i,600,700&display=swap');
 
 :root {
   --color-bg: #{$colorLight};
@@ -15,6 +15,12 @@ html {
   font-family: $fontPrimary;
   background: var(--color-bg);
   color: var(--color-text);
+  -webkit-tap-highlight-color: rgba(#000, 0);
+}
+
+::selection {
+  background: var(--color-primary);
+  color: var(--color-bg);
 }
 
 *,
@@ -34,6 +40,7 @@ h6,
 p {
   font-weight: normal;
   margin: 0;
+  line-height: 1.5em;
 }
 
 ul,
@@ -44,6 +51,10 @@ ol {
 
 img {
   display: block;
+}
+
+.highlight {
+  color: var(--color-primary);
 }
 
 @include respond-to(MEDIUM) {

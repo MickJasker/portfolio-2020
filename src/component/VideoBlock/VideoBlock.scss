@@ -1,0 +1,41 @@
+/* stylelint-disable-next-line block-no-empty */
+.video-block {
+  --color-bg: #{$colorDark};
+  --color-text: #{$colorLight};
+  background: var(--color-bg);
+  color: var(--color-text);
+  position: relative;
+
+  main {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    .button {
+      opacity: 0.75;
+      transition: opacity 0.3s ease-out;
+      pointer-events: none;
+    }
+
+    &:hover, &:focus-within{
+      .button {
+        outline: none;
+        opacity: 1;
+      }
+    }
+  }
+
+  .thumbnail {
+    height: 100%;
+    width: 100%;
+    display: inline-flex;
+    filter: saturate(0);
+    object-fit: cover;
+  }
+}

@@ -1,0 +1,21 @@
+/* stylelint-disable-next-line block-no-empty */
+.subtitle {
+  display: flex;
+  align-items: center;
+  filter: drop-shadow(0 0 1rem #fff);
+
+  h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 3rem;
+  }
+
+  &:after {
+    content: '';
+    margin-left: 1rem;
+    height: 2px;
+    width: 3rem;
+    background: var(--color-primary);
+  }
+}
