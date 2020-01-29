@@ -4,16 +4,22 @@
 <template>
   <section :class="[$style.hero]">
     <main>
-      <Subtitle
-        v-if="subtitle"
-        :class="$style.subtitle"
-        :copy="subtitle"
-      />
-      <h1 :class="$style.title">
+      <div class="subtitle-wrapper" ref="subtitle">
+        <Subtitle
+          v-if="subtitle"
+          :class="$style.subtitle"
+          :copy="subtitle"
+        />
+      </div>
+      <h1
+        ref="title"
+        :class="$style.title"
+      >
         <slot />
       </h1>
       <p
         v-if="copy"
+        ref="copy"
         :class="$style.copy"
       >
         {{ copy }}
@@ -22,12 +28,17 @@
         v-if="callToActions"
         :class="$style.callToAction"
       >
-        <Button
+        <div
           v-for="(callToAction, index) in callToActions"
           :key="`${$route.name}-hero-cta-${index}`"
-          :to="callToAction.to"
-          :copy="callToAction.copy"
-        />
+          ref="cta"
+          class="cta-wrapper"
+        >
+          <Button
+            :to="callToAction.to"
+            :copy="callToAction.copy"
+          />
+        </div>
       </div>
     </main>
 

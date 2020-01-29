@@ -3,6 +3,7 @@ import {
   IAbstractTransitionComponent,
 } from 'vue-transition-component';
 import { TimelineMax } from 'gsap';
+import SplitText from '../../vendor/SplitText';
 
 export default class HeroTransitionController extends AbstractTransitionController {
   /**
@@ -19,14 +20,52 @@ export default class HeroTransitionController extends AbstractTransitionControll
     parent: IAbstractTransitionComponent,
     id: string,
   ): void {
-    timeline.from(
-      parent.$el,
-      1,
-      {
+    const title = new SplitText(parent.$refs.title).chars;
+    const copy = new SplitText(parent.$refs.copy).lines;
+    // @ts-ignore
+    timeline
+      .from(parent.$el, 1, {
         opacity: 0,
-      },
-      1,
-    );
+      })
+      .from(
+        parent.$refs.subtitle,
+        1,
+        {
+          y: 50,
+          opacity: 0,
+        },
+        '=-0.5',
+      )
+      .staggerFrom(
+        title,
+        1,
+        {
+          y: '5vw',
+          opacity: 0,
+        },
+        0.025,
+        '=-0.5',
+      )
+      .staggerFrom(
+        copy,
+        1,
+        {
+          y: 10,
+          opacity: 0,
+        },
+        0.1,
+        '=-1',
+      )
+      .staggerFrom(
+        parent.$refs.cta,
+        1,
+        {
+          y: 10,
+          opacity: 0,
+        },
+        0.1,
+        '=-0.5',
+      );
   }
 
   /**
