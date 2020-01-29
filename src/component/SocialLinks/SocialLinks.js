@@ -9,6 +9,7 @@ export default {
     handleAllComponentsReady() {
       this.transitionController = new SocialLinksTransitionController(this);
       this.isReady();
+      this.transitionIn();
     },
   },
 };
