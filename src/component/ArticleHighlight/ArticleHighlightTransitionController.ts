@@ -33,7 +33,7 @@ export default class ArticleHighlightTransitionController extends AbstractTransi
           y: 0,
           opacity: 1,
         },
-        2,
+        1.25,
       )
       .staggerFromTo(
         copy,

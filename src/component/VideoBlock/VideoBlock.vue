@@ -7,10 +7,14 @@
       ref="videoOverlay"
       :src="require('../../asset/video/creative-jam.mp4')"
     />
-    <main @click="playVideo">
+    <main
+      ref="button"
+      @click="playVideo"
+    >
       <PlayButton :class="[$style.button]" />
     </main>
     <video
+      ref="bg-video"
       :class="$style.thumbnail"
       muted
       autoplay

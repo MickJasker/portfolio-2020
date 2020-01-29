@@ -15,6 +15,7 @@ export default {
     handleAllComponentsReady() {
       this.transitionController = new VideoBlockTransitionController(this);
       this.isReady();
+      this.transitionIn();
     },
     playVideo() {
       this.$refs.videoOverlay.play();
