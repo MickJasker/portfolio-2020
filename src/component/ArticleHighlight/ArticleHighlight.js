@@ -9,6 +9,7 @@ export default {
     handleAllComponentsReady() {
       this.transitionController = new ArticleHighlightTransitionController(this);
       this.isReady();
+      this.transitionIn();
     },
   },
 };
