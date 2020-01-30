@@ -4,13 +4,15 @@
     "SMALL": "(min-width: 480px)",
     "MEDIUM": "(min-width: 768px)",
     "LARGE": "(min-width: 1024px)",
-    "XLARGE": "(min-width: 1400px)"
+    "XLARGE": "(min-width: 1520px)",
+    "XXLARGE": "(min-width: 1680px)"
   },
   "deviceState": {
     "XSMALL": 0,
     "SMALL": 1,
     "MEDIUM": 2,
     "LARGE": 3,
-    "XLARGE": 4
+    "XLARGE": 4,
+    "XXLARGE": 5
   }
 }

@@ -3,6 +3,8 @@
 
 <template>
   <div :class="[$style.app]">
-    <router-view />
+    <transition @leave="onLeave">
+      <router-view />
+    </transition>
   </div>
 </template>

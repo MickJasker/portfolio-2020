@@ -2,7 +2,7 @@
 .subtitle {
   display: flex;
   align-items: center;
-  filter: drop-shadow(0 0 1rem #fff);
+  filter: drop-shadow(0 0 1rem var(--color-bg));
 
   h2 {
     font-size: 2rem;

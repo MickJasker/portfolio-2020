@@ -3,15 +3,14 @@ import {
   IAbstractTransitionComponent,
 } from 'vue-transition-component';
 import { TimelineMax } from 'gsap';
-import SplitText from '../../vendor/SplitText';
 
-export default class HeroTransitionController extends AbstractTransitionController {
+export default class ArticleTransitionController extends AbstractTransitionController {
   /**
    * Use this method to setup your transition in timeline
    *
    * @protected
    * @method setupTransitionInTimeline
-   * @param {TimelineLite | TimelineMax} timeline The transition in timeline
+   * @param {TimelineMax} timeline The transition in timeline
    * @param {IAbstractTransitionComponent} parent The reference to the parent controller
    * @param {string} id The transition id that was provided when constructing the controller
    */
@@ -20,65 +19,19 @@ export default class HeroTransitionController extends AbstractTransitionControll
     parent: IAbstractTransitionComponent,
     id: string,
   ): void {
-    let title;
-    let copy;
-
-    if (parent.$refs.title) {
-      title = new SplitText(parent.$refs.title).chars;
-    }
-
-    if (parent.$refs.copy) {
-      copy = new SplitText(parent.$refs.copy).lines;
-    }
-    // @ts-ignore
     timeline
       .from(parent.$el, 1, {
         opacity: 0,
       })
       .from(
-        parent.$refs.subtitle,
+        parent.$refs.article,
         1,
         {
+          opacity: 0,
           y: 50,
-          opacity: 0,
         },
-        '=-0.5',
-      )
-      .staggerFrom(
-        title,
-        1,
-        {
-          y: '5vw',
-          opacity: 0,
-        },
-        0.025,
-        '=-0.5',
+        '=+0.5',
       );
-    if (copy) {
-      timeline.staggerFrom(
-        copy,
-        1,
-        {
-          y: 10,
-          opacity: 0,
-        },
-        0.1,
-        '=-1',
-      );
-    }
-
-    if (parent.$refs.cta) {
-      timeline.staggerFrom(
-        parent.$refs.cta,
-        1,
-        {
-          y: 10,
-          opacity: 0,
-        },
-        0.1,
-        '=-0.5',
-      );
-    }
   }
 
   /**
@@ -86,7 +39,7 @@ export default class HeroTransitionController extends AbstractTransitionControll
    *
    * @protected
    * @method setupTransitionOutTimeline
-   * @param {TimelineLite | TimelineMax} timeline The transition in timeline
+   * @param {TimelineMax} timeline The transition in timeline
    * @param {IAbstractTransitionComponent} parent The reference to the parent controller
    * @param {string} id The transition id that was provided when constructing the controller
    */
@@ -94,14 +47,18 @@ export default class HeroTransitionController extends AbstractTransitionControll
     timeline: TimelineMax,
     parent: IAbstractTransitionComponent,
     id: string,
-  ): void {}
+  ): void {
+    timeline.to(parent.$el, 1, {
+      opacity: 0,
+    });
+  }
 
   /**
    * Use this method to setup your looping timeline
    *
    * @protected
    * @method setupLoopingAnimationTimeline
-   * @param {TimelineLite | TimelineMax} timeline The transition in timeline
+   * @param {TimelineMax} timeline The transition in timeline
    * @param {IAbstractTransitionComponent} parent The reference to the parent controller
    * @param {string} id The transition id that was provided when constructing the controller
    */
