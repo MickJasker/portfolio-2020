@@ -3,9 +3,8 @@ import {
   IAbstractTransitionComponent,
 } from 'vue-transition-component';
 import { TimelineMax } from 'gsap';
-import SplitText from '../../vendor/SplitText';
 
-export default class HeroTransitionController extends AbstractTransitionController {
+export default class ArticleStatisticsTransitionController extends AbstractTransitionController {
   /**
    * Use this method to setup your transition in timeline
    *
@@ -20,65 +19,26 @@ export default class HeroTransitionController extends AbstractTransitionControll
     parent: IAbstractTransitionComponent,
     id: string,
   ): void {
-    let title;
-    let copy;
-
-    if (parent.$refs.title) {
-      title = new SplitText(parent.$refs.title).chars;
-    }
-
-    if (parent.$refs.copy) {
-      copy = new SplitText(parent.$refs.copy).lines;
-    }
-    // @ts-ignore
     timeline
-      .from(parent.$el, 1, {
-        opacity: 0,
-      })
       .from(
-        parent.$refs.subtitle,
+        parent.$el,
         1,
         {
-          y: 50,
           opacity: 0,
+          y: 50,
         },
-        '=-0.5',
+        1.25,
       )
       .staggerFrom(
-        title,
+        parent.$el.querySelectorAll('.transition-in'),
         1,
         {
-          y: '5vw',
           opacity: 0,
+          y: 25,
         },
-        0.025,
-        '=-0.5',
+        0.2,
+        '=-0.2',
       );
-    if (copy) {
-      timeline.staggerFrom(
-        copy,
-        1,
-        {
-          y: 10,
-          opacity: 0,
-        },
-        0.1,
-        '=-1',
-      );
-    }
-
-    if (parent.$refs.cta) {
-      timeline.staggerFrom(
-        parent.$refs.cta,
-        1,
-        {
-          y: 10,
-          opacity: 0,
-        },
-        0.1,
-        '=-0.5',
-      );
-    }
   }
 
   /**

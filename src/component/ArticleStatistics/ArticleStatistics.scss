@@ -1,0 +1,58 @@
+/* stylelint-disable-next-line block-no-empty */
+.article-statistics {
+  --color-bg: #{$colorDark};
+  --color-text: #{$colorLight};
+  color: var(--color-text);
+  background: var(--color-primary);
+  padding: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+
+  .read-time {
+    font-size: 12rem;
+    line-height: 1em;
+    font-family: $fontSecondary;
+
+    sub {
+      font-family: $fontPrimary;
+      opacity: .75;
+      position: static;
+      font-size: 0.25em;
+    }
+  }
+
+  .publish-date {
+    font-size: 3rem;
+    margin: 3rem 0;
+  }
+
+  .author {
+    display: flex;
+    align-items: center;
+
+    img {
+      font-size: 10rem;
+      width: 1em;
+      border-radius: 1em;
+      height: 1em;
+      margin-right: 1rem;
+      object-fit: cover;
+      filter: saturate(0);
+    }
+
+    h2 {
+      font-size: 3rem;
+    }
+  }
+
+  @include respond-to(MEDIUM) {
+    flex-direction: row;
+    padding: 7rem;
+  }
+
+  @include respond-to(XLARGE) {
+    margin-left: 4rem;
+  }
+}
