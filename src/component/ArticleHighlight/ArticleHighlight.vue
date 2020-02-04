@@ -4,7 +4,7 @@
 <template>
   <section :class="$style.articleHighlight">
     <main>
-      <h1 ref="title">Adobe / Philips Creative Jam</h1>
+      <h1 ref="title">Leeswijzer</h1>
       <p ref="copy">
         During the Dutch Design Week (DDW), four classmates and I got the opportunity to participate
         with the Adobe Creative Jam at Sint Lucas. We got a case presented by the lead UX designer

@@ -3,6 +3,7 @@
 
 <template>
   <div :class="[$style.app]">
+    <NavigationMenu />
     <transition @leave="onLeave">
       <router-view />
     </transition>

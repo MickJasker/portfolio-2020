@@ -2,10 +2,14 @@ import { DeviceStateEvent } from 'seng-device-state-tracker';
 import { mapMutations, mapState } from 'vuex';
 import { FlowManager, AbstractRegistrableComponent } from 'vue-transition-component';
 import { SET_DEVICE_STATE } from '../store/module/app/app';
+import NavigationMenu from '../component/NavigationMenu';
 
 // @vue/component
 export default {
   name: 'App',
+  components: {
+    NavigationMenu,
+  },
   extends: AbstractRegistrableComponent,
   computed: {
     ...mapState({
