@@ -1,0 +1,20 @@
+/* stylelint-disable-next-line block-no-empty */
+.portfolio-overview {
+  @include respond-to(XLARGE) {
+    grid-template-columns: auto 45rem 50rem 50rem 45rem auto;
+    display: grid;
+
+    .hero {
+      grid-column: 2 / 7;
+      min-height: 100rem;
+    }
+
+    .search {
+      grid-column: 2 / 4;
+      top: -50%;
+      position: relative;
+      z-index: 100;
+      margin-left: 4rem;
+    }
+  }
+}
