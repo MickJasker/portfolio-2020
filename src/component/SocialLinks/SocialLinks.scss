@@ -23,7 +23,8 @@
     }
 
     @media (hover: hover) {
-      &:hover, &:focus {
+      &:hover,
+      &:focus {
         color: $colorLight;
         outline: none;
       }

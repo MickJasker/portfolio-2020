@@ -2,7 +2,10 @@
 <script src="./Article.js"></script>
 
 <template>
-  <main :class="[$style.article]" v-if="article">
+  <main
+    v-if="article"
+    :class="[$style.article]"
+  >
     <Hero
       :class="$style.hero"
       :subtitle="subcategoryFrm.title"
@@ -31,5 +34,7 @@
       <h1>Mick Jasker – {{ new Date().getFullYear() }}</h1>
     </footer>
   </main>
-  <h1 v-else>Error</h1>
+  <h1 v-else>
+    Error
+  </h1>
 </template>

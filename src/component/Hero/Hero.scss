@@ -92,7 +92,6 @@
         background: linear-gradient(270deg, rgba(#000, 0), ease-in-out, $colorLight);
 
         @media (prefers-color-scheme: dark) {
-
           //noinspection CssInvalidFunction
           background: linear-gradient(270deg, rgba(#000, 0), ease-in-out, $colorDark);
         }

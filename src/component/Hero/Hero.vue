@@ -4,7 +4,10 @@
 <template>
   <section :class="[$style.hero]">
     <main>
-      <div class="subtitle-wrapper" ref="subtitle">
+      <div
+        ref="subtitle"
+        class="subtitle-wrapper"
+      >
         <Subtitle
           v-if="subtitle"
           :class="$style.subtitle"

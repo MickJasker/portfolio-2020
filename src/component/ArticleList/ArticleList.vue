@@ -11,7 +11,8 @@
           :key="`articles-${title}-${article.title}-${index}`"
         >
           <router-link
-            :to="{ name: RouteNames.ARTICLE, params: { category: createRouterString(parentCategory), subcategory: createRouterString(title), title: createRouterString(article.title) }}">
+            :to="{ name: RouteNames.ARTICLE, params: { category: createRouterString(parentCategory), subcategory: createRouterString(title), title: createRouterString(article.title) }}"
+          >
             {{ article.title }}
           </router-link>
         </li>
