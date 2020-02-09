@@ -25,14 +25,16 @@
         :class="$style.category"
       >
         <h1>{{ category.title }}</h1>
-        <ArticleList
-          v-for="(subcategory, index2) in category.subcategories"
-          :key="`subcategory-${subcategory.title}-${index2}`"
-          :title="subcategory.title"
-          :parent-category="category.title"
-          :articles="subcategory.articles"
-          :img="subcategory.img"
-        />
+        <template v-if="category.subcategories">
+          <ArticleList
+            v-for="(subcategory, index2) in category.subcategories"
+            :key="`subcategory-${subcategory.title}-${index2}`"
+            :title="subcategory.title"
+            :parent-category="category.title"
+            :articles="subcategory.articles"
+            :img="subcategory.img"
+          />
+        </template>
       </section>
     </div>
   </main>

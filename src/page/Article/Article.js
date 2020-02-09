@@ -1,8 +1,11 @@
 import { AbstractPageTransitionComponent } from 'vue-transition-component';
+import firebase from 'firebase/app';
 import ArticleTransitionController from './ArticleTransitionController';
 import Hero from '../../component/Hero';
 import ArticleStatistics from '../../component/ArticleStatistics';
-import data from '../../data/data.json';
+import 'firebase/firestore';
+
+const db = firebase.firestore();
 
 // @vue/component
 export default {
@@ -28,13 +31,12 @@ export default {
   },
   data() {
     return {
-      data,
       categoryFrm: null,
       subcategoryFrm: null,
       article: null,
     };
   },
-  mounted() {
+  created() {
     this.getArticle();
   },
   methods: {
@@ -48,29 +50,22 @@ export default {
         console.error('Article could not be found');
       });
     },
-    getArticle() {
-      this.categoryFrm = this.data.portfolio.categories.find(
-        cat => cat.title.toLowerCase() === this.category.split('-').join(' '),
-      );
+    async getArticle() {
+      const catDoc = await db.doc(`categories/${this.category}`).get();
 
-      if (this.categoryFrm) {
-        this.subcategoryFrm = this.categoryFrm.subcategories.find(
-          subCat => subCat.title.toLowerCase() === this.subcategory.split('-').join(' '),
-        );
-        if (!this.subcategoryFrm) {
-          this.handleError();
-        }
-      } else {
-        this.handleError();
-      }
+      this.categoryFrm = catDoc.data();
 
-      if (this.subcategoryFrm.articles) {
-        this.article = this.subcategoryFrm.articles.find(
-          art => art.title.toLowerCase() === this.title.split('-').join(' '),
-        );
-      } else {
-        this.handleError();
-      }
+      const subCatDoc = await db
+        .doc(`categories/${this.category}/subcategories/${this.subcategory}`)
+        .get();
+
+      this.subcategoryFrm = subCatDoc.data();
+
+      const articleDoc = await db
+        .doc(`categories/${this.category}/subcategories/${this.subcategory}/articles/${this.title}`)
+        .get();
+
+      this.article = articleDoc.data();
 
       if (!this.article) {
         this.handleError();

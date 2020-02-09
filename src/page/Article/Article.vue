@@ -35,6 +35,6 @@
     </footer>
   </main>
   <h1 v-else>
-    Error
+    Loading
   </h1>
 </template>

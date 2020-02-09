@@ -5,7 +5,7 @@
   <section :class="[$style.articleList]">
     <div :class="$style.column">
       <h1>{{ title }}</h1>
-      <ul>
+      <ul v-if="articles">
         <li
           v-for="(article, index) in articles"
           :key="`articles-${title}-${article.title}-${index}`"

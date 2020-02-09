@@ -16,7 +16,7 @@ export default {
     },
     articles: {
       type: Array,
-      required: true,
+      default: () => [],
     },
     img: {
       type: String,
