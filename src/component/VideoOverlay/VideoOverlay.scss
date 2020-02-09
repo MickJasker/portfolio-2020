@@ -40,7 +40,8 @@
       width: inherit;
     }
 
-    &:focus, &:hover {
+    &:focus,
+    &:hover {
       outline: none;
       opacity: 1;
     }

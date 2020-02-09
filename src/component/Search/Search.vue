@@ -4,7 +4,10 @@
 <template>
   <form :class="$style.search">
     <label>
-      <input type="search" placeholder="Op zoek naar iets specefieks?">
+      <input
+        type="search"
+        placeholder="Op zoek naar iets specefieks?"
+      >
       <button><Icon name="search" /></button>
     </label>
   </form>

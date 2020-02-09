@@ -11,6 +11,7 @@
 		"selector-pseudo-element-colon-notation": null,
 		"at-rule-empty-line-before": null,
 		"rule-empty-line-before": null,
-		"declaration-empty-line-before": null
+		"declaration-empty-line-before": null,
+    "media-feature-name-no-unknown": null,
 	}
 }

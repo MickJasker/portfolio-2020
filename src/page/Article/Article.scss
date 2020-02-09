@@ -13,7 +13,7 @@
 
       &:after {
         content: '';
-        height: .5rem;
+        height: 0.5rem;
         margin-top: 1.5rem;
         background: var(--color-primary);
         width: 40%;
@@ -43,13 +43,13 @@
       font-style: italic;
 
       &:before {
-        content: "“";
+        content: '“';
         pointer-events: none;
         position: absolute;
         top: -6rem;
         left: -6rem;
         font-size: 25.6rem;
-        opacity: .1;
+        opacity: 0.1;
       }
     }
 
@@ -93,7 +93,7 @@
         list-style: none;
 
         &:before {
-          content: "|";
+          content: '|';
           transform: rotate(45deg);
           left: 1rem;
           position: absolute;

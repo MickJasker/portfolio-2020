@@ -29,7 +29,10 @@ export default {
       this.isReady();
     },
     createRouterString(string) {
-      return string.toLowerCase().split(' ').join('-');
+      return string
+        .toLowerCase()
+        .split(' ')
+        .join('-');
     },
   },
 };

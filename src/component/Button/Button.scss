@@ -24,8 +24,8 @@
   }
 
   @media (hover: hover) {
-
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
       outline: none;
 
       &:after {
