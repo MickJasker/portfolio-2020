@@ -15,7 +15,10 @@
       Mijn Werk<span class="highlight">.</span>
     </Hero>
     <Search :class="$style.search" />
-    <div :class="$style.container">
+    <div
+      v-if="data.portfolio.categories"
+      :class="$style.container"
+    >
       <section
         v-for="(category, index) in data.portfolio.categories"
         :key="`category-${category.title}-${index}`"
