@@ -5,6 +5,8 @@ import { sync } from 'vuex-router-sync';
 
 import './asset/style/screen.scss';
 
+import './util/firebase';
+
 import './settings/settings';
 import directive from './directive/directive';
 import component from './component/component';
