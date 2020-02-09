@@ -4,7 +4,7 @@
 <template>
   <section :class="[$style.articleStatistics]">
     <time class="transition-in" :class="$style.readTime">
-      {{ readTime }}<sub>min</sub>
+      {{ readTime / 60 }}<sub>min</sub>
     </time>
     <time
       class="transition-in"

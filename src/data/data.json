@@ -1,0 +1,105 @@
+{
+  "portfolio": {
+    "hero": {
+      "title": "Mijn Werk",
+      "subtitle": "Portfolio"
+    },
+    "categories": [
+      {
+        "title": "WeAreYou",
+        "subcategories": [
+          {
+            "title": "Analyseren",
+            "img": "https://www.hlb.nl/uploads/homepage/header_image/5b73313b38b51.jpg?1534275902",
+            "articles": [
+              {
+                "title": "Individuele Analyse van de Opdracht",
+                "content": "test",
+                "statistics": {
+                  "readTime": 600,
+                  "publishDate": "02/11/2020"
+                }
+              },
+              {
+                "title": "10 Kritische Vragen",
+                "content": "test"
+              },
+              {
+                "title": "Debriefing en Projectplan",
+                "content": "test"
+              },
+              {
+                "title": "Trends",
+                "content": "test"
+              },
+              {
+                "title": "Onderzoeksvragen",
+                "content": "test"
+              },
+              {
+                "title": "Young profesional entrepreneurs",
+                "content": "test"
+              }
+            ]
+          },
+          {
+            "title": "Adviseren",
+            "img": "https://www.hlb.nl/uploads/homepage/header_image/5b73313b38b51.jpg?1534275902",
+            "articles": [
+              {
+                "title": "Presenteren van de Resultaten",
+                "content": "test"
+              }
+            ]
+          },
+          {
+            "title": "Ontwerpen",
+            "img": "https://www.hlb.nl/uploads/homepage/header_image/5b73313b38b51.jpg?1534275902",
+            "articles": [
+              {
+                "title": "Wireframe",
+                "content": "test"
+              },
+              {
+                "title": "LoFi Prototype",
+                "content": "test"
+              },
+              {
+                "title": "HiFi Prototype",
+                "content": "test"
+              }
+            ]
+          },
+          {
+            "title": "Realiseren",
+            "img": "https://www.hlb.nl/uploads/homepage/header_image/5b73313b38b51.jpg?1534275902",
+            "articles": [
+              {
+                "title": "Wireframe",
+                "content": "test"
+              },
+              {
+                "title": "LoFi Prototype",
+                "content": "test"
+              }
+            ]
+          },
+          {
+            "title": "Beheren",
+            "img": "https://www.hlb.nl/uploads/homepage/header_image/5b73313b38b51.jpg?1534275902",
+            "articles": [
+              {
+                "title": "Overdracht aan WeAreYou",
+                "content": "test"
+              },
+              {
+                "title": "Reflectie",
+                "content": "test"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

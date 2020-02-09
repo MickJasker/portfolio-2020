@@ -1,10 +1,7 @@
-import {
-  AbstractTransitionController,
-  IAbstractTransitionComponent,
-} from 'vue-transition-component';
+import { AbstractTransitionController, IAbstractTransitionComponent } from 'vue-transition-component';
 import { TimelineMax } from 'gsap';
 
-export default class ArticleTransitionController extends AbstractTransitionController {
+export default class ErrorTransitionController extends AbstractTransitionController {
   /**
    * Use this method to setup your transition in timeline
    *
@@ -15,26 +12,9 @@ export default class ArticleTransitionController extends AbstractTransitionContr
    * @param {string} id The transition id that was provided when constructing the controller
    */
   protected setupTransitionInTimeline(
-    timeline: TimelineMax,
-    parent: IAbstractTransitionComponent,
-    id: string,
-  ): void {
-    if (parent.$refs.article) {
-      timeline
-        .from(parent.$el, 1, {
-          opacity: 0,
-        })
-        .from(
-          parent.$refs.article,
-          1,
-          {
-            opacity: 0,
-            y: 50,
-          },
-          '=+0.5',
-        );
-    }
-  }
+    timeline:TimelineMax,
+    parent:IAbstractTransitionComponent,
+    id:string): void {}
 
   /**
    * Use this method to setup your transition out timeline
@@ -46,14 +26,9 @@ export default class ArticleTransitionController extends AbstractTransitionContr
    * @param {string} id The transition id that was provided when constructing the controller
    */
   protected setupTransitionOutTimeline(
-    timeline: TimelineMax,
-    parent: IAbstractTransitionComponent,
-    id: string,
-  ): void {
-    timeline.to(parent.$el, 1, {
-      opacity: 0,
-    });
-  }
+    timeline:TimelineMax,
+    parent:IAbstractTransitionComponent,
+    id:string): void {}
 
   /**
    * Use this method to setup your looping timeline
@@ -65,8 +40,7 @@ export default class ArticleTransitionController extends AbstractTransitionContr
    * @param {string} id The transition id that was provided when constructing the controller
    */
   protected setupLoopingAnimationTimeline(
-    timeline: TimelineMax,
-    parent: IAbstractTransitionComponent,
-    id: string,
-  ): void {}
+    timeline:TimelineMax,
+    parent:IAbstractTransitionComponent,
+    id:string): void {}
 }
