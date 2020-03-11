@@ -25,10 +25,12 @@
         <ArticleList
           v-for="(subcategory, index2) in category.subcategories"
           :key="`subcategory-${subcategory.title}-${index2}`"
+          :ref="`subcategory-${subcategory.title}-${index2}`"
           :title="subcategory.title"
           :parent-category="category.title"
           :articles="subcategory.articles"
           :img="subcategory.img"
+          @isReady="handleScrollComponentReady"
         />
       </section>
     </div>

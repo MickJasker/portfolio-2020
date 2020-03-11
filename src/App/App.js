@@ -1,14 +1,21 @@
 import { DeviceStateEvent } from 'seng-device-state-tracker';
 import { mapMutations, mapState } from 'vuex';
-import { FlowManager, AbstractRegistrableComponent } from 'vue-transition-component';
+import Vue from 'vue';
+import {
+  FlowManager,
+  AbstractRegistrableComponent,
+  ScrollTrackerPlugin,
+} from 'vue-transition-component';
 import { SET_DEVICE_STATE } from '../store/module/app/app';
 import NavigationMenu from '../component/NavigationMenu';
+import ScrollProgress from '../component/ScrollProgress';
 
 // @vue/component
 export default {
   name: 'App',
   components: {
     NavigationMenu,
+    ScrollProgress,
   },
   extends: AbstractRegistrableComponent,
   computed: {
@@ -22,6 +29,9 @@ export default {
       this.handleDeviceStateUpdate,
     );
     this.setDeviceState(this.$deviceStateTracker.currentState);
+  },
+  mounted() {
+    Vue.use(ScrollTrackerPlugin);
   },
   methods: {
     ...mapMutations({

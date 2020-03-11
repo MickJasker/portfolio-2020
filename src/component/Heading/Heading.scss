@@ -1,0 +1,19 @@
+/* stylelint-disable-next-line block-no-empty */
+.heading {
+  margin: 1.5em 0 0.5em;
+
+  &.h1 {
+    font-size: 5rem;
+    font-family: $fontSecondary;
+    line-height: 1em;
+    width: fit-content;
+
+    .underline {
+      z-index: -1;
+      width: 75%;
+      height: 0.8rem;
+      background: var(--color-primary);
+      display: block;
+    }
+  }
+}

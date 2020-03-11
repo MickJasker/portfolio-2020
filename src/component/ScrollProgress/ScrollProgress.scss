@@ -1,0 +1,13 @@
+/* stylelint-disable-next-line block-no-empty */
+.scroll-progress {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  height: .5rem;
+
+  .progress {
+    background: var(--color-primary);
+    height: 100%;
+    display: block;
+  }
+}

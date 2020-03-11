@@ -3,8 +3,9 @@ import {
   IAbstractTransitionComponent,
 } from 'vue-transition-component';
 import { TimelineMax } from 'gsap';
+import SplitText from '../../vendor/SplitText';
 
-export default class ArticleListTransitionController extends AbstractTransitionController {
+export default class HeadingTransitionController extends AbstractTransitionController {
   /**
    * Use this method to setup your transition in timeline
    *
@@ -19,34 +20,34 @@ export default class ArticleListTransitionController extends AbstractTransitionC
     parent: IAbstractTransitionComponent,
     id: string,
   ): void {
-    timeline
-      .add(this.getTimeline(<IAbstractTransitionComponent>parent.$refs.heading))
-      .fromTo(
-        parent.$refs.image,
+    const heading = new SplitText(parent.$refs.heading).chars;
+    timeline.staggerFromTo(
+      heading,
+      1,
+      {
+        y: 25,
+        autoAlpha: 0,
+      },
+      {
+        y: 0,
+        autoAlpha: 1,
+      },
+      0.025,
+    );
+    if (parent.$refs.underline) {
+      timeline.fromTo(
+        parent.$refs.underline,
         1,
         {
-          y: 50,
-          autoAlpha: 0,
+          width: 0,
         },
         {
-          y: 0,
-          autoAlpha: 1,
+          width: '75%',
         },
-        0,
-      )
-      .staggerFromTo(
-        parent.$refs.articleListItem,
-        1,
-        {
-          y: 20,
-          autoAlpha: 0,
-        },
-        { y: 0, autoAlpha: 1 },
-        0.15,
-        '=-0.25',
+        '=-0.5',
       );
+    }
   }
-
   /**
    * Use this method to setup your transition out timeline
    *

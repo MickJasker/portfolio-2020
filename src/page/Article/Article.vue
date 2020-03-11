@@ -9,10 +9,9 @@
     <Hero
       :class="$style.hero"
       :subtitle="subcategoryFrm.title"
+      :copy="article.copy"
       :image="{
-        x3: require('../../asset/image/creative-jam@3x.jpg'),
-        x2: require('../../asset/image/creative-jam@2x.jpg'),
-        src: require('../../asset/image/creative-jam.jpg'),
+        src: article.image.src,
       }"
     >
       <span class="highlight">{{ categoryFrm.title }}</span><br>{{ article.title }}<span class="highlight">.</span>
@@ -20,7 +19,7 @@
     <ArticleStatistics
       v-if="article.statistics"
       :class="$style.articleStatistics"
-      :read-time="article.statistics.readTime"
+      :read-time="readTime"
       :publish-date="new Date(article.statistics.publishDate)"
       :author="{
         name: 'Mick Jasker',
@@ -28,7 +27,16 @@
       }"
     />
     <article ref="article">
-      {{ article.content }}
+      <component
+        :is="component.name"
+        v-for="(component, index) in article.content"
+        :ref="`component-${component.name}-${index}`"
+        :key="`component-${component.name}-${index}`"
+        v-bind="component.props"
+        @isReady="handleScrollComponentReady"
+      >
+        {{ component.content }}
+      </component>
     </article>
     <footer>
       <h1>Mick Jasker – {{ new Date().getFullYear() }}</h1>
