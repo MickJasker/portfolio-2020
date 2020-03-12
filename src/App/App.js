@@ -9,6 +9,7 @@ import {
 import { SET_DEVICE_STATE } from '../store/module/app/app';
 import NavigationMenu from '../component/organisms/NavigationMenu';
 import ScrollProgress from '../component/atom/ScrollProgress';
+import Footer from '../component/organisms/Footer';
 
 // @vue/component
 export default {
@@ -16,6 +17,7 @@ export default {
   components: {
     NavigationMenu,
     ScrollProgress,
+    Footer,
   },
   extends: AbstractRegistrableComponent,
   computed: {
