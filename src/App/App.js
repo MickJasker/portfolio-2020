@@ -45,6 +45,7 @@ export default {
       this.setDeviceState(event.data.state);
     },
     onLeave(element, done) {
+      window.scrollTo(0, 0);
       FlowManager.transitionOut.then(() => FlowManager.done()).then(done);
     },
   },
