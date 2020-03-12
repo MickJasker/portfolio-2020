@@ -37,6 +37,7 @@ export default {
       subcategoryFrm: null,
       article: null,
       readTime: 0,
+      sentenceEnd: '.',
     };
   },
   created() {
@@ -44,7 +45,12 @@ export default {
   },
   mounted() {
     this.$nextTick(() => {
-      this.readTime = this.$refs.article.innerText.split(' ').length / 250;
+      const { article } = this.$refs;
+      if (article) {
+        this.readTime = article.innerText.split(' ').length / 250;
+
+        this.handleSentenceEnding();
+      }
     });
   },
   methods: {
@@ -61,6 +67,28 @@ export default {
         this.$router.push('/404');
         console.error('Article could not be found');
       });
+    },
+    handleSentenceEnding() {
+      const titleArr = this.article.title.split('');
+      const lastChar = titleArr[titleArr.length - 1];
+
+      switch (lastChar) {
+        case '?':
+          this.sentenceEnd = '?';
+
+          titleArr.length -= 1;
+          this.article.title = titleArr.join('');
+          break;
+        case '!':
+          this.sentenceEnd = '!';
+
+          titleArr.length -= 1;
+          this.article.title = titleArr.join('');
+          break;
+        default:
+          this.sentenceEnd = '.';
+          break;
+      }
     },
     getArticle() {
       this.categoryFrm = this.data.portfolio.categories.find(

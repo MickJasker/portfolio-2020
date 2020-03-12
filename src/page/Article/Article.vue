@@ -14,7 +14,7 @@
         src: article.image.src,
       }"
     >
-      <span class="highlight">{{ categoryFrm.title }}</span><br>{{ article.title }}<span class="highlight">.</span>
+      <span class="highlight">{{ categoryFrm.title }}</span><br>{{ article.title }}<span class="highlight">{{ sentenceEnd }}</span>
     </Hero>
     <ArticleStatistics
       v-if="article.statistics"
