@@ -38,9 +38,6 @@
         {{ component.content }}
       </component>
     </article>
-    <footer>
-      <h1>Mick Jasker – {{ new Date().getFullYear() }}</h1>
-    </footer>
   </main>
   <h1 v-else>
     Error

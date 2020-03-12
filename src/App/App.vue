@@ -8,5 +8,6 @@
     <transition @leave="onLeave">
       <router-view :key="$route.path" />
     </transition>
+    <Footer />
   </div>
 </template>

@@ -140,25 +140,5 @@
         margin: 10rem -16rem;
       }
     }
-
-    footer {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 5rem;
-      background: $colorDark;
-      color: lighten($colorDark, 50);
-      grid-column: 1 / 7;
-
-      h1 {
-        font-size: 3rem;
-      }
-
-      @media (prefers-color-scheme: dark) {
-        border-top: solid 1px lighten($colorDark, 20);
-        grid-column: 2 / 6;
-        margin: 0 4rem;
-      }
-    }
   }
 }
