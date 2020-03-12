@@ -1,10 +1,7 @@
-import {
-  AbstractTransitionController,
-  IAbstractTransitionComponent,
-} from 'vue-transition-component';
+import { AbstractTransitionController, IAbstractTransitionComponent } from 'vue-transition-component';
 import { TimelineMax } from 'gsap';
 
-export default class ArticleListTransitionController extends AbstractTransitionController {
+export default class ScrollProgressTransitionController extends AbstractTransitionController {
   /**
    * Use this method to setup your transition in timeline
    *
@@ -15,37 +12,9 @@ export default class ArticleListTransitionController extends AbstractTransitionC
    * @param {string} id The transition id that was provided when constructing the controller
    */
   protected setupTransitionInTimeline(
-    timeline: TimelineMax,
-    parent: IAbstractTransitionComponent,
-    id: string,
-  ): void {
-    timeline
-      .add(this.getTimeline(<IAbstractTransitionComponent>parent.$refs.heading))
-      .fromTo(
-        parent.$refs.image,
-        1,
-        {
-          y: 50,
-          autoAlpha: 0,
-        },
-        {
-          y: 0,
-          autoAlpha: 1,
-        },
-        0,
-      )
-      .staggerFromTo(
-        parent.$refs.articleListItem,
-        1,
-        {
-          y: 20,
-          autoAlpha: 0,
-        },
-        { y: 0, autoAlpha: 1 },
-        0.15,
-        '=-0.25',
-      );
-  }
+    timeline:TimelineMax,
+    parent:IAbstractTransitionComponent,
+    id:string): void {}
 
   /**
    * Use this method to setup your transition out timeline
@@ -57,10 +26,9 @@ export default class ArticleListTransitionController extends AbstractTransitionC
    * @param {string} id The transition id that was provided when constructing the controller
    */
   protected setupTransitionOutTimeline(
-    timeline: TimelineMax,
-    parent: IAbstractTransitionComponent,
-    id: string,
-  ): void {}
+    timeline:TimelineMax,
+    parent:IAbstractTransitionComponent,
+    id:string): void {}
 
   /**
    * Use this method to setup your looping timeline
@@ -72,8 +40,7 @@ export default class ArticleListTransitionController extends AbstractTransitionC
    * @param {string} id The transition id that was provided when constructing the controller
    */
   protected setupLoopingAnimationTimeline(
-    timeline: TimelineMax,
-    parent: IAbstractTransitionComponent,
-    id: string,
-  ): void {}
+    timeline:TimelineMax,
+    parent:IAbstractTransitionComponent,
+    id:string): void {}
 }

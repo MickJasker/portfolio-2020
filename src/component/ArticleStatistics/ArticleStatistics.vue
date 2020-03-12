@@ -7,7 +7,7 @@
       class="transition-in"
       :class="$style.readTime"
     >
-      {{ readTime / 60 }}<sub>min</sub>
+      {{ Math.round(readTime) }}<sub>min</sub>
     </time>
     <time
       class="transition-in"

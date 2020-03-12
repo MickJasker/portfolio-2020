@@ -1,14 +1,18 @@
-import { AbstractPageScrollComponent, getEventBus, ADD_COMPONENTS } from 'vue-transition-component';
-import ArticleTransitionController from './ArticleTransitionController';
+import {
+  AbstractPageScrollComponent,
+  getEventBus,
+  ADD_COMPONENTS,
+} from 'vue-transition-component';
+import ArticlePageTransitionController from './ArticlePageTransitionController';
 import data from '../../data/data.json';
 import Hero from '../../component/Hero';
 import ArticleStatistics from '../../component/ArticleStatistics';
+import ArticleList from '../../component/ArticleList';
 import ScrollWrapper from '../../component/ScrollWrapper';
-import ArticleList from '../../component/ArticleList/ArticleList';
 
 // @vue/component
 export default {
-  name: 'Article',
+  name: 'ArticlePage',
   components: {
     Hero,
     ArticleStatistics,
@@ -36,20 +40,30 @@ export default {
       categoryFrm: null,
       subcategoryFrm: null,
       article: null,
-      readTime: 0,
     };
   },
   created() {
     this.getArticle();
+
+    // this.$nextTick(() => {
+    //   const components = this.$refs;
+    //
+    //   // eslint-disable-next-line guard-for-in,no-restricted-syntax
+    //   for (const component in components) {
+    //     if (component.includes('componentWrapper')) {
+    //       const componentNameArr = component.split('');
+    //       const index = Number(componentNameArr[componentNameArr.length - 1]);
+    //       this.$refs[`component${index}`][0].transitionIn();
+    //     }
+    //   }
+    // });
   },
   mounted() {
-    this.$nextTick(() => {
-      this.readTime = this.$refs.article.innerText.split(' ').length / 250;
-    });
+
   },
   methods: {
     handleAllComponentsReady() {
-      this.transitionController = new ArticleTransitionController(this);
+      this.transitionController = new ArticlePageTransitionController(this);
 
       // When all components are ready we start adding the scrollComponents to the scroll tracker
       getEventBus().$emit(ADD_COMPONENTS, this.scrollComponents);

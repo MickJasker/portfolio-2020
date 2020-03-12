@@ -1,10 +1,14 @@
-import { AbstractTransitionComponent } from 'vue-transition-component';
+import { AbstractScrollComponent } from 'vue-transition-component';
 import ArticleListTransitionController from './ArticleListTransitionController';
+import Heading from '../Heading';
 
 // @vue/component
 export default {
   name: 'ArticleList',
-  extends: AbstractTransitionComponent,
+  components: {
+    Heading,
+  },
+  extends: AbstractScrollComponent,
   props: {
     title: {
       type: String,

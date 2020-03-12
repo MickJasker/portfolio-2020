@@ -1,4 +1,4 @@
-import { AbstractPageTransitionComponent } from 'vue-transition-component';
+import { AbstractPageScrollComponent, getEventBus, ADD_COMPONENTS } from 'vue-transition-component';
 import PortfolioOverviewTransitionController from './PortfolioOverviewTransitionController';
 import Hero from '../../component/Hero';
 import Search from '../../component/Search';
@@ -13,7 +13,7 @@ export default {
     Search,
     ArticleList,
   },
-  extends: AbstractPageTransitionComponent,
+  extends: AbstractPageScrollComponent,
   data() {
     return {
       data,
@@ -22,6 +22,10 @@ export default {
   methods: {
     handleAllComponentsReady() {
       this.transitionController = new PortfolioOverviewTransitionController(this);
+
+      // When all components are ready we start adding the scrollComponents to the scroll tracker
+      getEventBus().$emit(ADD_COMPONENTS, this.scrollComponents);
+
       this.isReady();
     },
   },

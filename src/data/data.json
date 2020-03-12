@@ -6,95 +6,351 @@
     },
     "categories": [
       {
-        "title": "WeAreYou",
+        "title": "Stichting Ik Wil",
         "subcategories": [
           {
             "title": "Analyseren",
-            "img": "https://www.hlb.nl/uploads/homepage/header_image/5b73313b38b51.jpg?1534275902",
+            "img": "http://www.stichtingikwil.nl/wp-content/uploads/2017/07/DSC_1133.jpg",
             "articles": [
               {
                 "title": "Individuele Analyse van de Opdracht",
-                "content": "test",
+                "image": {
+                  "src": "http://www.stichtingikwil.nl/wp-content/uploads/2017/07/DSC_1133.jpg"
+                },
                 "statistics": {
-                  "readTime": 600,
                   "publishDate": "02/11/2020"
-                }
+                },
+                "content": [
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "De Opdracht"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Stichting ik wil is op zoek naar ondernemers/buurtbewoners/vrijwilligers etc. die willen helpen met ondersteunen van andere bewoners in de wijk. Dit kan in het breedst van het woord, door bijvoorbeeld immigranten Nederlands te leren of mensen hun talenten te ontdekken in hun sociale werkplaats. Stichting Ik Wil heeft ons uitgedaagd om hier aan mee te doen en hebben ons een zeer brede en vrije context gegeven om in te werken."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Probleemstelling"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "In de eerste twee dagen hebben we samen met de groep met meerdere partners van de stichting gesproken wat nou de problemen zijn die opspelen. Een van de dingen die wel interessant is het idee van steunmannen en -vrouwen. Deze Steunmensen zijn personen waar je op kan bouwen en vertrouwen mensen die zich kunnen en willen inzetten voor de wijk. Vaak is het moeilijk om in contact te komen met een steunmens die goed bij jou persoonlijke doelen en vaardigheden passen."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Doel"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Het primaire doel is om iets te bedenken hoe we steunmensen makkelijker te kunnen matchen met de juiste personen en mensen uitdagen wat ze voor elkaar kunnen betekenen."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Onderzoeksaspecten"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Er valt veel te onderzoeken op het menselijke aspect. Wie zijn deze steunmensen? Wie zijn de mensen die ze helpen? Hoe ga je ze in contact brengen?"
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Onderzoeksaspecten"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Hoe kunnen we een platform ontwerpen dat steunmannen en -vrouwen en hulpzoekende met verschillende skills en talenten bij elkaar brengt om elkaar te helpen met de dingen die zij nodig hebben."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Wat zie je als uitdagingen? En wat zie je als risico's?"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Een van de belangrijke aspecten van Stichting Ik Wil is dat ze er voor iedereen zijn. Hieruit kun je concluderen dat het een hele doelgroep betreft, het is daarom ook erg belangrijk dat we ook gaan bouwen voor een brede doelgroep."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Hoe ga je de opdracht aanpakken? Met welke onderzoeksmethoden werk je en waarom?"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Doordat we een vast plek op locatie hebben kunnen we heel veel veld- en lab onderzoek doen. Dit is een unieke kans om niet alleen een product voor de doelgroep te maken maar ook echt met de doelgroep."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Hoe ziet in jouw ogen het eindresultaat eruit? Heb je daar al eerste beelden bij?"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Dit is natuurlijk nog heel speculatief maar ik zie een platform voor me waar deelnemers in makkelijker in verbinding komen met elkaar."
+                  },
+
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Welk probleem hebben jullie aan het einde van het traject voor de opdrachtgever opgelost?"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Dat mensen makkelijker elkaar gaan helpen en op deze manier ook minder afhankelijk worden van hulpinstanties."
+                  }
+                ]
               },
               {
-                "title": "10 Kritische Vragen",
-                "content": "test"
-              },
-              {
-                "title": "Debriefing en Projectplan",
-                "content": "test"
-              },
-              {
-                "title": "Trends",
-                "content": "test"
-              },
-              {
-                "title": "Onderzoeksvragen",
-                "content": "test"
-              },
-              {
-                "title": "Young profesional entrepreneurs",
-                "content": "test"
-              }
-            ]
-          },
-          {
-            "title": "Adviseren",
-            "img": "https://www.hlb.nl/uploads/homepage/header_image/5b73313b38b51.jpg?1534275902",
-            "articles": [
-              {
-                "title": "Presenteren van de Resultaten",
-                "content": "test"
-              }
-            ]
-          },
-          {
-            "title": "Ontwerpen",
-            "img": "https://www.hlb.nl/uploads/homepage/header_image/5b73313b38b51.jpg?1534275902",
-            "articles": [
-              {
-                "title": "Wireframe",
-                "content": "test"
-              },
-              {
-                "title": "LoFi Prototype",
-                "content": "test"
-              },
-              {
-                "title": "HiFi Prototype",
-                "content": "test"
-              }
-            ]
-          },
-          {
-            "title": "Realiseren",
-            "img": "https://www.hlb.nl/uploads/homepage/header_image/5b73313b38b51.jpg?1534275902",
-            "articles": [
-              {
-                "title": "Wireframe",
-                "content": "test"
-              },
-              {
-                "title": "LoFi Prototype",
-                "content": "test"
-              }
-            ]
-          },
-          {
-            "title": "Beheren",
-            "img": "https://www.hlb.nl/uploads/homepage/header_image/5b73313b38b51.jpg?1534275902",
-            "articles": [
-              {
-                "title": "Overdracht aan WeAreYou",
-                "content": "test"
-              },
-              {
-                "title": "Reflectie",
-                "content": "test"
+                "title": "Project Plan",
+                "image": {
+                  "src": "http://www.stichtingikwil.nl/wp-content/uploads/2017/07/DSC_1133.jpg"
+                },
+                "copy": "Dit projectdocument wordt afgesproken wat we gaan doen en hoe we dat gaan doen. Het plan geeft ons een beter overzicht over hoe we ons doel kunnen behalen en de gewenste resultaten kunnen leveren. Ook zorgt voor controle over het verloop van het project.",
+                "statistics": {
+                  "readTime": 250,
+                  "publishDate": "02/14/2020"
+                },
+                "content": [
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "De Organisatie"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "De opdrachtgever is stichting ‘Ik Wil’. Deze stichting identificeert zich als een beweging. Ze zetten zich in om de maatschappij op te bouwen in de wijk Woensel. Binnen deze wijk wonen veel mensen met verschillende achtergronden en overtuigingen. Stichting ‘Ik Wil’ organiseert activiteiten, cursussen en workshops waar iedereen aan mee kan doen. Hierdoor kunnen mensen uit de wijk andere mensen leren kennen en vaardigheden verbeteren. Daarnaast kunnen mensen zelf activiteiten organiseren en is er een inloopspreekuur. Hierin kunnen bewoners uit de wijk zelf ideeën voorleggen of informeren over de mogelijkheden die er zijn. Het doel van stichting ‘Ik Wil’ is om mensen met elkaar te verbinden en samen aan de wijk te werken."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "De Opdracht"
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Opdrachtomschrijving"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Stichting ‘Ik Wil’ biedt hulp aan de bewoners van de wijk. Het doel van de stichting is er voor zorgen dat de buurtbewoners elkaar gaan helpen en de stichting zelf overbodig worden. De opdracht voor ons is: Ontwerp een platform om lokale bewoners in aandachtswijken in staat te stellen elkaar te helpen om minder dagelijkse problemen te hebben."
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Op dit moment wordt er namelijk vooral hulp aangeboden vanuit de stichting zelf. Wanneer de buurtbewoners elkaar gaan helpen zorgt dit voor meer sociaal contact en kan de hulp komen vanuit de mensen zelf."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Doelen van de opdracht"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "De opdracht wil de opdrachtgever uit laten voeren omdat dit ervoor zal zorgen dat de bewoner minder dagelijkse problemen hebben. Een voorbeeld van zo’n probleem is: het niet kunnen lezen van een nederlandstalige brief. Het doel van de opdracht is daarom er voor zorgen dat de buurtbewoners minder dagelijkse problemen hebben. Het uiteindelijke wat wij willen bereiken, is het maken van een platform waarin de buurtbewoners zelf hulp aan kunnen bieden of een hulpvraag kunnen beantwoorden."
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Een bijzaak van de opdracht is dat het iets toevoegt aan de ontwikkeling van de buurt en haar bewoners. De buurt zal zich uiteindelijk zelfstandig moeten houden en de stichting zou overbodig moeten zijn."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Analyse van de opdracht"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Hoe ontwerpen we een platform om lokale bewoners in aandachtswijken in staat te stellen elkaar te helpen om minder dagelijkse problemen te hebben? Het probleem dat moet worden opgelost zijn de dagelijkse problemen van de buurtbewoners. Een uitdaging bij dit probleem is bewoners elkaar laten helpen en het overkomen van de taalbarrière. Deze vraag ligt er omdat er veel buurtbewoners zijn die hulp kunnen gebruiken bij (kleine) problemen, zoals het niet kunnen lezen van een nederlandse brief. Het probleem is ontstaan doordat er vraag was naar hulp binnen de stichting. Wanneer dit probleem niet opgelost zal worden zullen problemen niet snel opgelost worden en komen de bewoners van de wijk minder snel in contact met elkaar. Op dit moment worden de buurtbewoners al wel geholpen met problemen maar dit wordt alleen gedaan door de vrijwilligers van de stichting zelf."
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Een bijzaak van dit probleem is dat de bewoners van de buurt nog te weinig samenkomen en te afhankelijk zijn van de vrijwilligers van de stichting. Deze vraag ligt er omdat de stichting juist wil dat de buurtbewoners meer in contact met elkaar komen en elkaar helpen."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Eisen aan de opdracht"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Stichting Ik Wil heeft ons gevraagd iets te ontwikkelen wat een toegevoegde waarde heeft aan de wijk. Specifieke wensen zijn niet duidelijk vermeld gezien ons best veel vrijheid is gegeven. Echter moet rekening gehouden worden met het feit dat er weinig tot geen budget is. Ook is het essentieel dat er meer contact komt tussen de bewoners van de buurt. Het is belangrijk om de organisatoren te betrekken bij het project maar ook zeker de buurtbewoners zelf. "
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Onderzoeksvragen en tussenproducten"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Om de hoofdvraag te beantwoorden zijn er tien deelvragen/kritische vragen opgesteld."
+                  },
+                  {
+                    "name": "List",
+                    "props": {
+                      "type": "ordered",
+                      "items": [
+                        "Welke vorm gaat het eindproduct aannemen?",
+                        "Hebben buurtbewoners behoefte aan meer sociaal contact?",
+                        "Staan de buurtbewoners er voor open om elkaar te helpen?",
+                        "Welke (kleine) problemen komen buurtbewoners dagelijks tegen?",
+                        "Wat is de motivatie die ervoor zorgt dat buurtbewoners elkaar helpen? Welke motivaties hebben de buurtbewoners om elkaar te helpen?",
+                        "Durven mensen elkaar om hulp te vragen?",
+                        "Zijn de buurtbewoners bereid om te betalen voor hulp?",
+                        "Staat het van budget van de gemiddelde buurtbewoner het toe om te betalen voor hulp?",
+                        "Hoe krijgen we buurtbewoners gemotiveerd om elkaar te helpen?",
+                        "In hoeverre is taal een drempel voor buurtbewoners wanneer zij met elkaar in contact willen komen?"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Scope"
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Wat valt binnen de scope van de opdracht?"
+                  },
+                  {
+                    "name": "List",
+                    "props": {
+                      "type": "unordered",
+                      "items": [
+                        "Doelgroep onderzoek",
+                        "Interviews",
+                        "Trendonderzoek",
+                        "Paper Prototyping",
+                        "High fidelity prototyping",
+                        "Onderzoek naar bestaande middelen",
+                        "Maken van het platform"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Wat valt buiten de scope van de opdracht?"
+                  },
+                  {
+                    "name": "List",
+                    "props": {
+                      "type": "unordered",
+                      "items": [
+                        "Begeleiding van het hulp process"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Wat zijn eventuele risico’s?"
+                  },
+                  {
+                    "name": "List",
+                    "props": {
+                      "type": "unordered",
+                      "items": [
+                        "Niemand is bereidt om te helpen.",
+                        "Mensen hebben geen problemen die ze willen delen.",
+                        "Mensen willen niet geholpen worden.",
+                        "Mogelijke culturele drempels.",
+                        "Mogelijke taalbarrière"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Aanpak & planning"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Wij zullen de projectmethode design thinking gebruiken omdat we nog geen duidelijk beeld hebben van wat de oplossing voor het probleem is. We moeten dus eerst onderzoeken waar de doelgroep behoefte aan heeft voordat we weten wat we moeten maken.\nOm antwoord te krijgen op de deelvragen gaan we veel veldonderzoek doen. We moeten namelijk de bewoners uit de buurt interviewen om antwoord te krijgen op deze vragen. Afhankelijk van de antwoorden van de interviews kunnen we vaststellen welke onderzoeksstrategieën we nog meer gaan gebruiken en welke onderzoeksmethode daaronder vallen.\n "
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Omtrent de communicatie kunnen we sowieso iedere maandag bij stichting Ik Wil terecht om feedback te krijgen. Wanneer we feedback nodig hebben op een andere dag, is het belangrijk om de roosters in de gaten te houden en samen een dag af te spreken. "
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Welke projectmethode gebruik je?"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "We maken gebruik van design thinking omdat er nog geen specifiek probleem gevormd is. We hebben dus eerst een probleem moeten vinden door te praten met de stichting en de doelgroep. Wanneer er development plaats gaat vinden zal er in die fase gebruik gemaakt van worden van scrum."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Benoem de onderzoeksstrategieën"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "In de onderzoeksfase zal er vooral bieb en veldonderzoek plaatsvinden. Dit om onderzoek te doen naar de doelgroep, wat ze willen waar ze behoefte aan hebben. In de bouwfase maken we gebruik van lab en werkplaats om samen met de doelgroep ons product te ontwikkelen zodat het perfect aansluit bij hun behoeften. In de showroom laten we ook aan de stichting zien wat we maken zodat zij hun feedback en visie kunnen."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Afspraken rondom communicatie"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Communicatie zal voornamelijk via Slack verlopen. Als groep hebben we een gezamenlijke channel. Hier kunnen we bijvoorbeeld bespreken waar we op die dag werken (Strijp TQ of Ik Wil). Op maandag zijn we bij de stichting aanwezig om te meeten met Chris Geene en andere partners van Ik Wil. Op vrijdag zijn voor de workshops op Strijp TQ. Inloop is tussen 9.00 en 9.30 op de afgesproken locatie."
+                  }
+                ]
               }
             ]
           }
