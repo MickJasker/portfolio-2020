@@ -17,12 +17,10 @@
     "lint:js": "eslint src --ext .js,.vue --cache",
     "lint:ts": "tslint src/**/*.ts -p tsconfig.json",
     "lint:scss": "stylelint \"./src/**/*.scss\" --cache",
-    "lint:prettier": "prettier \"src/**/*.{js,ts,scss}\" --list-different",
     "fix": "npm-run-all fix:*",
     "fix:scss": "npm run lint:scss -- --fix",
     "fix:ts": "npm run lint:ts -- --fix",
     "fix:js": "npm run lint:js -- --fix",
-    "fix:prettier": "prettier \"src/**/*.{js,ts,scss}\" --write",
     "preview": "node build-tools/script/preview-server.js",
     "preinstall": "npx use-yarn"
   },
