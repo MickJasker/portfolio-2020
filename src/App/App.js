@@ -31,7 +31,11 @@ export default {
     this.setDeviceState(this.$deviceStateTracker.currentState);
   },
   mounted() {
-    Vue.use(ScrollTrackerPlugin);
+    Vue.use(ScrollTrackerPlugin, {
+      config: {
+        setDebugLabel: process.env.NODE_ENV !== 'production',
+      },
+    });
   },
   methods: {
     ...mapMutations({
