@@ -1,6 +1,6 @@
 import { AbstractScrollComponent } from 'vue-transition-component';
 import ArticleListTransitionController from './ArticleListTransitionController';
-import Heading from '../Heading';
+import Heading from '../../atom/Heading';
 
 // @vue/component
 export default {

@@ -7,8 +7,8 @@ import {
   ScrollTrackerPlugin,
 } from 'vue-transition-component';
 import { SET_DEVICE_STATE } from '../store/module/app/app';
-import NavigationMenu from '../component/NavigationMenu';
-import ScrollProgress from '../component/ScrollProgress';
+import NavigationMenu from '../component/organisms/NavigationMenu';
+import ScrollProgress from '../component/atom/ScrollProgress';
 
 // @vue/component
 export default {

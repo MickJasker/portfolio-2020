@@ -1,7 +1,7 @@
 import { AbstractTransitionComponent } from 'vue-transition-component';
 import VideoBlockTransitionController from './VideoBlockTransitionController';
-import PlayButton from '../PlayButton';
-import VideoOverlay from '../VideoOverlay';
+import PlayButton from '../../atom/PlayButton';
+import VideoOverlay from '../../molecule/VideoOverlay';
 
 // @vue/component
 export default {

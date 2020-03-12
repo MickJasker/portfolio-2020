@@ -1,9 +1,9 @@
-import Icon from './Icon';
-import Container from './Container';
-import Button from './Button';
-import Heading from './Heading';
-import Paragraph from './Paragraph';
-import List from './List';
+import Icon from './atom/Icon';
+import Container from './atom/Container';
+import Button from './atom/Button';
+import Heading from './atom/Heading';
+import Paragraph from './atom/Paragraph';
+import List from './atom/List';
 
 // add components you want to register globally.
 // Warning: only use this for small components without much logic as registering a component
