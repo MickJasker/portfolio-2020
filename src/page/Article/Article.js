@@ -1,10 +1,10 @@
 import { AbstractPageScrollComponent, getEventBus, ADD_COMPONENTS } from 'vue-transition-component';
 import ArticleTransitionController from './ArticleTransitionController';
 import data from '../../data/data.json';
-import Hero from '../../component/Hero';
-import ArticleStatistics from '../../component/ArticleStatistics';
-import ScrollWrapper from '../../component/ScrollWrapper';
-import ArticleList from '../../component/ArticleList/ArticleList';
+import Hero from '../../component/organisms/Hero';
+import ArticleStatistics from '../../component/molecule/ArticleStatistics';
+import ScrollWrapper from '../../component/atom/ScrollWrapper';
+import ArticleList from '../../component/molecule/ArticleList/ArticleList';
 
 // @vue/component
 export default {

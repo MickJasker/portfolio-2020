@@ -1,6 +1,6 @@
 import { AbstractPageScrollComponent, getEventBus, ADD_COMPONENTS } from 'vue-transition-component';
 import AboutPageTransitionController from './AboutPageTransitionController';
-import ScrollWrapper from '../../component/ScrollWrapper';
+import ScrollWrapper from '../../component/atom/ScrollWrapper';
 
 // @vue/component
 export default {

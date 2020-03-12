@@ -1,9 +1,9 @@
 import { AbstractPageTransitionComponent } from 'vue-transition-component';
 import HomeTransitionController from './HomeTransitionController';
-import Hero from '../../component/Hero';
-import ArticleHighlight from '../../component/ArticleHighlight';
-import VideoBlock from '../../component/VideoBlock';
-import SocialLinks from '../../component/SocialLinks';
+import Hero from '../../component/organisms/Hero';
+import ArticleHighlight from '../../component/molecule/ArticleHighlight';
+import VideoBlock from '../../component/organisms/VideoBlock';
+import SocialLinks from '../../component/molecule/SocialLinks';
 
 // @vue/component
 export default {

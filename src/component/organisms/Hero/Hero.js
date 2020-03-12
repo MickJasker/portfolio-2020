@@ -1,6 +1,6 @@
 import { AbstractTransitionComponent } from 'vue-transition-component';
 import HeroTransitionController from './HeroTransitionController';
-import Subtitle from '../Subtitle';
+import Subtitle from '../../atom/Subtitle';
 
 // @vue/component
 export default {

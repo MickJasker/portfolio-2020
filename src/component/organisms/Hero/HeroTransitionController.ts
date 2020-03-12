@@ -3,9 +3,9 @@ import {
   IAbstractTransitionComponent,
 } from 'vue-transition-component';
 import { TimelineMax } from 'gsap';
-import SplitText from '../../vendor/SplitText';
+import SplitText from '../../../vendor/SplitText';
 
-export default class HeadingTransitionController extends AbstractTransitionController {
+export default class HeroTransitionController extends AbstractTransitionController {
   /**
    * Use this method to setup your transition in timeline
    *
@@ -20,34 +20,67 @@ export default class HeadingTransitionController extends AbstractTransitionContr
     parent: IAbstractTransitionComponent,
     id: string,
   ): void {
-    const heading = new SplitText(parent.$refs.heading).chars;
-    timeline.staggerFromTo(
-      heading,
-      1,
-      {
-        y: 25,
-        autoAlpha: 0,
-      },
-      {
-        y: 0,
-        autoAlpha: 1,
-      },
-      0.025,
-    );
-    if (parent.$refs.underline) {
-      timeline.fromTo(
-        parent.$refs.underline,
+    let title;
+    let copy;
+
+    if (parent.$refs.title) {
+      title = new SplitText(parent.$refs.title).chars;
+    }
+
+    if (parent.$refs.copy) {
+      copy = new SplitText(parent.$refs.copy).lines;
+    }
+    // @ts-ignore
+    timeline
+      .from(parent.$el, 1, {
+        opacity: 0,
+      })
+      .from(
+        parent.$refs.subtitle,
         1,
         {
-          width: 0,
+          y: 50,
+          opacity: 0,
         },
+        '=-0.5',
+      )
+      .staggerFrom(
+        title,
+        1,
         {
-          width: '75%',
+          y: '5vw',
+          opacity: 0,
         },
+        0.025,
+        '=-0.5',
+      );
+    if (copy) {
+      timeline.staggerFrom(
+        copy,
+        1,
+        {
+          y: 10,
+          opacity: 0,
+        },
+        0.1,
+        '=-1',
+      );
+    }
+
+    if (parent.$refs.cta) {
+      timeline.staggerFrom(
+        parent.$refs.cta,
+        1,
+        {
+          y: 10,
+          opacity: 0,
+        },
+        0.1,
         '=-0.5',
       );
     }
   }
+
   /**
    * Use this method to setup your transition out timeline
    *
