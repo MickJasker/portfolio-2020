@@ -36,6 +36,7 @@ export default {
       }
     },
     // Depending on wheter this is enabled in your config, this will pass you a progress from ``0 to 1``.
+    // eslint-disable-next-line no-unused-vars
     inViewProgress(progress) {},
   },
 };
