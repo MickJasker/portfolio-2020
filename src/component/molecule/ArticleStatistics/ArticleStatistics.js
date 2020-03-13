@@ -1,11 +1,11 @@
-import { AbstractTransitionComponent } from 'vue-transition-component';
 import moment from 'moment';
+import ScrollComponentMixin from '../../../mixin/ScrollComponentMixin';
 import ArticleStatisticsTransitionController from './ArticleStatisticsTransitionController';
 
 // @vue/component
 export default {
   name: 'ArticleStatistics',
-  extends: AbstractTransitionComponent,
+  extends: ScrollComponentMixin,
   props: {
     readTime: {
       type: Number,
@@ -15,8 +15,8 @@ export default {
       type: Date,
       required: true,
     },
-    author: {
-      type: Object,
+    authors: {
+      type: Array,
       required: true,
     },
   },
@@ -31,7 +31,6 @@ export default {
     handleAllComponentsReady() {
       this.transitionController = new ArticleStatisticsTransitionController(this);
       this.isReady();
-      this.transitionIn();
     },
   },
 };

@@ -1,4 +1,4 @@
-import { AbstractScrollComponent } from 'vue-transition-component';
+import ScrollComponentMixin from '../../../mixin/ScrollComponentMixin';
 import ArticleListTransitionController from './ArticleListTransitionController';
 import Heading from '../../atom/Heading';
 
@@ -8,7 +8,7 @@ export default {
   components: {
     Heading,
   },
-  extends: AbstractScrollComponent,
+  extends: ScrollComponentMixin,
   props: {
     title: {
       type: String,

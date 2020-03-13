@@ -2,10 +2,9 @@ import {
   AbstractTransitionController,
   IAbstractTransitionComponent,
 } from 'vue-transition-component';
-import { TimelineMax } from 'gsap';
-import SplitText from '../../../vendor/SplitText';
+import { TimelineMax, Expo } from 'gsap';
 
-export default class HeroTransitionController extends AbstractTransitionController {
+export default class IntroductionBlockTransitionController extends AbstractTransitionController {
   /**
    * Use this method to setup your transition in timeline
    *
@@ -20,65 +19,49 @@ export default class HeroTransitionController extends AbstractTransitionControll
     parent: IAbstractTransitionComponent,
     id: string,
   ): void {
-    let title;
-    let copy;
-
-    if (parent.$refs.title) {
-      title = new SplitText(parent.$refs.title).chars;
-    }
-
-    if (parent.$refs.copy) {
-      copy = new SplitText(parent.$refs.copy).lines;
-    }
-    // @ts-ignore
     timeline
-      .from(parent.$el, 1, {
-        opacity: 0,
-      })
-      .from(
-        parent.$refs.subtitle,
-        1,
+      .fromTo(
+        parent.$refs.image,
+        2,
+        {
+          x: 50,
+          autoAlpha: 0,
+        },
+        {
+          x: 0,
+          autoAlpha: 1,
+          ease: Expo.easeOut,
+        },
+      )
+      .add(this.getTimeline(<IAbstractTransitionComponent>parent.$refs.heading), '=-2.5')
+      .fromTo(
+        parent.$refs.copy,
+        2,
         {
           y: 50,
-          opacity: 0,
+          autoAlpha: 0,
         },
-        '=-0.5',
+        {
+          y: 0,
+          autoAlpha: 1,
+          ease: Expo.easeOut,
+        },
+        '=-1.75',
       )
-      .staggerFrom(
-        title,
-        1,
-        {
-          y: '5vw',
-          opacity: 0,
-        },
-        0.025,
-        '=-0.5',
-      );
-    if (copy) {
-      timeline.staggerFrom(
-        copy,
-        1,
-        {
-          y: 10,
-          opacity: 0,
-        },
-        0.1,
-        '=-1',
-      );
-    }
-
-    if (parent.$refs.cta) {
-      timeline.staggerFrom(
+      .fromTo(
         parent.$refs.cta,
-        1,
+        2,
         {
-          y: 10,
-          opacity: 0,
+          y: 50,
+          autoAlpha: 0,
         },
-        0.1,
-        '=-0.5',
+        {
+          y: 0,
+          autoAlpha: 1,
+          ease: Expo.easeOut,
+        },
+        '=-1.75',
       );
-    }
   }
 
   /**

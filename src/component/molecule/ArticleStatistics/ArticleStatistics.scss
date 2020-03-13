@@ -29,22 +29,68 @@
     margin: 3rem 0;
   }
 
-  .author {
+  .author-container {
     display: flex;
-    align-items: center;
 
-    img {
-      font-size: 10rem;
-      width: 1em;
-      border-radius: 1em;
-      height: 1em;
-      margin-right: 1rem;
-      object-fit: cover;
-      filter: saturate(0);
+    .author-label {
+      font-size: 2rem;
+      position: absolute;
+      opacity: 0;
+      top: -50%;
+      white-space: nowrap;
+      transition: .5s ease-out;
+      pointer-events: none;
+      z-index: 100;
+      width: 25rem;
+      display: flex;
+      justify-content: center;
+      left: calc(-12.5rem + 4rem);
+
+      .content {
+        box-shadow: 0 2rem 2rem rgba($colorDark, 0.15), 0 0 2rem rgba($colorDark, 0.15);
+        padding: 1rem;
+        border-radius: 0.5rem;
+        background: $colorDark;
+      }
     }
 
-    h2 {
-      font-size: 3rem;
+    .img-wrapper {
+      border: 0.5rem solid var(--color-primary);
+      border-radius: 1em;
+      overflow: hidden;
+      width: 1em;
+      height: 1em;
+      transition: 0.3s ease-out;
+
+      img {
+        object-fit: cover;
+        filter: saturate(0);
+        height: inherit;
+        width: inherit;
+      }
+    }
+
+    .author {
+      display: flex;
+      align-items: center;
+      font-size: 8rem;
+      position: relative;
+
+
+      &:not(:first-child) {
+        margin-left: -2rem;
+      }
+
+      &:hover {
+        .img-wrapper {
+          border-color: $colorLight;
+        }
+
+        h2 {
+          opacity: 1;
+          top: -80%;
+        }
+      }
     }
   }
 

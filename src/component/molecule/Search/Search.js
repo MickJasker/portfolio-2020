@@ -1,15 +1,14 @@
-import { AbstractTransitionComponent } from 'vue-transition-component';
+import ScrollComponentMixin from '../../../mixin/ScrollComponentMixin';
 import SearchTransitionController from './SearchTransitionController';
 
 // @vue/component
 export default {
   name: 'Search',
-  extends: AbstractTransitionComponent,
+  extends: ScrollComponentMixin,
   methods: {
     handleAllComponentsReady() {
       this.transitionController = new SearchTransitionController(this);
       this.isReady();
-      this.transitionIn();
     },
   },
 };

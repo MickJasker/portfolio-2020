@@ -2,7 +2,7 @@ import {
   AbstractTransitionController,
   IAbstractTransitionComponent,
 } from 'vue-transition-component';
-import { TimelineMax } from 'gsap';
+import { Expo, TimelineMax } from 'gsap';
 import SplitText from '../../../vendor/SplitText';
 
 export default class ParagraphTransitionController extends AbstractTransitionController {
@@ -20,11 +20,9 @@ export default class ParagraphTransitionController extends AbstractTransitionCon
     parent: IAbstractTransitionComponent,
     id: string,
   ): void {
-    const copy = new SplitText(parent.$refs.copy).lines;
-
-    timeline.staggerFromTo(
-      copy,
-      1,
+    timeline.fromTo(
+      parent.$refs.copy,
+      2,
       {
         y: 10,
         autoAlpha: 0,
@@ -32,8 +30,8 @@ export default class ParagraphTransitionController extends AbstractTransitionCon
       {
         y: 0,
         autoAlpha: 1,
+        ease: Expo.easeOut,
       },
-      0.2,
     );
   }
 

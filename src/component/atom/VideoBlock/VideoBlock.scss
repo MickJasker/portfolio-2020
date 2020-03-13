@@ -35,7 +35,7 @@
   .thumbnail {
     height: 100%;
     width: 100%;
-    display: inline-flex;
+    display: block;
     filter: saturate(0);
     object-fit: cover;
   }

@@ -1,10 +1,11 @@
 import { AbstractPageScrollComponent, getEventBus, ADD_COMPONENTS } from 'vue-transition-component';
 import ArticleTransitionController from './ArticleTransitionController';
 import data from '../../data/data.json';
-import Hero from '../../component/organisms/Hero';
+import Hero from '../../component/organism/Hero';
 import ArticleStatistics from '../../component/molecule/ArticleStatistics';
 import ScrollWrapper from '../../component/atom/ScrollWrapper';
 import ArticleList from '../../component/molecule/ArticleList/ArticleList';
+import IntroductionBlock from '../../component/organism/IntroductionBlock';
 
 // @vue/component
 export default {
@@ -13,6 +14,7 @@ export default {
     Hero,
     ArticleStatistics,
     ArticleList,
+    IntroductionBlock,
     ScrollWrapper,
   },
   extends: AbstractPageScrollComponent,

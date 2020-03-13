@@ -2,7 +2,7 @@ import {
   AbstractTransitionController,
   IAbstractTransitionComponent,
 } from 'vue-transition-component';
-import { TimelineMax } from 'gsap';
+import { Expo, TimelineMax } from 'gsap';
 
 export default class ArticleStatisticsTransitionController extends AbstractTransitionController {
   /**
@@ -22,22 +22,39 @@ export default class ArticleStatisticsTransitionController extends AbstractTrans
     timeline
       .from(
         parent.$el,
-        1,
+        2,
         {
           opacity: 0,
           y: 50,
+          ease: Expo.easeOut,
         },
         1.25,
       )
       .staggerFrom(
         parent.$el.querySelectorAll('.transition-in'),
-        1,
+        2,
         {
           opacity: 0,
           y: 25,
+          ease: Expo.easeOut,
         },
         0.2,
-        '=-0.2',
+        '=-1.2',
+      )
+      .staggerFromTo(
+        parent.$refs.author,
+        2,
+        {
+          y: 50,
+          autoAlpha: 0,
+        },
+        {
+          y: 0,
+          autoAlpha: 1,
+          ease: Expo.easeOut,
+        },
+        0.1,
+        '=-2',
       );
   }
 

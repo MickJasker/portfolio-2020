@@ -2,9 +2,10 @@ import {
   AbstractTransitionController,
   IAbstractTransitionComponent,
 } from 'vue-transition-component';
-import { TimelineMax } from 'gsap';
+import { Expo, TimelineMax } from 'gsap';
+import SplitText from '../../../vendor/SplitText';
 
-export default class VideoBlockTransitionController extends AbstractTransitionController {
+export default class HeroTransitionController extends AbstractTransitionController {
   /**
    * Use this method to setup your transition in timeline
    *
@@ -19,31 +20,69 @@ export default class VideoBlockTransitionController extends AbstractTransitionCo
     parent: IAbstractTransitionComponent,
     id: string,
   ): void {
+    let title;
+    let copy;
+
+    if (parent.$refs.title) {
+      title = new SplitText(parent.$refs.title).chars;
+    }
+
+    if (parent.$refs.copy) {
+      copy = new SplitText(parent.$refs.copy).lines;
+    }
+    // @ts-ignore
     timeline
-      .fromTo(
-        parent.$refs['bg-video'],
-        1,
+      .from(parent.$el, 1, {
+        opacity: 0,
+      })
+      .from(
+        parent.$refs.subtitle,
+        2,
         {
+          y: 50,
           opacity: 0,
+          ease: Expo.easeOut,
         },
-        {
-          opacity: 1,
-        },
-        1.5,
+        '=-1.5',
       )
-      .fromTo(
-        parent.$refs.button,
-        1,
+      .staggerFrom(
+        title,
+        2,
         {
+          y: '5vw',
           opacity: 0,
-          y: 20,
+          ease: Expo.easeOut,
         },
-        {
-          opacity: 1,
-          y: 0,
-        },
-        '=-0.5',
+        0.025,
+        '=-1.5',
       );
+    if (copy) {
+      timeline.staggerFrom(
+        copy,
+        2,
+        {
+          y: 10,
+          opacity: 0,
+          ease: Expo.easeOut,
+        },
+        0.1,
+        '=-1',
+      );
+    }
+
+    if (parent.$refs.cta) {
+      timeline.staggerFrom(
+        parent.$refs.cta,
+        2,
+        {
+          y: 10,
+          opacity: 0,
+          ease: Expo.easeOut,
+        },
+        0.1,
+        '=-1.5',
+      );
+    }
   }
 
   /**

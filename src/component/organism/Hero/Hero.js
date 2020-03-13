@@ -1,4 +1,4 @@
-import { AbstractTransitionComponent } from 'vue-transition-component';
+import ScrollComponentMixin from '../../../mixin/ScrollComponentMixin';
 import HeroTransitionController from './HeroTransitionController';
 import Subtitle from '../../atom/Subtitle';
 
@@ -8,7 +8,7 @@ export default {
   components: {
     Subtitle,
   },
-  extends: AbstractTransitionComponent,
+  extends: ScrollComponentMixin,
   props: {
     subtitle: {
       type: String,
@@ -31,7 +31,6 @@ export default {
     handleAllComponentsReady() {
       this.transitionController = new HeroTransitionController(this);
       this.isReady();
-      this.transitionIn();
     },
   },
 };
