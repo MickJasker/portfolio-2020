@@ -31,7 +31,7 @@
       >
         <div :class="$style.imgWrapper">
           <img
-            :src="author.img"
+            :src="$versionRoot + author.img"
             :alt="author.name"
           >
         </div>

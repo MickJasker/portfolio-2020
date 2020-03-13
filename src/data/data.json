@@ -20,7 +20,7 @@
                 "authors": [
                   {
                     "name": "Mick Jasker",
-                    "img": "/static/image/mick.jpg"
+                    "img": "image/mick.jpg"
                   }
                 ],
                 "statistics": {
@@ -140,7 +140,7 @@
                 "authors": [
                   {
                     "name": "Mick Jasker",
-                    "img": "/static/image/mick.jpg"
+                    "img": "image/mick.jpg"
                   },
                   {
                     "name": "Bart van Lier",
@@ -390,7 +390,7 @@
                 "authors": [
                   {
                     "name": "Mick Jasker",
-                    "img": "/static/image/mick.jpg"
+                    "img": "image/mick.jpg"
                   }
                 ],
                 "image": {
