@@ -1,6 +1,6 @@
-import { AbstractTransitionComponent } from 'vue-transition-component';
+import ScrollComponentMixin from '../../../mixin/ScrollComponentMixin';
 import VideoBlockTransitionController from './VideoBlockTransitionController';
-import PlayButton from '../../atom/PlayButton';
+import PlayButton from '../PlayButton';
 import VideoOverlay from '../../molecule/VideoOverlay';
 
 // @vue/component
@@ -10,12 +10,17 @@ export default {
     PlayButton,
     VideoOverlay,
   },
-  extends: AbstractTransitionComponent,
+  extends: ScrollComponentMixin,
+  props: {
+    src: {
+      type: String,
+      required: true,
+    },
+  },
   methods: {
     handleAllComponentsReady() {
       this.transitionController = new VideoBlockTransitionController(this);
       this.isReady();
-      this.transitionIn();
     },
     playVideo() {
       this.$refs.videoOverlay.play();

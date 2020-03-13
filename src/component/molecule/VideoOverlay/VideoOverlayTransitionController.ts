@@ -2,7 +2,7 @@ import {
   AbstractTransitionController,
   IAbstractTransitionComponent,
 } from 'vue-transition-component';
-import { TimelineMax } from 'gsap';
+import { Expo, TimelineMax } from 'gsap';
 
 export default class VideoOverlayTransitionController extends AbstractTransitionController {
   /**
@@ -21,6 +21,7 @@ export default class VideoOverlayTransitionController extends AbstractTransition
   ): void {
     timeline.from(parent.$el, 0.5, {
       autoAlpha: 0,
+      ease: Expo.easeOut,
     });
   }
 

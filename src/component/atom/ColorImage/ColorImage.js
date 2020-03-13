@@ -1,23 +1,19 @@
 import ScrollComponentMixin from '../../../mixin/ScrollComponentMixin';
-import ListTransitionController from './ListTransitionController';
+import ColorImageTransitionController from './ColorImageTransitionController';
 
 // @vue/component
 export default {
-  name: 'List',
+  name: 'ColorImage',
   extends: ScrollComponentMixin,
   props: {
-    type: {
+    src: {
       type: String,
       required: true,
-    },
-    items: {
-      type: Array,
-      default: () => [],
     },
   },
   methods: {
     handleAllComponentsReady() {
-      this.transitionController = new ListTransitionController(this);
+      this.transitionController = new ColorImageTransitionController(this);
       this.isReady();
     },
   },

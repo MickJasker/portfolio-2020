@@ -1,10 +1,10 @@
-import { AbstractScrollComponent } from 'vue-transition-component';
+import ScrollComponentMixin from '../../../mixin/ScrollComponentMixin';
 import FooterTransitionController from './FooterTransitionController';
 
 // @vue/component
 export default {
   name: 'Footer',
-  extends: AbstractScrollComponent,
+  extends: ScrollComponentMixin,
   methods: {
     handleAllComponentsReady() {
       this.transitionController = new FooterTransitionController(this);

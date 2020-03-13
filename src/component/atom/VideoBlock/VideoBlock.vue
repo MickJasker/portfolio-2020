@@ -5,7 +5,7 @@
   <section :class="[$style.videoBlock]">
     <VideoOverlay
       ref="videoOverlay"
-      :src="require('../../../asset/video/creative-jam.mp4')"
+      :src="src"
     />
     <main
       ref="button"
@@ -21,7 +21,7 @@
       loop
     >
       <source
-        src="../../../asset/video/creative-jam.mp4"
+        :src="src"
         media="(min-width: 768px)"
       >
     </video>

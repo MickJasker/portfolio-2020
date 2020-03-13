@@ -2,7 +2,7 @@ import {
   AbstractTransitionController,
   IAbstractTransitionComponent,
 } from 'vue-transition-component';
-import { TimelineMax } from 'gsap';
+import { Expo, TimelineMax } from 'gsap';
 
 export default class SearchTransitionController extends AbstractTransitionController {
   /**
@@ -21,10 +21,11 @@ export default class SearchTransitionController extends AbstractTransitionContro
   ): void {
     timeline.from(
       parent.$el,
-      1,
+      2,
       {
         opacity: 0,
         y: 50,
+        ease: Expo.easeOut,
       },
       1.25,
     );

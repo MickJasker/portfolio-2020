@@ -2,8 +2,7 @@ import {
   AbstractTransitionController,
   IAbstractTransitionComponent,
 } from 'vue-transition-component';
-import { TimelineMax } from 'gsap';
-import SplitText from '../../../vendor/SplitText';
+import { Expo, TimelineMax } from 'gsap';
 
 export default class HeadingTransitionController extends AbstractTransitionController {
   /**
@@ -20,10 +19,9 @@ export default class HeadingTransitionController extends AbstractTransitionContr
     parent: IAbstractTransitionComponent,
     id: string,
   ): void {
-    const heading = new SplitText(parent.$refs.heading).chars;
-    timeline.staggerFromTo(
-      heading,
-      1,
+    timeline.fromTo(
+      parent.$refs.heading,
+      2,
       {
         y: 25,
         autoAlpha: 0,
@@ -31,22 +29,9 @@ export default class HeadingTransitionController extends AbstractTransitionContr
       {
         y: 0,
         autoAlpha: 1,
+        ease: Expo.easeOut,
       },
-      0.025,
     );
-    if (parent.$refs.underline) {
-      timeline.fromTo(
-        parent.$refs.underline,
-        1,
-        {
-          width: 0,
-        },
-        {
-          width: '75%',
-        },
-        '=-0.5',
-      );
-    }
   }
   /**
    * Use this method to setup your transition out timeline

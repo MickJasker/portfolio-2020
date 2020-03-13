@@ -1,0 +1,30 @@
+/* stylelint-disable-next-line block-no-empty */
+.color-image {
+  position: relative;
+  width: fit-content;
+  display: flex;
+  background: white;
+
+  &:before {
+    content: '';
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    height: 100%;
+    position: absolute;
+    background: var(--color-primary);
+    mix-blend-mode: screen;
+
+    @media (prefers-color-scheme: dark) {
+      mix-blend-mode: multiply;
+    }
+  }
+
+  .img {
+    width: 100%;
+    filter: saturate(0);
+    object-fit: contain;
+    object-position: top right;
+    height: auto;
+  }
+}

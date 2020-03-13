@@ -21,7 +21,7 @@ export default class SocialLinksTransitionController extends AbstractTransitionC
   ): void {
     timeline.staggerFromTo(
       parent.$el.querySelectorAll('a')!,
-      1,
+      2,
       {
         opacity: 0,
         y: 20,

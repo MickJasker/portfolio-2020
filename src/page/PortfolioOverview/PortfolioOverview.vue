@@ -4,6 +4,7 @@
 <template>
   <main :class="[$style.portfolioOverview]">
     <Hero
+      ref="hero"
       :class="$style.hero"
       subtitle="Portfolio"
       :image="{
@@ -11,17 +12,29 @@
         x2: require('../../asset/image/berlin@2x.jpg'),
         src: require('../../asset/image/berlin.jpg'),
       }"
+      @isReady="handleScrollComponentReady"
     >
       Mijn Werk<span class="highlight">.</span>
     </Hero>
-    <Search :class="$style.search" />
+    <Search
+      ref="search"
+      :class="$style.search"
+      @isReady="handleScrollComponentReady"
+    />
     <div :class="$style.container">
       <section
         v-for="(category, index) in data.portfolio.categories"
         :key="`category-${category.title}-${index}`"
         :class="$style.category"
       >
-        <h1>{{ category.title }}</h1>
+        <Heading
+          :ref="`category-title-${index}`"
+          level="1"
+          large
+          @isReady="handleScrollComponentReady"
+        >
+          {{ category.title }}
+        </Heading>
         <ArticleList
           v-for="(subcategory, index2) in category.subcategories"
           :key="`subcategory-${subcategory.title}-${index2}`"

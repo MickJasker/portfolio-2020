@@ -1,9 +1,10 @@
-import { AbstractPageTransitionComponent } from 'vue-transition-component';
+import { AbstractPageScrollComponent, getEventBus, ADD_COMPONENTS } from 'vue-transition-component';
 import HomeTransitionController from './HomeTransitionController';
-import Hero from '../../component/organisms/Hero';
+import Hero from '../../component/organism/Hero';
 import ArticleHighlight from '../../component/molecule/ArticleHighlight';
-import VideoBlock from '../../component/organisms/VideoBlock';
+import VideoBlock from '../../component/atom/VideoBlock';
 import SocialLinks from '../../component/molecule/SocialLinks';
+import IntroductionBlock from '../../component/organism/IntroductionBlock';
 
 // @vue/component
 export default {
@@ -13,12 +14,19 @@ export default {
     ArticleHighlight,
     VideoBlock,
     SocialLinks,
+    IntroductionBlock,
   },
-  extends: AbstractPageTransitionComponent,
+  extends: AbstractPageScrollComponent,
   methods: {
     handleAllComponentsReady() {
       this.transitionController = new HomeTransitionController(this);
+
+      // When all components are ready we start adding the scrollComponents to the scroll tracker
+      getEventBus().$emit(ADD_COMPONENTS, this.scrollComponents);
+
       this.isReady();
+
+      console.log(this.$scrollTracker.options);
     },
   },
 };

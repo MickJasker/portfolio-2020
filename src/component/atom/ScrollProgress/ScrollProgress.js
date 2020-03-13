@@ -1,10 +1,10 @@
-import { AbstractScrollComponent } from 'vue-transition-component';
+import ScrollComponentMixin from '../../../mixin/ScrollComponentMixin';
 import ScrollProgressTransitionController from './ScrollProgressTransitionController';
 
 // @vue/component
 export default {
   name: 'ScrollProgress',
-  extends: AbstractScrollComponent,
+  extends: ScrollComponentMixin,
   data() {
     return {
       progress: 0,

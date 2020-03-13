@@ -3,9 +3,8 @@ import {
   IAbstractTransitionComponent,
 } from 'vue-transition-component';
 import { Expo, TimelineMax } from 'gsap';
-import SplitText from '../../../vendor/SplitText';
 
-export default class ArticleHighlightTransitionController extends AbstractTransitionController {
+export default class VideoBlockTransitionController extends AbstractTransitionController {
   /**
    * Use this method to setup your transition in timeline
    *
@@ -20,7 +19,6 @@ export default class ArticleHighlightTransitionController extends AbstractTransi
     parent: IAbstractTransitionComponent,
     id: string,
   ): void {
-    const copy = new SplitText(parent.$refs.copy).lines;
     timeline
       .fromTo(
         parent.$el,
@@ -33,50 +31,36 @@ export default class ArticleHighlightTransitionController extends AbstractTransi
           y: 0,
           autoAlpha: 1,
           ease: Expo.easeOut,
+          clearProps: 'all',
         },
       )
       .fromTo(
-        parent.$refs.title,
-        1,
-        {
-          y: 25,
-          opacity: 0,
-        },
-        {
-          y: 0,
-          opacity: 1,
-          ease: Expo.easeOut,
-        },
-        '=-1',
-      )
-      .staggerFromTo(
-        copy,
+        parent.$refs['bg-video'],
         2,
         {
-          y: 25,
           opacity: 0,
         },
         {
-          y: 0,
           opacity: 1,
           ease: Expo.easeOut,
+          clearProps: 'all',
         },
-        0.1,
-        '=-1.2',
+        '=-1.5',
       )
       .fromTo(
-        parent.$refs.cta,
+        parent.$refs.button,
         2,
         {
-          y: 25,
           opacity: 0,
+          y: 20,
+          ease: Expo.easeOut,
+          clearProps: 'all',
         },
         {
-          y: 0,
           opacity: 1,
-          ease: Expo.easeOut,
+          y: 0,
         },
-        '=-2',
+        '=-1.5',
       );
   }
 

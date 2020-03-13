@@ -7,9 +7,9 @@ import {
   ScrollTrackerPlugin,
 } from 'vue-transition-component';
 import { SET_DEVICE_STATE } from '../store/module/app/app';
-import NavigationMenu from '../component/organisms/NavigationMenu';
+import NavigationMenu from '../component/organism/NavigationMenu';
 import ScrollProgress from '../component/atom/ScrollProgress';
-import Footer from '../component/organisms/Footer';
+import Footer from '../component/organism/Footer';
 
 // @vue/component
 export default {
@@ -36,6 +36,7 @@ export default {
     Vue.use(ScrollTrackerPlugin, {
       config: {
         setDebugLabel: process.env.NODE_ENV !== 'production',
+        transitionInThreshold: 1,
       },
     });
   },

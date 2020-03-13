@@ -2,7 +2,7 @@ import {
   AbstractTransitionController,
   IAbstractTransitionComponent,
 } from 'vue-transition-component';
-import { TimelineMax } from 'gsap';
+import { Expo, TimelineMax } from 'gsap';
 
 export default class ArticleListTransitionController extends AbstractTransitionController {
   /**
@@ -23,7 +23,7 @@ export default class ArticleListTransitionController extends AbstractTransitionC
       .add(this.getTimeline(<IAbstractTransitionComponent>parent.$refs.heading))
       .fromTo(
         parent.$refs.image,
-        1,
+        2,
         {
           y: 50,
           autoAlpha: 0,
@@ -31,19 +31,21 @@ export default class ArticleListTransitionController extends AbstractTransitionC
         {
           y: 0,
           autoAlpha: 1,
+          ease: Expo.easeOut,
         },
         0,
       )
       .staggerFromTo(
         parent.$refs.articleListItem,
-        1,
+        2,
         {
           y: 20,
           autoAlpha: 0,
+          ease: Expo.easeOut,
         },
         { y: 0, autoAlpha: 1 },
         0.15,
-        '=-0.25',
+        '=-1.25',
       );
   }
 

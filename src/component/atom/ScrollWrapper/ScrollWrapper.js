@@ -1,10 +1,10 @@
-import { AbstractScrollComponent } from 'vue-transition-component';
+import ScrollComponentMixin from '../../../mixin/ScrollComponentMixin';
 import ScrollWrapperTransitionController from './ScrollWrapperTransitionController';
 
 // @vue/component
 export default {
   name: 'ScrollWrapper',
-  extends: AbstractScrollComponent,
+  extends: ScrollComponentMixin,
   methods: {
     handleAllComponentsReady() {
       this.transitionController = new ScrollWrapperTransitionController(this);

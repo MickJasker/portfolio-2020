@@ -6,14 +6,22 @@
     font-size: 5rem;
     font-family: $fontSecondary;
     line-height: 1em;
+    color: var(--color-primary);
     width: fit-content;
+    text-shadow: 0 0.25rem 5rem rgba($colorPrimary, 0.5);
 
-    .underline {
-      z-index: -1;
-      width: 75%;
-      height: 0.8rem;
-      background: var(--color-primary);
-      display: block;
+    &.large {
+      font-size: 8rem;
     }
+  }
+
+  &.h2 {
+    font-size: 4rem;
+    font-family: $fontSecondary;
+  }
+
+  &.h3 {
+    font-size: 3rem;
+    font-family: $fontSecondary;
   }
 }

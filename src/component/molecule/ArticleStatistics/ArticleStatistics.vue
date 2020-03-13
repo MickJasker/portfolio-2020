@@ -7,7 +7,12 @@
       class="transition-in"
       :class="$style.readTime"
     >
-      {{ Math.round(readTime) }}<sub>min</sub>
+      <template v-if="readTime >= 1">
+        {{ Math.round(readTime) }}<sub>min</sub>
+      </template>
+      <template v-else>
+        <sub>&lt;</sub>1<sub>min</sub>
+      </template>
     </time>
     <time
       class="transition-in"
@@ -16,13 +21,26 @@
     >{{ formattedDate }}</time>
     <div
       class="transition-in"
-      :class="$style.author"
+      :class="$style.authorContainer"
     >
-      <img
-        :src="author.img"
-        :alt="author.name"
+      <div
+        v-for="author in authors"
+        :key="author.name"
+        ref="author"
+        :class="$style.author"
       >
-      <h2>{{ author.name }}</h2>
+        <div :class="$style.imgWrapper">
+          <img
+            :src="author.img"
+            :alt="author.name"
+          >
+        </div>
+        <h2 :class="$style.authorLabel">
+          <span :class="$style.content">
+            {{ author.name }}
+          </span>
+        </h2>
+      </div>
     </div>
   </section>
 </template>
