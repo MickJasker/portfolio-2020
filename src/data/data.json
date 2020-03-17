@@ -10,12 +10,12 @@
         "subcategories": [
           {
             "title": "Analyseren",
-            "img": "http://www.stichtingikwil.nl/wp-content/uploads/2017/07/DSC_1133.jpg",
+            "img": "image/ikWil.jpg",
             "articles": [
               {
                 "title": "Individuele Analyse van de Opdracht",
                 "image": {
-                  "src": "http://www.stichtingikwil.nl/wp-content/uploads/2017/07/DSC_1133.jpg"
+                  "src": "image/ikWil.jpg"
                 },
                 "authors": [
                   {
@@ -28,9 +28,9 @@
                 },
                 "content": [
                   {
-                    "name": "VideoBlock",
+                    "name": "VideoPlayer",
                     "props": {
-                      "src": "/static/video/creative-jam.mp4"
+                      "src": "video/creative-jam.mp4"
                     }
                   },
                   {
@@ -144,23 +144,23 @@
                   },
                   {
                     "name": "Bart van Lier",
-                    "img": "https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/p960x960/81044244_1395369150636640_3309426018447523840_o.jpg?_nc_cat=102&_nc_sid=85a577&_nc_ohc=ZGjK4IniH2YAX9bg4hy&_nc_ht=scontent-amt2-1.xx&_nc_tp=6&oh=772351a137bcb5f084e55bf102af1c83&oe=5E8D8263"
+                    "img": "image/bart.jpg"
                   },
                   {
                     "name": "Tim Pieters",
-                    "img": "https://scontent-ams4-1.xx.fbcdn.net/v/t1.0-9/15578483_115954168901049_7985315254955203126_n.jpg?_nc_cat=110&_nc_sid=85a577&_nc_ohc=qgpEJgEZb1kAX_elCTE&_nc_ht=scontent-ams4-1.xx&oh=bd47020cb80dbe80ada4b845c4925670&oe=5E8F7077"
+                    "img": "image/tim.jpg"
                   },
                   {
                     "name": "Lisa van Riesen",
-                    "img": "https://ca.slack-edge.com/TTUFJE555-UTSLBU4H3-70f5df97ec72-512"
+                    "img": "image/lisa.png"
                   },
                   {
                     "name": "Kelly van de Sande",
-                    "img": "https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/49035924_1939521202811122_993193552064282624_n.jpg?_nc_cat=108&_nc_sid=85a577&_nc_ohc=4L1ohVjtFpcAX8rnYdn&_nc_ht=scontent-amt2-1.xx&oh=1a5a78890fe519969db9f2216d677933&oe=5E92FEC5"
+                    "img": "image/kelly.jpg"
                   }
                 ],
                 "image": {
-                  "src": "http://www.stichtingikwil.nl/wp-content/uploads/2017/07/DSC_1133.jpg"
+                  "src": "image/ikWil.jpg"
                 },
                 "copy": "Dit projectdocument wordt afgesproken wat we gaan doen en hoe we dat gaan doen. Het plan geeft ons een beter overzicht over hoe we ons doel kunnen behalen en de gewenste resultaten kunnen leveren. Ook zorgt voor controle over het verloop van het project.",
                 "statistics": {
@@ -394,19 +394,32 @@
                   }
                 ],
                 "image": {
-                  "src": "http://www.stichtingikwil.nl/wp-content/uploads/2017/07/DSC_1133.jpg"
+                  "src": "image/language.jpg"
                 },
                 "copy": "Dit projectdocument wordt afgesproken wat we gaan doen en hoe we dat gaan doen. Het plan geeft ons een beter overzicht over hoe we ons doel kunnen behalen en de gewenste resultaten kunnen leveren. Ook zorgt voor controle over het verloop van het project.",
                 "statistics": {
-                  "publishDate": "02/14/2020"
+                  "publishDate": "03/16/2020"
                 },
                 "content": [
                   {
-                    "name": "VideoBlock",
+                    "name": "VideoPlayer",
                     "props": {
-                      "src": "/static/video/creative-jam.mp4"
-                    },
-                    "content": "De Organisatie"
+                      "src": "video/creative-jam.mp4"
+                    }
+                  },
+                  {
+                    "name": "ImageBlock",
+                    "props": {
+                      "src": "image/ikWil.jpg",
+                      "caption": "Figure 1a: This is a caption"
+                    }
+                  },
+                  {
+                    "name": "ImageBlock",
+                    "props": {
+                      "src": "image/language.jpg",
+                      "caption": "Figure 1b: this is a caption"
+                    }
                   }
                 ]
               }

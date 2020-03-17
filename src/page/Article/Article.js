@@ -54,6 +54,8 @@ export default {
         this.handleSentenceEnding();
       }
     });
+
+    document.title = `Portfolio Mick Jasker – ${this.categoryFrm.title}, ${this.article.title}`;
   },
   methods: {
     handleAllComponentsReady() {

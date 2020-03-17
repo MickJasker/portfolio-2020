@@ -5,9 +5,11 @@
   <div :class="[$style.app]">
     <NavigationMenu />
     <ScrollProgress />
-    <transition @leave="onLeave">
-      <router-view :key="$route.path" />
-    </transition>
+    <main>
+      <transition @leave="onLeave">
+        <router-view :key="$route.path" />
+      </transition>
+    </main>
     <Footer />
   </div>
 </template>

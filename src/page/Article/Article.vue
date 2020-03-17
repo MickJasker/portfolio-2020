@@ -13,11 +13,11 @@
         :subtitle="subcategoryFrm.title"
         :copy="article.copy"
         :image="{
-          src: article.image.src,
+          src: $versionRoot + article.image.src,
         }"
         @isReady="handleScrollComponentReady"
       >
-        <span class="highlight">{{ categoryFrm.title }}</span><br>{{ article.title }}<span class="highlight">{{ sentenceEnd }}</span>
+        <span class="highlight">{{ categoryFrm.title }}.</span><br>{{ article.title }}<span class="highlight">{{ sentenceEnd }}</span>
       </Hero>
       <ArticleStatistics
         v-if="article.statistics"

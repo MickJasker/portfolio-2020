@@ -20,7 +20,6 @@ export default class ArticleHighlightTransitionController extends AbstractTransi
     parent: IAbstractTransitionComponent,
     id: string,
   ): void {
-    const copy = new SplitText(parent.$refs.copy).lines;
     timeline
       .fromTo(
         parent.$el,
@@ -37,7 +36,7 @@ export default class ArticleHighlightTransitionController extends AbstractTransi
       )
       .fromTo(
         parent.$refs.title,
-        1,
+        2,
         {
           y: 25,
           opacity: 0,
@@ -49,8 +48,8 @@ export default class ArticleHighlightTransitionController extends AbstractTransi
         },
         '=-1',
       )
-      .staggerFromTo(
-        copy,
+      .fromTo(
+        parent.$refs.copy,
         2,
         {
           y: 25,
@@ -61,8 +60,7 @@ export default class ArticleHighlightTransitionController extends AbstractTransi
           opacity: 1,
           ease: Expo.easeOut,
         },
-        0.1,
-        '=-1.2',
+        '=-1.8',
       )
       .fromTo(
         parent.$refs.cta,
@@ -76,7 +74,7 @@ export default class ArticleHighlightTransitionController extends AbstractTransi
           opacity: 1,
           ease: Expo.easeOut,
         },
-        '=-2',
+        '=-1.8',
       );
   }
 

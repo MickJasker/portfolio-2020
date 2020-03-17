@@ -2,9 +2,9 @@ import {
   AbstractTransitionController,
   IAbstractTransitionComponent,
 } from 'vue-transition-component';
-import { Expo, TimelineMax } from 'gsap';
+import { TimelineMax, Expo } from 'gsap';
 
-export default class ListTransitionController extends AbstractTransitionController {
+export default class ImageBlockTransitionController extends AbstractTransitionController {
   /**
    * Use this method to setup your transition in timeline
    *
@@ -19,20 +19,22 @@ export default class ListTransitionController extends AbstractTransitionControll
     parent: IAbstractTransitionComponent,
     id: string,
   ): void {
-    timeline.staggerFromTo(
-      parent.$refs.listItem,
-      2,
-      {
-        y: 25,
+    timeline
+      .from(parent.$refs.image, 2, {
+        y: 50,
         autoAlpha: 0,
-      },
-      {
-        y: 0,
-        autoAlpha: 1,
         ease: Expo.easeOut,
-      },
-      0.1,
-    );
+      })
+      .from(
+        parent.$refs.caption,
+        2,
+        {
+          y: 50,
+          autoAlpha: 0,
+          ease: Expo.easeOut,
+        },
+        '=-1.8',
+      );
   }
 
   /**

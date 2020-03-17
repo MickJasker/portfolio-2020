@@ -21,19 +21,16 @@ export default class HeroTransitionController extends AbstractTransitionControll
     id: string,
   ): void {
     let title;
-    let copy;
 
     if (parent.$refs.title) {
       title = new SplitText(parent.$refs.title).chars;
     }
 
-    if (parent.$refs.copy) {
-      copy = new SplitText(parent.$refs.copy).lines;
-    }
     // @ts-ignore
     timeline
-      .from(parent.$el, 1, {
+      .from(parent.$el, 2, {
         opacity: 0,
+        ease: Expo.easeOut,
       })
       .from(
         parent.$refs.subtitle,
@@ -43,7 +40,7 @@ export default class HeroTransitionController extends AbstractTransitionControll
           opacity: 0,
           ease: Expo.easeOut,
         },
-        '=-1.5',
+        '=-1.8',
       )
       .staggerFrom(
         title,
@@ -56,17 +53,16 @@ export default class HeroTransitionController extends AbstractTransitionControll
         0.025,
         '=-1.5',
       );
-    if (copy) {
-      timeline.staggerFrom(
-        copy,
+    if (parent.$refs.copy) {
+      timeline.from(
+        parent.$refs.copy,
         2,
         {
           y: 10,
           opacity: 0,
           ease: Expo.easeOut,
         },
-        0.1,
-        '=-1',
+        '=-1.8',
       );
     }
 
@@ -80,7 +76,7 @@ export default class HeroTransitionController extends AbstractTransitionControll
           ease: Expo.easeOut,
         },
         0.1,
-        '=-1.5',
+        '=-1.8',
       );
     }
   }
