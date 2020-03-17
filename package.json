@@ -1,12 +1,12 @@
 {
-  "name": "vue-skeleton",
-  "version": "1.9.0",
+  "name": "portfolio-2020",
+  "version": "0.1.0",
   "skeleton": {
     "name": "vue-skeleton",
     "version": "1.9.0"
   },
-  "description": "A Vue Skeleton",
-  "author": "Hendrik-Jan de Harder <hendrik-jan@mediamonks.com>",
+  "description": "A vue based portfolio",
+  "author": "Mick Jasker <mickjasker@gmail.com>",
   "license": "MIT",
   "private": true,
   "scripts": {
@@ -153,7 +153,7 @@
   "browserslist": [
     "last 2 versions",
     "last 3 IOS versions",
-    "not ie <= 9",
+    "not ie <= 11",
     "not ExplorerMobile <= 11"
   ]
 }
