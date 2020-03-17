@@ -38,7 +38,7 @@
       opacity: 0;
       top: -50%;
       white-space: nowrap;
-      transition: .5s ease-out;
+      transition: 0.2s ease-out;
       pointer-events: none;
       z-index: 100;
       width: 25rem;
@@ -60,7 +60,7 @@
       overflow: hidden;
       width: 1em;
       height: 1em;
-      transition: 0.3s ease-out;
+      transition: 0.2s ease-out;
 
       img {
         object-fit: cover;

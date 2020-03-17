@@ -7,6 +7,13 @@
       ref="hero"
       :class="$style.hero"
       subtitle="Portfolio"
+      copy="Het procres en de verantwoording van het afgelopen semester zijn vastgelegd in de leeswijzer."
+      :call-to-actions="[
+        {
+          to: 'portfolio/leeswijzer',
+          copy: 'Bekijk hier de leeswijzer'
+        }
+      ]"
       :image="{
         x3: require('../../asset/image/berlin@3x.jpg'),
         x2: require('../../asset/image/berlin@2x.jpg'),

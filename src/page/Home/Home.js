@@ -25,8 +25,6 @@ export default {
       getEventBus().$emit(ADD_COMPONENTS, this.scrollComponents);
 
       this.isReady();
-
-      console.log(this.$scrollTracker.options);
     },
   },
 };

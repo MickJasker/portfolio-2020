@@ -5,7 +5,7 @@
   <section :class="[$style.videoBlock]">
     <VideoOverlay
       ref="videoOverlay"
-      :src="src"
+      :src="$versionRoot + src"
     />
     <main
       ref="button"
@@ -21,7 +21,7 @@
       loop
     >
       <source
-        :src="src"
+        :src="$versionRoot + src"
         media="(min-width: 768px)"
       >
     </video>

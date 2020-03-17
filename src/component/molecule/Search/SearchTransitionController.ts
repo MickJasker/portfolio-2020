@@ -19,16 +19,11 @@ export default class SearchTransitionController extends AbstractTransitionContro
     parent: IAbstractTransitionComponent,
     id: string,
   ): void {
-    timeline.from(
-      parent.$el,
-      2,
-      {
-        opacity: 0,
-        y: 50,
-        ease: Expo.easeOut,
-      },
-      1.25,
-    );
+    timeline.from(parent.$el, 2, {
+      opacity: 0,
+      y: 50,
+      ease: Expo.easeOut,
+    });
   }
 
   /**

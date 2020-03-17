@@ -49,6 +49,7 @@ export default {
     },
     onLeave(element, done) {
       window.scrollTo(0, 0);
+      document.title = `Portfolio Mick Jasker - ${this.$route.name}`;
       FlowManager.transitionOut.then(() => FlowManager.done()).then(done);
     },
   },

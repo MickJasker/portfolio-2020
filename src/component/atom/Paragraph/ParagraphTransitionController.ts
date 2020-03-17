@@ -24,7 +24,7 @@ export default class ParagraphTransitionController extends AbstractTransitionCon
       parent.$refs.copy,
       2,
       {
-        y: 10,
+        y: 25,
         autoAlpha: 0,
       },
       {

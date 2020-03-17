@@ -32,7 +32,7 @@
     <VideoBlock
       ref="videoBlock"
       :class="$style.videoBlock"
-      :src="`${$versionRoot}video/creative-jam.mp4`"
+      src="video/creative-jam.mp4"
       @isReady="handleScrollComponentReady"
     />
     <IntroductionBlock

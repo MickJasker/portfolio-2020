@@ -8,10 +8,6 @@
   @include respond-to(LARGE) {
     article {
       padding: 5rem 4rem;
-
-      figure {
-        margin: 2rem -4rem;
-      }
     }
   }
 
@@ -42,10 +38,6 @@
         max-width: 80ch;
         padding-bottom: 10rem;
         border-bottom: 1px solid rgba(127, 127, 127, 0.99);
-
-        figure {
-          margin: 10rem -16rem;
-        }
       }
     }
 

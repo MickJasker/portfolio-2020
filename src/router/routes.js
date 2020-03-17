@@ -4,10 +4,10 @@ import PortfolioOverview from '../page/PortfolioOverview/PortfolioOverview';
 import Error from '../page/Error';
 
 export const RouteNames = {
-  HOME: 'home',
-  PORTFOLIO: 'portfolio',
-  ARTICLE: 'article',
-  ERROR: 'error',
+  HOME: 'Home',
+  PORTFOLIO: 'Portfolio',
+  ARTICLE: 'Artikel',
+  ERROR: 'Error',
 };
 
 export default [

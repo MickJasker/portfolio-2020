@@ -27,7 +27,7 @@
     <div :class="[$style.column, $style.img]">
       <img
         ref="image"
-        :src="img"
+        :src="$versionRoot + img"
         :alt="title"
       >
     </div>
