@@ -154,6 +154,10 @@
       }
 
       @media (hover: hover) {
+        &:after {
+          filter: saturate(0);
+        }
+
         &:hover,
         &:focus {
           &:after {
@@ -162,7 +166,6 @@
 
           a {
             filter: drop-shadow(0 0 1rem $colorDark);
-            backdrop-filter: saturate(0);
           }
         }
       }
