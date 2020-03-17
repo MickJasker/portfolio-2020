@@ -2,7 +2,7 @@ import {
   AbstractTransitionController,
   IAbstractTransitionComponent,
 } from 'vue-transition-component';
-import { Expo, TimelineMax } from 'gsap';
+import { TimelineMax } from 'gsap';
 
 export default class PortfolioOverviewTransitionController extends AbstractTransitionController {
   /**
