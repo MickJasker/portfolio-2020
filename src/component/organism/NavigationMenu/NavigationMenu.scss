@@ -151,13 +151,10 @@
         height: 100%;
         z-index: 1;
         width: 100%;
+        filter: saturate(0);
       }
 
       @media (hover: hover) {
-        &:after {
-          filter: saturate(0);
-        }
-
         &:hover,
         &:focus {
           &:after {
