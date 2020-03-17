@@ -3,7 +3,6 @@ import {
   IAbstractTransitionComponent,
 } from 'vue-transition-component';
 import { Expo, TimelineMax } from 'gsap';
-import SplitText from '../../../vendor/SplitText';
 
 export default class ArticleHighlightTransitionController extends AbstractTransitionController {
   /**
