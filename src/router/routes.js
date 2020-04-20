@@ -38,5 +38,5 @@ export default [
     path: '/leeswijzer',
     component: ReadGuide,
     name: RouteNames.READ_GUIDE,
-  }
+  },
 ];

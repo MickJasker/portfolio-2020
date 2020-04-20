@@ -5,8 +5,8 @@
   <section :class="[$style.articleList]">
     <div :class="$style.column">
       <Heading
-        :class="[$style.heading]"
         ref="heading"
+        :class="[$style.heading]"
         level="1"
       >
         {{ title }}
