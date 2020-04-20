@@ -7,7 +7,6 @@
     font-family: $fontSecondary;
     color: var(--color-primary);
     width: fit-content;
-    text-shadow: 0 0.25rem 5rem rgba($colorPrimary, 0.25);
     margin: 1.5rem 0 3rem;
 
     &.large {
@@ -25,23 +24,5 @@
     font-size: 3rem;
     font-family: $fontSecondary;
     margin: 1.5rem 0 0;
-  }
-
-  @include respond-to(MEDIUM) {
-    &.h1 {
-      font-size: 8.5rem;
-
-      &.large {
-        font-size: 10rem;
-      }
-    }
-
-    &.h2 {
-      font-size: 5.25rem;
-    }
-
-    &.h3 {
-      font-size: 3.25rem;
-    }
   }
 }

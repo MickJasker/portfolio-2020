@@ -29,7 +29,7 @@
             Portfolio
           </router-link>
         </li>
-        <li>
+        <!-- <li>
           <router-link
             to="/over-mij"
             @click.native="hide"
@@ -44,7 +44,7 @@
           >
             Contact
           </router-link>
-        </li>
+        </li> -->
       </ul>
     </nav>
   </header>

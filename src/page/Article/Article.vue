@@ -44,7 +44,7 @@
       </article>
     </main>
     <footer>
-      <IntroductionBlock
+      <!-- <IntroductionBlock
         ref="introduction-block"
         heading="Ik zal me even voorstellen"
         :class="$style.introduction"
@@ -59,7 +59,7 @@
         ligula nec erat gravida commodo. Donec mattis est turpis. Aliquam condimentum,
         ex nec laoreet dignissim, odio enim aliquam mi, vel posuere felis tortor quis
         libero.
-      </IntroductionBlock>
+      </IntroductionBlock> -->
     </footer>
   </section>
   <h1 v-else>

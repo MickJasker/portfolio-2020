@@ -10,8 +10,8 @@
       copy="Het procres en de verantwoording van het afgelopen semester zijn vastgelegd in de leeswijzer."
       :call-to-actions="[
         {
-          to: 'portfolio/leeswijzer',
-          copy: 'Bekijk hier de leeswijzer'
+          to: 'portfolio/stichting-ik-wil/overig/leeswijzer',
+          copy: 'Leeswijzer Stichting Ik Wil'
         }
       ]"
       :image="{
@@ -23,11 +23,11 @@
     >
       Mijn Werk<span class="highlight">.</span>
     </Hero>
-    <Search
+    <!-- <Search
       ref="search"
       :class="$style.search"
       @isReady="handleScrollComponentReady"
-    />
+    /> -->
     <div :class="$style.container">
       <section
         v-for="(category, index) in data.portfolio.categories"
