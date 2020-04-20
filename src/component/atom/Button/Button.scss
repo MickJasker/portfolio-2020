@@ -1,0 +1,80 @@
+/* stylelint-disable-next-line block-no-empty */
+.button {
+  padding: 0;
+  border: 0;
+  background: none;
+  font-size: 2rem;
+  font-weight: 700;
+  position: relative;
+  cursor: pointer;
+  width: fit-content;
+  font-family: $fontPrimary;
+  margin: 0;
+  color: var(--color-text);
+
+  &:after {
+    content: '';
+    height: 2rem;
+    background: currentColor;
+    color: var(--color-accent);
+    left: -0.5rem;
+    transition: 0.3s ease-out;
+    width: 40%;
+    min-width: 4rem;
+    position: absolute;
+    z-index: -1;
+    top: 0.5rem;
+    box-shadow: 0 0.5rem 2rem currentColor;
+    display: block;
+  }
+
+  @media (prefers-color-scheme: dark) {
+
+    &:after {
+      color: $colorAccent;
+      height: 0.5rem;
+      left: 0;
+      bottom: -0.5rem;
+      top: initial;
+    }
+  }
+
+  @media (hover: hover) {
+    &:hover,
+    &:focus {
+      outline: none;
+
+      &:after {
+        width: 100%;
+      }
+    }
+  }
+
+  &:active {
+    &:after {
+      width: 100%;
+      opacity: 0.5;
+    }
+  }
+
+  &.inverted {
+    color: $colorLight;
+
+    &:after {
+      opacity: 0.5;
+      color: var(--color-light);
+      background: currentColor;
+    }
+
+    &:active {
+      &:after {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.anchor {
+  text-decoration: none;
+  display: contents;
+}

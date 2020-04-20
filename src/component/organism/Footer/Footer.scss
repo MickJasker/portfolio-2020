@@ -1,0 +1,17 @@
+/* stylelint-disable-next-line block-no-empty */
+footer.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  background: $colorDark;
+  color: rgba($colorLight, 0.5);
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    border-top: solid 1px lighten($colorDark, 20);
+  }
+}

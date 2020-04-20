@@ -1,0 +1,48 @@
+/* stylelint-disable-next-line block-no-empty */
+.article {
+  article {
+    padding: 5rem 2rem;
+    font-size: 2rem;
+  }
+
+  @include respond-to(LARGE) {
+    article {
+      padding: 5rem 4rem;
+    }
+  }
+
+  @include respond-to(XLARGE) {
+
+    header {
+      grid-template-columns: 15vw 100rem 1fr 1fr;
+      width: 100%;
+      display: grid;
+
+      .hero {
+        min-height: 80rem;
+        grid-column: 2 / 5;
+      }
+
+      .article-statistics {
+        grid-column: 2 / 3;
+        position: relative;
+        top: -50%;
+        z-index: 100;
+      }
+    }
+
+    main {
+      article {
+        font-size: 2rem;
+        margin: 0 auto 10rem;
+        max-width: 80ch;
+        padding-bottom: 10rem;
+        border-bottom: 1px solid rgba(127, 127, 127, 0.99);
+      }
+    }
+
+    .introduction {
+      margin-left: 15vw;
+    }
+  }
+}

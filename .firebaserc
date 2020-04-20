@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "portfolio-2020-17688"
+  },
+     "targets": {
+       "portfolio-2020-17688": {
+         "hosting": {
+           "development": [
+             "dev-portfolio-2020-17688"
+           ],
+           "production": [
+             "portfolio-2020-17688"
+           ]
+         }
+       }
+     }
+}

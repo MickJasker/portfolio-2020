@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display:400,400i|Montserrat:300,400,400i,600,700|DM+Serif+Text:ital&display=swap');
+
+:root {
+  --color-bg: #{$colorLight};
+  --color-text: #{$colorDark};
+  --color-primary: #{$colorPrimary};
+  --color-accent: #{$colorAccent};
+}
+
+html {
+  font-size: 8px;
+  box-sizing: border-box;
+  font-family: $fontPrimary;
+  background: var(--color-bg);
+  color: var(--color-text);
+  -webkit-tap-highlight-color: rgba(#000, 0);
+}
+
+body {
+  height: 100vh;
+}
+
+::selection {
+  background: var(--color-primary);
+  color: var(--color-bg);
+}
+
+*,
+*:before,
+*:after {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: normal;
+  margin: 0;
+  line-height: 1.5em;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+.highlight {
+  color: var(--color-primary);
+}
+
+@include respond-to(MEDIUM) {
+  :root {
+    --column-width: #{$columnWidthLarge};
+    --gutter-width: #{$columnGutterLarge};
+    --column-amount: #{$columnAmountLarge};
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #{$colorDark};
+    --color-text: #{$colorLight};
+  }
+}

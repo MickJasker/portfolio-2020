@@ -1,0 +1,105 @@
+/* stylelint-disable-next-line block-no-empty */
+.article-statistics {
+  --color-bg: #{$colorDark};
+  --color-text: #{$colorLight};
+  color: var(--color-text);
+  background: var(--color-primary);
+  padding: 5rem;
+  display: flex;
+  box-shadow: 5rem 5rem 100rem rgba($colorPrimary, 0.5), 0 0 10rem rgba($colorPrimary, 0.1);
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+
+  .read-time {
+    font-size: 12rem;
+    line-height: 1em;
+    font-family: $fontSecondary;
+
+    sub {
+      font-family: $fontPrimary;
+      opacity: 0.75;
+      position: static;
+      font-size: 0.25em;
+    }
+  }
+
+  .publish-date {
+    font-size: 3rem;
+    margin: 3rem 0;
+  }
+
+  .author-container {
+    display: flex;
+
+    .author-label {
+      font-size: 2rem;
+      position: absolute;
+      opacity: 0;
+      top: -50%;
+      white-space: nowrap;
+      transition: 0.2s ease-out;
+      pointer-events: none;
+      z-index: 100;
+      width: 25rem;
+      display: flex;
+      justify-content: center;
+      left: calc(-12.5rem + 4rem);
+
+      .content {
+        box-shadow: 0 2rem 2rem rgba($colorDark, 0.15), 0 0 2rem rgba($colorDark, 0.15);
+        padding: 1rem;
+        border-radius: 0.5rem;
+        background: $colorDark;
+      }
+    }
+
+    .img-wrapper {
+      border: 0.5rem solid var(--color-primary);
+      border-radius: 1em;
+      overflow: hidden;
+      width: 1em;
+      height: 1em;
+      transition: 0.2s ease-out;
+
+      img {
+        object-fit: cover;
+        filter: saturate(0);
+        height: inherit;
+        width: inherit;
+      }
+    }
+
+    .author {
+      display: flex;
+      align-items: center;
+      font-size: 8rem;
+      position: relative;
+
+
+      &:not(:first-child) {
+        margin-left: -2rem;
+      }
+
+      &:hover {
+        .img-wrapper {
+          border-color: $colorLight;
+        }
+
+        h2 {
+          opacity: 1;
+          top: -80%;
+        }
+      }
+    }
+  }
+
+  @include respond-to(MEDIUM) {
+    flex-direction: row;
+    padding: 7rem;
+  }
+
+  @include respond-to(XLARGE) {
+    margin-left: 4rem;
+  }
+}

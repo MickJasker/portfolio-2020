@@ -1,0 +1,27 @@
+// Fonts
+$fontPrimary: 'Montserrat', sans-serif;
+$fontSecondary: 'DM Serif Display', 'Montserrat', sans-serif;
+
+// Z Index
+$zLayout: default;
+
+// Sizes
+$columnWidthSmall: 9rem;
+$columnGutterSmall: 1rem;
+$columnAmountSmall: 4;
+
+$columnWidthLarge: 11rem;
+$columnGutterLarge: 2rem;
+$columnAmountLarge: 12;
+
+// Colors
+$colorPrimary: #003fff;
+$colorDark: #000619;
+$colorLight: #fafbff;
+$colorAccent: #72FFA1;
+
+// $mediaQueries
+@import '../../../data/mediaQueries.json';
+
+// Paths
+$pathComponentImage: 'asset/image';

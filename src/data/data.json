@@ -1,0 +1,1146 @@
+{
+  "portfolio": {
+    "hero": {
+      "title": "Mijn Werk",
+      "subtitle": "Portfolio"
+    },
+    "categories": [
+      {
+        "title": "Stichting Ik Wil",
+        "subcategories": [
+          {
+            "title": "Analyseren",
+            "img": "image/analytics.jpg",
+            "articles": [
+              {
+                "title": "Individuele Analyse van de Opdracht",
+                "image": {
+                  "src": "image/ikWil.jpg"
+                },
+                "authors": [
+                  {
+                    "name": "Mick Jasker",
+                    "img": "image/mick.jpg"
+                  }
+                ],
+                "statistics": {
+                  "publishDate": "02/11/2020"
+                },
+                "content": [
+                  {
+                    "name": "Paragraph",
+                    "props": {
+                      "introduction": true
+                    },
+                    "content": "Stichting ik wil is op zoek naar ondernemers/buurtbewoners/vrijwilligers etc. die willen helpen met ondersteunen van andere bewoners in de wijk. Dit kan in het breedst van het woord, door bijvoorbeeld immigranten Nederlands te leren of mensen hun talenten te ontdekken in hun sociale werkplaats. Stichting Ik Wil heeft ons uitgedaagd om hier aan mee te doen en hebben ons een zeer brede en vrije context gegeven om in te werken."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Probleemstelling"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "In de eerste twee dagen hebben we samen met de groep met meerdere partners van de stichting gesproken wat nou de problemen zijn die opspelen. Een van de dingen die wel interessant is het idee van steunmannen en -vrouwen. Deze Steunmensen zijn personen waar je op kan bouwen en vertrouwen mensen die zich kunnen en willen inzetten voor de wijk. Vaak is het moeilijk om in contact te komen met een steunmens die goed bij jou persoonlijke doelen en vaardigheden passen."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Doel"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Het primaire doel is om iets te bedenken hoe we steunmensen makkelijker te kunnen matchen met de juiste personen en mensen uitdagen wat ze voor elkaar kunnen betekenen."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Onderzoeksaspecten"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Er valt veel te onderzoeken op het menselijke aspect. Wie zijn deze steunmensen? Wie zijn de mensen die ze helpen? Hoe ga je ze in contact brengen?"
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Onderzoeksaspecten"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Hoe kunnen we een platform ontwerpen dat steunmannen en -vrouwen en hulpzoekende met verschillende skills en talenten bij elkaar brengt om elkaar te helpen met de dingen die zij nodig hebben."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Wat zie je als uitdagingen? En wat zie je als risico's?"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Een van de belangrijke aspecten van Stichting Ik Wil is dat ze er voor iedereen zijn. Hieruit kun je concluderen dat het een hele doelgroep betreft, het is daarom ook erg belangrijk dat we ook gaan bouwen voor een brede doelgroep."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Hoe ga je de opdracht aanpakken? Met welke onderzoeksmethoden werk je en waarom?"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Doordat we een vast plek op locatie hebben kunnen we heel veel veld- en lab onderzoek doen. Dit is een unieke kans om niet alleen een product voor de doelgroep te maken maar ook echt met de doelgroep."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Hoe ziet in jouw ogen het eindresultaat eruit? Heb je daar al eerste beelden bij?"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Dit is natuurlijk nog heel speculatief maar ik zie een platform voor me waar deelnemers in makkelijker in verbinding komen met elkaar."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Welk probleem hebben jullie aan het einde van het traject voor de opdrachtgever opgelost?"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Dat mensen makkelijker elkaar gaan helpen en op deze manier ook minder afhankelijk worden van hulpinstanties."
+                  }
+                ]
+              },
+              {
+                "title": "Project Plan",
+                "authors": [
+                  {
+                    "name": "Mick Jasker",
+                    "img": "image/mick.jpg"
+                  },
+                  {
+                    "name": "Bart van Lier",
+                    "img": "image/bart.jpg"
+                  },
+                  {
+                    "name": "Tim Pieters",
+                    "img": "image/tim.jpg"
+                  },
+                  {
+                    "name": "Lisa van Riesen",
+                    "img": "image/lisa.png"
+                  },
+                  {
+                    "name": "Kelly van de Sande",
+                    "img": "image/kelly.jpg"
+                  }
+                ],
+                "image": {
+                  "src": "image/ikWil.jpg"
+                },
+                "copy": "Dit projectdocument wordt afgesproken wat we gaan doen en hoe we dat gaan doen. Het plan geeft ons een beter overzicht over hoe we ons doel kunnen behalen en de gewenste resultaten kunnen leveren. Ook zorgt voor controle over het verloop van het project.",
+                "statistics": {
+                  "publishDate": "02/14/2020"
+                },
+                "content": [
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "De Organisatie"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "De opdrachtgever is stichting ‘Ik Wil’. Deze stichting identificeert zich als een beweging. Ze zetten zich in om de maatschappij op te bouwen in de wijk Woensel. Binnen deze wijk wonen veel mensen met verschillende achtergronden en overtuigingen. Stichting ‘Ik Wil’ organiseert activiteiten, cursussen en workshops waar iedereen aan mee kan doen. Hierdoor kunnen mensen uit de wijk andere mensen leren kennen en vaardigheden verbeteren. Daarnaast kunnen mensen zelf activiteiten organiseren en is er een inloopspreekuur. Hierin kunnen bewoners uit de wijk zelf ideeën voorleggen of informeren over de mogelijkheden die er zijn. Het doel van stichting ‘Ik Wil’ is om mensen met elkaar te verbinden en samen aan de wijk te werken."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "De Opdracht"
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Opdrachtomschrijving"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Stichting ‘Ik Wil’ biedt hulp aan de bewoners van de wijk. Het doel van de stichting is er voor zorgen dat de buurtbewoners elkaar gaan helpen en de stichting zelf overbodig worden. De opdracht voor ons is: Ontwerp een platform om lokale bewoners in aandachtswijken in staat te stellen elkaar te helpen om minder dagelijkse problemen te hebben."
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Op dit moment wordt er namelijk vooral hulp aangeboden vanuit de stichting zelf. Wanneer de buurtbewoners elkaar gaan helpen zorgt dit voor meer sociaal contact en kan de hulp komen vanuit de mensen zelf."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Doelen van de opdracht"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "De opdracht wil de opdrachtgever uit laten voeren omdat dit ervoor zal zorgen dat de bewoner minder dagelijkse problemen hebben. Een voorbeeld van zo’n probleem is: het niet kunnen lezen van een nederlandstalige brief. Het doel van de opdracht is daarom er voor zorgen dat de buurtbewoners minder dagelijkse problemen hebben. Het uiteindelijke wat wij willen bereiken, is het maken van een platform waarin de buurtbewoners zelf hulp aan kunnen bieden of een hulpvraag kunnen beantwoorden."
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Een bijzaak van de opdracht is dat het iets toevoegt aan de ontwikkeling van de buurt en haar bewoners. De buurt zal zich uiteindelijk zelfstandig moeten houden en de stichting zou overbodig moeten zijn."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Analyse van de opdracht"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Hoe ontwerpen we een platform om lokale bewoners in aandachtswijken in staat te stellen elkaar te helpen om minder dagelijkse problemen te hebben? Het probleem dat moet worden opgelost zijn de dagelijkse problemen van de buurtbewoners. Een uitdaging bij dit probleem is bewoners elkaar laten helpen en het overkomen van de taalbarrière. Deze vraag ligt er omdat er veel buurtbewoners zijn die hulp kunnen gebruiken bij (kleine) problemen, zoals het niet kunnen lezen van een nederlandse brief. Het probleem is ontstaan doordat er vraag was naar hulp binnen de stichting. Wanneer dit probleem niet opgelost zal worden zullen problemen niet snel opgelost worden en komen de bewoners van de wijk minder snel in contact met elkaar. Op dit moment worden de buurtbewoners al wel geholpen met problemen maar dit wordt alleen gedaan door de vrijwilligers van de stichting zelf."
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Een bijzaak van dit probleem is dat de bewoners van de buurt nog te weinig samenkomen en te afhankelijk zijn van de vrijwilligers van de stichting. Deze vraag ligt er omdat de stichting juist wil dat de buurtbewoners meer in contact met elkaar komen en elkaar helpen."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Eisen aan de opdracht"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Stichting Ik Wil heeft ons gevraagd iets te ontwikkelen wat een toegevoegde waarde heeft aan de wijk. Specifieke wensen zijn niet duidelijk vermeld gezien ons best veel vrijheid is gegeven. Echter moet rekening gehouden worden met het feit dat er weinig tot geen budget is. Ook is het essentieel dat er meer contact komt tussen de bewoners van de buurt. Het is belangrijk om de organisatoren te betrekken bij het project maar ook zeker de buurtbewoners zelf. "
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Onderzoeksvragen en tussenproducten"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Om de hoofdvraag te beantwoorden zijn er tien deelvragen/kritische vragen opgesteld."
+                  },
+                  {
+                    "name": "List",
+                    "props": {
+                      "type": "ordered",
+                      "items": [
+                        "Welke vorm gaat het eindproduct aannemen?",
+                        "Hebben buurtbewoners behoefte aan meer sociaal contact?",
+                        "Staan de buurtbewoners er voor open om elkaar te helpen?",
+                        "Welke (kleine) problemen komen buurtbewoners dagelijks tegen?",
+                        "Wat is de motivatie die ervoor zorgt dat buurtbewoners elkaar helpen? Welke motivaties hebben de buurtbewoners om elkaar te helpen?",
+                        "Durven mensen elkaar om hulp te vragen?",
+                        "Zijn de buurtbewoners bereid om te betalen voor hulp?",
+                        "Staat het van budget van de gemiddelde buurtbewoner het toe om te betalen voor hulp?",
+                        "Hoe krijgen we buurtbewoners gemotiveerd om elkaar te helpen?",
+                        "In hoeverre is taal een drempel voor buurtbewoners wanneer zij met elkaar in contact willen komen?"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Scope"
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Wat valt binnen de scope van de opdracht?"
+                  },
+                  {
+                    "name": "List",
+                    "props": {
+                      "type": "unordered",
+                      "items": [
+                        "Doelgroep onderzoek",
+                        "Interviews",
+                        "Trendonderzoek",
+                        "Paper Prototyping",
+                        "High fidelity prototyping",
+                        "Onderzoek naar bestaande middelen",
+                        "Maken van het platform"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Wat valt buiten de scope van de opdracht?"
+                  },
+                  {
+                    "name": "List",
+                    "props": {
+                      "type": "unordered",
+                      "items": [
+                        "Begeleiding van het hulp process"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Wat zijn eventuele risico’s?"
+                  },
+                  {
+                    "name": "List",
+                    "props": {
+                      "type": "unordered",
+                      "items": [
+                        "Niemand is bereidt om te helpen.",
+                        "Mensen hebben geen problemen die ze willen delen.",
+                        "Mensen willen niet geholpen worden.",
+                        "Mogelijke culturele drempels.",
+                        "Mogelijke taalbarrière"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Aanpak & planning"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Wij zullen de projectmethode design thinking gebruiken omdat we nog geen duidelijk beeld hebben van wat de oplossing voor het probleem is. We moeten dus eerst onderzoeken waar de doelgroep behoefte aan heeft voordat we weten wat we moeten maken.\nOm antwoord te krijgen op de deelvragen gaan we veel veldonderzoek doen. We moeten namelijk de bewoners uit de buurt interviewen om antwoord te krijgen op deze vragen. Afhankelijk van de antwoorden van de interviews kunnen we vaststellen welke onderzoeksstrategieën we nog meer gaan gebruiken en welke onderzoeksmethode daaronder vallen.\n "
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Omtrent de communicatie kunnen we sowieso iedere maandag bij stichting Ik Wil terecht om feedback te krijgen. Wanneer we feedback nodig hebben op een andere dag, is het belangrijk om de roosters in de gaten te houden en samen een dag af te spreken. "
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Welke projectmethode gebruik je?"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "We maken gebruik van design thinking omdat er nog geen specifiek probleem gevormd is. We hebben dus eerst een probleem moeten vinden door te praten met de stichting en de doelgroep. Wanneer er development plaats gaat vinden zal er in die fase gebruik gemaakt van worden van scrum."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Benoem de onderzoeksstrategieën"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "In de onderzoeksfase zal er vooral bieb en veldonderzoek plaatsvinden. Dit om onderzoek te doen naar de doelgroep, wat ze willen waar ze behoefte aan hebben. In de bouwfase maken we gebruik van lab en werkplaats om samen met de doelgroep ons product te ontwikkelen zodat het perfect aansluit bij hun behoeften. In de showroom laten we ook aan de stichting zien wat we maken zodat zij hun feedback en visie kunnen."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Afspraken rondom communicatie"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Communicatie zal voornamelijk via Slack verlopen. Als groep hebben we een gezamenlijke channel. Hier kunnen we bijvoorbeeld bespreken waar we op die dag werken (Strijp TQ of Ik Wil). Op maandag zijn we bij de stichting aanwezig om te meeten met Chris Geene en andere partners van Ik Wil. Op vrijdag zijn voor de workshops op Strijp TQ. Inloop is tussen 9.00 en 9.30 op de afgesproken locatie."
+                  }
+                ]
+              },
+              {
+                "title": "MoSCow Recuirements Analyse",
+                "authors": [
+                  {
+                    "name": "Mick Jasker",
+                    "img": "image/mick.jpg"
+                  }
+                ],
+                "image": {
+                  "src": "image/moscow.jpg"
+                },
+                "statistics": {
+                  "publishDate": "04/20/2020"
+                },
+                "content": [
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Must Have"
+                  },
+                  {
+                    "name": "List",
+                    "props": {
+                      "type": "unordered",
+                      "items": [
+                        "Gebruikers kunnen een foto maken van een stuk tekst en deze tekst wordt automatische uitgelezen.",
+                        "Tekst wordt voorgelezen voor de gebruiker",
+                        "Gebruikers kunnen als ze nog moeite hebben met het begrijpen van het bericht, het bericht doorsturen naar een bekende die de gebruiker verder kan helpen.",
+                        "De applicatie moet bruikbaar zijn voor mensen die slecht of niet kunnen lezen."
+                      ]
+                    }
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Should Have"
+                  },
+                  {
+                    "name": "List",
+                    "props": {
+                      "type": "unordered",
+                      "items": [
+                        "De applicatie is volledig bruikbaar voor blinden en slechtzienden."
+                      ]
+                    }
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Could Have"
+                  },
+                  {
+                    "name": "List",
+                    "props": {
+                      "type": "unordered",
+                      "items": [
+                        "De tekst wordt vertaald in een taal naar keuze om gebruikers te helpen die de nederlandse taal nog niet goed beheersen."
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Adviseren",
+            "img": "image/advice.jpg",
+            "articles": [
+              {
+                "title": "Concept: Leesgeest",
+                "authors": [
+                  {
+                    "name": "Mick Jasker",
+                    "img": "image/mick.jpg"
+                  },
+                  {
+                    "name": "Bart van Lier",
+                    "img": "image/bart.jpg"
+                  }
+                ],
+                "image": {
+                  "src": "image/letter.jpg"
+                },
+                "statistics": {
+                  "publishDate": "02/19/2020"
+                },
+                "content": [
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Probleem"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Mensen met een migratieachtergrond die de nederlandse taal nog niet goed beheersen hebben vaak moeite met het begrijpen van bijvoorbeeld brieven van de overheid."
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Mensen kunnen hulp vragen bij het lezen van brieven. De communicatie tussen deze mensen kan multilinguaal door de translate API. De dienst is voor iedereen beschikbaar. Mensen kunnen zich opgeven om hulp te bieden bij het vertalen en uitleggen van een brief. Wanneer je uitleg vraagt over een brief wordt je met een willekeurig persoon gekoppeld."
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Deze oplossing zal zich uiten in een start-up vorm. Op deze manier kunnen we de rubrics: Marketing en Businessplan verwerken in onze opdracht."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Doelgroep"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Mensen die moeite hebben met het begrijpend lezen van bijvoorbeeld formele brieven van de overheid. Denk hierbij aan mensen met een migratieachtergrond en mensen die (gedeeltelijk) laaggeletterd zijn. In een recent artikel (VVP, 2019) wordt beschreven dat 1,3 miljoen nederlanders laaggeletterd zijn en dat ongeveer 250.000 mensen zelfs analfabeet zijn."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Design Challenge"
+                  },
+                  {
+                    "name": "Quote",
+                    "content": "We willen een applicatie ontwikkelen die laaggeletterde en gemigreerde mensen helpt bij het lezen en begrijpen van brieven en documenten."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Tackelen van analfabetisme binnen de app"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Hoe zorg je er nu voor dat wanneer iemand niet kan lezen toch onze app kan gebruiken? Het gebruik van veel plaatjes helpt hier enorm bij. Ook is de flow van de applicatie erg belangrijk. Het gaat in dit geval om persoonlijke documenten. Deze wil je natuurlijk niet zomaar delen met een vreemde. Door de brief eerst te scannen en door de app te laten vertalen en voorlezen kan de gebruiker eerst zelf kijken of ze hem begrijpen of niet. Ook verschijnt de tekst in beeld zodat het de gebruiker wellicht leert te lezen."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Bronnen"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "VVP. (2019, 24 december). Analfabetisme en laaggeletterdheid | HR-kiosk.nl. Geraadpleegd op 18 maart 2020, van https://www.hr-kiosk.nl/hoofdstuk/arbeid/analfabetisme-en-laaggeletterdheid"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Ontwerpen",
+            "img": "image/design.jpg",
+            "articles": [
+              {
+                "title": "User flow diagram",
+                "authors": [
+                  {
+                    "name": "Mick Jasker",
+                    "img": "image/mick.jpg"
+                  },
+                  {
+                    "name": "Bart van Lier",
+                    "img": "image/bart.jpg"
+                  }
+                ],
+                "image": {
+                  "src": "image/flow.jpg"
+                },
+                "statistics": {
+                  "publishDate": "03/10/2020"
+                },
+                "content": [
+                  {
+                    "name": "ImageBlock",
+                    "props": {
+                      "src": "image/user-flow.png",
+                      "caption": "User flow diagram"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Realiseren",
+            "img": "image/development.jpg",
+            "articles": [
+              {
+                "title": "Technische realisatie",
+                "image": {
+                  "src": "image/ikWil.jpg"
+                },
+                "authors": [
+                  {
+                    "name": "Mick Jasker",
+                    "img": "image/mick.jpg"
+                  }
+                ],
+                "statistics": {
+                  "publishDate": "02/11/2020"
+                },
+                "content": [
+                  {
+                    "name": "paragraph",
+                    "props": {
+                      "introduction": true
+                    },
+                    "content": "Het realiseren van ons MVP heb ik opgesplitst in twee gedeeltes; frontend en backend."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Frontend"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Voor de frontend heb ik gekozen om gebruik te maken van Vue. Reden hiervoor is dat het een dynamische manier is van ontwikkelen van web apps en de reden waarom ik voor Vue heb gekozen is omdat ik daar al 2 jaar ervaring mee heb, waarvan 1 jaar in een professionele capaciteit. Om de webapp echt als een app te laten voelen voor de gebruiker heb ik de webapp zo gemaakt dat deze een PWA is."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Backend"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Voor de backend heb ik gebruik gemaak van NodeJS met het NestJS framework. Via NestJS heb ik een REST API opgezet die twee endpoints heeft:"
+                  },
+                  {
+                    "name": "List",
+                    "props": {
+                      "type": "ordered",
+                      "items": [
+                        "ImageToText; deze endpoint werkt met Google Cloud Vision API die via een machine learning algoritme de tekst uit een afbeelding uitleest.",
+                        "TextToSpeech; deze endpoint zet de gegenereerde tekst om via Google Cloud TextToSpeech in audiobestand wat afgespeeld kan worden in de frontend."
+                      ]
+                    }
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Uitdagingen"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Een van de grootste uitdaging tijdens het ontwikkelen was het koppelen van de backend aan de Google Cloud API’s. Dit heb – na veel dingen proberen – opgelost door de applicatie in een docker container te draaien."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Broncode"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "De volledige broncode staat online op:"
+                  },
+                  {
+                    "name": "Link",
+                    "props": {
+                      "type": "ext",
+                      "to": "https://github.com/MickJasker/read-help-platform"
+                    },
+                    "content": "Github"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Het MVP is beschikbaar op:"
+                  },
+                  {
+                    "name": "Link",
+                    "props": {
+                      "type": "ext",
+                      "to": "https://leesgeest.nl"
+                    },
+                    "content": "Leesgeest.nl"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Voor de optimale ervaring gebruik je de app op mobiel."
+                  }
+                ]
+              },
+              {
+                "title": "UX verbeteringen",
+                "image": {
+                  "src": "image/ikWil.jpg"
+                },
+                "authors": [
+                  {
+                    "name": "Mick Jasker",
+                    "img": "image/mick.jpg"
+                  }
+                ],
+                "statistics": {
+                  "publishDate": "04/13/2020"
+                },
+                "content": [
+                  {
+                    "name": "paragraph",
+                    "props": {
+                      "introduction": true
+                    },
+                    "content": "Ons MVP hebben we helaas ivm met omstandigheden niet kunnen testen op de doelgroep, wel hebben we met kennissen/familie getest."
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Nadat we beide bij meerdere proefpersonen de app hebben getest kwamen we tot de volgende inzichten:"
+                  },
+                  {
+                    "name": "List",
+                    "props": {
+                      "type": "unordered",
+                      "items": [
+                        "De ‘help’ knop is niet duidelijk wat voor functie die heeft",
+                        "De gesproken tekst wordt heel snel uitgesproken waardoor het moeilijk te volgen is",
+                        "De ‘help’ zit op een moeilijk bereiken plek"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Deze inzichten hebben we vervolgens zo opgelost:"
+                  },
+                  {
+                    "name": "List",
+                    "props": {
+                      "type": "unordered",
+                      "items": [
+                        "De ‘help’ knop is nu een deelknop geworden en naar de rechteronderhoek verplaatst, een toepassing van een Floating Action Button (Google, n.d.)",
+                        "De afspeelsnelheid is vertraagd naar 0,75x de originele snelheid"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Bronnen"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Google LLC. (z.d.). Buttons: floating action button. Geraadpleegd op 15 april 2020, van https://material.io/components/buttons-floating-action-button#specs"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Overig",
+            "img": "image/index.jpg",
+            "articles": [
+              {
+                "title": "Leeswijzer",
+                "image": {
+                  "src": "image/ikWil.jpg"
+                },
+                "authors": [
+                  {
+                    "name": "Mick Jasker",
+                    "img": "image/mick.jpg"
+                  }
+                ],
+                "statistics": {
+                  "publishDate": "04/20/2020"
+                },
+                "content": [
+                  {
+                    "name": "paragraph",
+                    "props": {
+                      "introduction": true
+                    },
+                    "content": "Stichting ‘Ik Wil’ biedt hulp aan de bewoners van de wijk. Het doel van de stichting is er voor zorgen dat de buurtbewoners elkaar gaan helpen en de stichting zelf overbodig worden. De opdracht voor ons is: Ontwerp een platform om lokale bewoners in aandachtswijken in staat te stellen elkaar te helpen om minder dagelijkse problemen te hebben.\nOp dit moment wordt er namelijk vooral hulp aangeboden vanuit de stichting zelf. Wanneer de buurtbewoners elkaar gaan helpen zorgt dit voor meer sociaal contact en kan de hulp komen vanuit de mensen zelf."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Stichting Ik Wil"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "De opdrachtgever is stichting ‘Ik Wil’. Deze stichting identificeert zich als een beweging. Ze zetten zich in om de maatschappij op te bouwen in de wijk Woensel. Binnen deze wijk wonen veel mensen met verschillende achtergronden en overtuigingen. Stichting ‘Ik Wil’ organiseert activiteiten, cursussen en workshops waar iedereen aan mee kan doen. Hierdoor kunnen mensen uit de wijk andere mensen leren kennen en vaardigheden verbeteren. Daarnaast kunnen mensen zelf activiteiten organiseren en is er een inloopspreekuur. Hierin kunnen bewoners uit de wijk zelf ideeën voorleggen of informeren over de mogelijkheden die er zijn. Het doel van stichting ‘Ik Wil’ is om mensen met elkaar te verbinden en samen aan de wijk te werken."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Doel"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "De opdracht wil de opdrachtgever uit laten voeren omdat dit ervoor zal zorgen dat de bewoner minder dagelijkse problemen hebben. Een voorbeeld van zo’n probleem is: het niet kunnen lezen van een nederlandstalige brief. Het doel van de opdracht is daarom er voor zorgen dat de buurtbewoners minder dagelijkse problemen hebben. Het uiteindelijke wat wij willen bereiken, is het maken van een platform waarin de buurtbewoners zelf hulp aan kunnen bieden of een hulpvraag kunnen beantwoorden."
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Een bijzaak van de opdracht is dat het iets toevoegt aan de ontwikkeling van de buurt en haar bewoners. De buurt zal zich uiteindelijk zelfstandig moeten houden en de stichting zou overbodig moeten zijn."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Analyse van de opdracht"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Hoe ontwerpen we een platform om lokale bewoners in aandachtswijken in staat te stellen elkaar te helpen om minder dagelijkse problemen te hebben? Het probleem dat moet worden opgelost zijn de dagelijkse problemen van de buurtbewoners. Een uitdaging bij dit probleem is bewoners elkaar laten helpen en het overkomen van de taalbarrière. Deze vraag ligt er omdat er veel buurtbewoners zijn die hulp kunnen gebruiken bij (kleine) problemen, zoals het niet kunnen lezen van een nederlandse brief. Het probleem is ontstaan doordat er vraag was naar hulp binnen de stichting. Wanneer dit probleem niet opgelost zal worden zullen problemen niet snel opgelost worden en komen de bewoners van de wijk minder snel in contact met elkaar. Op dit moment worden de buurtbewoners al wel geholpen met problemen maar dit wordt alleen gedaan door de vrijwilligers van de stichting zelf.\nEen bijzaak van dit probleem is dat de bewoners van de buurt nog te weinig samenkomen en te afhankelijk zijn van de vrijwilligers van de stichting. Deze vraag ligt er omdat de stichting juist wil dat de buurtbewoners meer in contact met elkaar komen en elkaar helpen.\n"
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Aanpak"
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Vooronderzoek"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Tijdens de eerste weken van het project heb ik me bezig gehouden met verschillende onderzoekjes. Om een beter beeld te krijgen van de behoeftes en problemen van de mensen in de wijk ben ik met een bewoner/vrijwilliger in gesprek gegaan. Uit dit gesprek kwam uit dat veel bewoners moeite hebben met technologie en dat ze liever een persoonlijke aanpak zien. (Link interview)."
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Doordat de stichting o.a. Vluchtelingen en andere groepen die de taal niet of slecht beheersen helpt met taallessen ben ik een onderzoek gestart hoe mensen meertalig met elkaar kunnen communiceren. Uit dit onderzoek kwamen een aantal interessante punten:"
+                  },
+                  {
+                    "name": "List",
+                    "props": {
+                      "type": "unordered",
+                      "items": [
+                        "Online tools zoals Google Translate zijn eenvoudig in gebruik",
+                        "Talen zoals het Arabisch lezen van rechts naar links, hier moet in UX design ook rekening gehouden worden."
+                      ]
+                    }
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Eerste idee"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Na we met de groep onze onderzoeken en conclusies hebben geëvalueerd zijn we tot het volgende idee gekomen. We willen een platform gaan ontwikkelen waar we een mensen om hulp voor kleine dingen te vragen en aanbieden. De vorm van dit platform hebben we expres vaag gelaten omdat we nog aan het onderzoeken waren wat het beste medium was.\n"
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Verandering situatie ivm Covid-19"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Door de uitbraak van het coronavirus in Nederland begin maart zijn wij helaas geforceerd om thuis te werken. Doordat ook de stichting gesloten is is het heel erg moeilijk om met de doelgroep te communiceren. Ook heeft onze persoonlijke samenwerking een klap gehad, daarom zijn we tot de beslissing gekomen om de groep op te splitsen in 3 kleine subgroepen; voor mij betekent dit dat ik samen met Bart van Lier het project voortzet. Omdat het nu lastig is om met de doelgroep in contact te komen hebben we samen het besluit genomen om de opdracht opnieuw te bekijken, hier is vervolgens een nieuw concept op bedacht."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Definitieve concept: Leesgeest \n"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Nadat we de groep hebben opgesplitst ben ik met Bart aan een breder concept gaan werken. Doordat we nu niet meer naar de stichting konden gaan viel voor ons een belangrijke stroom informatie weg. Om deze reden zijn we breder gaan kijken en kwamen we tot het volgende probleem:"
+                  },
+                  {
+                    "name": "Quote",
+                    "content": "Hoe kunnen we de 1,8 miljoen mensen in Nederland helpen – die door dat ze laaggeletterd zijn – met het begrijpen van bijvoorbeeld brieven van de overheid."
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Op basis van dit probleem heb ik de volgende design challenge opgesteld:"
+                  },
+                  {
+                    "name": "Quote",
+                    "content": "We willen een applicatie ontwikkelen die laaggeletterde en gemigreerde mensen helpt bij het lezen en begrijpen van brieven en documenten"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Het probleem willen we tackelen door de gebruiker een foto te laten maken van een stuk tekst wat vervolgens voorgelezen wordt. Meer weten over het concept?"
+                  },
+                  {
+                    "name": "Link",
+                    "props": {
+                      "type": "ext",
+                      "to": "https://mickjasker.dev/portfolio/stichting-ik-wil/adviseren/concept:-leesgeest"
+                    },
+                    "content": "Zie Concept."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Doelgroep"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zoals eerder beschreven is de primaire doelgroep mensen die worstelen met een vorm van laaggeletterdheid. Dit kan in de breedste zin zijn van het woord. Dus ook mensen die bijvoorbeeld slechtziend zijn of de nederlandse taal (nog) niet goed beheersen."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Requirements"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Om een beter beeld te krijgen wat we wel en niet gingen bouwen voor het Minimum Viable Product (MVP) heb ik een via de MoSCoW methode een requirement document opgesteld. Zie MoSCoW Analyse. Hier heb ik duidelijk onderscheid gemaakt wat absoluut essentieel is en wat in de toekomst nog op uitgebouwd kan worden."
+                  },
+                  {
+                    "name": "Link",
+                    "props": {
+                      "type": "ext",
+                      "to": "https://mickjasker.dev/portfolio/stichting-ik-wil/analyseren/moscow-recuirements-analyse"
+                    },
+                    "content": "Zie User MoSCoW analyse."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "User Flow Diagram"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Om een beter beeld te krijgen hoe de gebruiker door de app beweegt heb ik een User Flow Diagram opgesteld. Dit diagram hebben we vervolgens gebruikt in het maken van het uiteindelijke ontwerp."
+                  },
+                  {
+                    "name": "Link",
+                    "props": {
+                      "type": "ext",
+                      "to": "https://mickjasker.dev/portfolio/stichting-ik-wil/ontwerpen/user-flow-diagram"
+                    },
+                    "content": "Zie User Flow Diagram."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Technische realisatie"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Ik ben hoofd verantwoordelijk geweest voor de realisatie. Ik heb het project opgezet, de backend gedaan en ik heb voor de frontend het scripting gedaan (koppelen van de templates aan de backend bijvoorbeeld). "
+                  },
+                  {
+                    "name": "Link",
+                    "props": {
+                      "type": "ext",
+                      "to": "https://mickjasker.dev/portfolio/stichting-ik-wil/realiseren/technische-realisatie"
+                    },
+                    "content": "Zie Technische Realisatie"
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Verbeteringen na UX onderzoek"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Ons MVP hebben we helaas ivm met omstandigheden niet kunnen testen op de doelgroep, wel hebben we met kennissen/familie getest."
+                  },
+                  {
+                    "name": "Link",
+                    "props": {
+                      "type": "ext",
+                      "to": "https://mickjasker.dev/portfolio/stichting-ik-wil/realiseren/technische-realisatie"
+                    },
+                    "content": "Zie UX verbeteringen"
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Bewijs"
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Strategie & Concepting"
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Oordeelsvorming"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Analyse van de opdracht"
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Trends"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Niet gedaan dit project"
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Concept"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Concept: Leesgeest"
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Business Model"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Niet gedaan dit project"
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Marketing"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Niet gedaan dit project"
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Communicatie"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zie presentatie, visuals etc."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Profesionele Ontwikkeling"
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Profesionele Houding"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zie reflectie"
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "User Experience & User Centered Design"
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Design"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Niet gedaan dit project"
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "User Experience"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zie UX verbeteringen"
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Gebruikersonderzoek"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Niet gedaan dit project"
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Design & Development"
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Development"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zie technische implementatie"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

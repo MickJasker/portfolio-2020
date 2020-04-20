@@ -1,0 +1,45 @@
+/* stylelint-disable-next-line block-no-empty */
+.list {
+  ul, ol {
+    padding-left: 3rem;
+    margin: 2rem 0 1rem;
+
+    li {
+      display: flex;
+      margin-bottom: 1rem;
+
+      .content {
+        opacity: .75;
+      }
+    }
+  }
+
+  ul {
+    li {
+      list-style: none;
+
+      &:before {
+        content: '–';
+        color: var(--color-primary);
+        margin-right: 2rem;
+      }
+    }
+  }
+
+  ol {
+    counter-reset: counter;
+
+    li {
+      list-style: none;
+      counter-increment: counter;
+
+      &:before {
+        content: counter(counter) '.';
+        color: var(--color-primary);
+        margin-right: 2rem;
+        min-width: 3rem;
+        display: block;
+      }
+    }
+  }
+}

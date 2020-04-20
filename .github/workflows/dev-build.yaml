@@ -1,0 +1,21 @@
+name: Node CI
+on:
+  push:
+    branches:
+      - 'develop'
+jobs:
+  build_release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 8
+      - run: yarn
+      - run: npm install -g firebase-tools
+      - run: yarn lint
+      - run: yarn run build
+      - run: firebase deploy --only hosting:development --token=$FIREBASE_TOKEN --project portfolio-2020-17688 --non-interactive
+    env:
+      CI: true
+      FIREBASE_TOKEN: 1//097N9lKmrpRtqCgYIARAAGAkSNwF-L9IrNxAmnbfrUX1UXK6bK3bIDuTCl0megHT5Ctj0Dmb8ThxOxQWhEJXx9uwOSev9mvdCehc

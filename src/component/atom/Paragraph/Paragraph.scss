@@ -1,0 +1,16 @@
+/* stylelint-disable-next-line block-no-empty */
+.paragraph {
+  margin: 2rem 0 1rem;
+
+  &.introduction {
+    p::first-letter {
+      color: var(--color-primary);
+      float: left;
+      font-family: $fontSecondary;
+      font-size: 10rem;
+      line-height: 8rem;
+      padding-right: 1rem;
+      text-shadow: 0 1rem 5rem rgba($colorPrimary, 0.5);
+    }
+  }
+}
