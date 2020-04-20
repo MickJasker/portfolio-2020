@@ -5,7 +5,7 @@ footer.footer {
   align-items: center;
   padding: 5rem;
   background: $colorDark;
-  color: lighten($colorDark, 50);
+  color: rgba($colorLight, 0.5);
 
   h1 {
     font-size: 3rem;

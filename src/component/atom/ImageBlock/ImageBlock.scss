@@ -1,12 +1,12 @@
 /* stylelint-disable-next-line block-no-empty */
 .image-block {
   margin: 10rem -10rem 5rem;
-  height: 70rem;
 
   @include respond-to(LARGE) {
     img {
       width: 100%;
       height: 100%;
+      background: #fff;
       object-fit: cover;
       box-shadow:
         0 1rem 1rem rgba($colorDark, 0.15),

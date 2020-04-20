@@ -29,17 +29,17 @@
       :class="$style.articleHighlight"
       @isReady="handleScrollComponentReady"
     />
-    <VideoBlock
+    <img
       ref="videoBlock"
       :class="$style.videoBlock"
-      src="video/creative-jam.mp4"
+      :src="$versionRoot + 'image/ikWil.jpg'"
       @isReady="handleScrollComponentReady"
-    />
-    <IntroductionBlock
+    >
+    <!-- <IntroductionBlock
       ref="introductionBlock"
       heading="Ik zal me even voorstellen"
       :class="$style.introduction"
-      :src="require('../../asset/image/profile.jpg')"
+      :src="require('../../asset/image/profile.png')"
       @isReady="handleScrollComponentReady"
     >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -50,6 +50,6 @@
       ligula nec erat gravida commodo. Donec mattis est turpis. Aliquam condimentum,
       ex nec laoreet dignissim, odio enim aliquam mi, vel posuere felis tortor quis
       libero.
-    </IntroductionBlock>
+    </IntroductionBlock> -->
   </main>
 </template>

@@ -72,12 +72,6 @@
       .hamburger-box {
         .hamburger-inner {
           transform: translate3d(0, 10px, 0) rotate(45deg);
-          background: $colorLight;
-
-          &:before,
-          &:after {
-            background: $colorLight;
-          }
 
           &:before {
             transform: rotate(-45deg) translate3d(-5.71429px, -6px, 0);
@@ -99,7 +93,8 @@
   }
 
   nav {
-    background: var(--color-primary);
+    background: rgba($colorLight, 0.5);
+    backdrop-filter: blur(2rem);
     opacity: 0;
     transition: 0.5s ease-out;
     height: 100%;
@@ -109,23 +104,22 @@
       width: 100%;
       height: 100%;
       display: flex;
+      align-items: center;
+      justify-content: center;
       flex-direction: column;
     }
 
     li {
-      flex-grow: 1;
-      height: 100%;
-      width: 100%;
       list-style: none;
       position: relative;
 
       &:not(:last-child) {
-        border-bottom: 2px solid rgba($colorLight, 0.25);
+        margin-bottom: 10rem;
       }
 
       a {
         text-decoration: none;
-        color: $colorLight;
+        color: $colorPrimary;
         width: 100%;
         height: 100%;
         display: flex;
@@ -135,35 +129,13 @@
         z-index: 10;
         position: relative;
         font-size: 5rem;
-        filter: drop-shadow(0 0 0 $colorDark);
         font-family: $fontSecondary;
-      }
-
-      &:after {
-        content: '';
-        background-image: url('../../../asset/image/hero@3x.jpg');
-        position: absolute;
-        background-size: cover;
-        opacity: 0;
-        top: 0;
-        left: 0;
-        transition: 0.5s ease-out;
-        height: 100%;
-        z-index: 1;
-        width: 100%;
-        filter: saturate(0);
       }
 
       @media (hover: hover) {
         &:hover,
         &:focus {
-          &:after {
-            opacity: 1;
-          }
-
-          a {
-            filter: drop-shadow(0 0 1rem $colorDark);
-          }
+          opacity: 0.8;
         }
       }
     }
@@ -175,14 +147,6 @@
     nav {
       pointer-events: all;
       opacity: 1;
-    }
-  }
-
-  @include respond-to(MEDIUM) {
-    nav {
-      ul {
-        flex-direction: row;
-      }
     }
   }
 }

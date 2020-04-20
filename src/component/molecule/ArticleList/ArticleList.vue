@@ -6,6 +6,7 @@
     <div :class="$style.column">
       <Heading
         ref="heading"
+        :class="[$style.heading]"
         level="1"
       >
         {{ title }}
