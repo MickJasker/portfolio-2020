@@ -2,12 +2,14 @@ import HomePage from '../page/Home';
 import Article from '../page/Article';
 import PortfolioOverview from '../page/PortfolioOverview/PortfolioOverview';
 import Error from '../page/Error';
+import ReadGuide from '../page/ReadGuide';
 
 export const RouteNames = {
   HOME: 'Home',
   PORTFOLIO: 'Portfolio',
   ARTICLE: 'Artikel',
   ERROR: 'Error',
+  READ_GUIDE: 'Leeswijzer',
 };
 
 export default [
@@ -32,4 +34,9 @@ export default [
     component: Error,
     name: RouteNames.ERROR,
   },
+  {
+    path: '/leeswijzer',
+    component: ReadGuide,
+    name: RouteNames.READ_GUIDE,
+  }
 ];

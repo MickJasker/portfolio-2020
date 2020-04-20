@@ -30,6 +30,7 @@ export default {
       DeviceStateEvent.STATE_UPDATE,
       this.handleDeviceStateUpdate,
     );
+    document.title = `Portfolio Mick Jasker - ${this.$route.name}`;
     this.setDeviceState(this.$deviceStateTracker.currentState);
   },
   mounted() {

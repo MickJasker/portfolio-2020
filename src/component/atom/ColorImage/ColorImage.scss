@@ -3,7 +3,7 @@
   position: relative;
   width: fit-content;
   display: flex;
-  background: white;
+  background: var(--color-bg);
 
   &:before {
     content: '';
@@ -14,10 +14,6 @@
     position: absolute;
     background: var(--color-primary);
     mix-blend-mode: screen;
-
-    @media (prefers-color-scheme: dark) {
-      mix-blend-mode: multiply;
-    }
   }
 
   .img {

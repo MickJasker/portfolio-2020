@@ -5,14 +5,15 @@
   <section :class="$style.articleHighlight">
     <main>
       <h1 ref="title">
-        Leeswijzer
+        Leeswijzer project – LeesGeest
       </h1>
       <p ref="copy">
-        During the Dutch Design Week (DDW), four classmates and I got the opportunity to participate
-        with the Adobe Creative Jam at Sint Lucas. We got a case presented by the lead UX designer
-        from Philips Hue. He defined a problem where users were taking the starter pack – which
-        contained three bulbs – and spread them around the house while the best possible experience
-        is to hang the lamps in the same room...
+        Stichting ‘Ik Wil’ biedt hulp aan de bewoners van de wijk. Het doel van de stichting is er
+        voor zorgen dat de buurtbewoners elkaar gaan helpen en de stichting zelf overbodig worden.
+        De opdracht voor ons is: Ontwerp een platform om lokale bewoners in aandachtswijken in staat
+        te stellen elkaar te helpen om minder dagelijkse problemen te hebben. Op dit moment wordt er
+        namelijk vooral hulp aangeboden vanuit de stichting zelf. Wanneer de buurtbewoners elkaar
+        gaan helpen zorgt dit voor meer sociaal contact en kan de hulp komen vanuit de mensen zelf.
       </p>
       <div
         ref="cta"
@@ -20,7 +21,7 @@
       >
         <Button
           inverted
-          to="/article"
+          to="/portfolio/stichting-ik-wil/overig/leeswijzer"
           copy="Lees meer"
         />
       </div>

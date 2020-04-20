@@ -1,3 +1,4 @@
+import TweenLite from 'gsap/TweenLite';
 import ScrollComponentMixin from '../../../mixin/ScrollComponentMixin';
 import HeroTransitionController from './HeroTransitionController';
 import Subtitle from '../../atom/Subtitle';
@@ -27,10 +28,21 @@ export default {
       default: null,
     },
   },
+  created() {
+    window.addEventListener('scroll', () => this.handleScroll());
+  },
+  beforeDestroy() {
+    window.removeEventListener('scroll', () => this.handleScroll());
+  },
   methods: {
     handleAllComponentsReady() {
       this.transitionController = new HeroTransitionController(this);
       this.isReady();
+    },
+    handleScroll() {
+      TweenLite.set(this.$refs.image, {
+        y: window.scrollY * 0.5,
+      });
     },
   },
 };

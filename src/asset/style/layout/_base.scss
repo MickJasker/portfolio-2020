@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display:400,400i|Montserrat:300,400,400i,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display:400,400i|Montserrat:300,400,400i,600,700|DM+Serif+Text:ital&display=swap');
 
 :root {
   --color-bg: #{$colorLight};
   --color-text: #{$colorDark};
   --color-primary: #{$colorPrimary};
-  --column-width: #{$columnWidthSmall};
-  --gutter-width: #{$columnGutterSmall};
-  --column-amount: #{$columnAmountSmall};
+  --color-accent: #{$colorAccent};
 }
 
 html {

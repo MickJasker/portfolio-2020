@@ -47,6 +47,7 @@
 
     <picture
       v-if="image"
+      ref="image"
       :class="$style.heroImage"
     >
       <source

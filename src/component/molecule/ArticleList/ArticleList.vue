@@ -5,6 +5,7 @@
   <section :class="[$style.articleList]">
     <div :class="$style.column">
       <Heading
+        :class="[$style.heading]"
         ref="heading"
         level="1"
       >

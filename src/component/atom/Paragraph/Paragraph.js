@@ -5,6 +5,12 @@ import ParagraphTransitionController from './ParagraphTransitionController';
 export default {
   name: 'Paragraph',
   extends: ScrollComponentMixin,
+  props: {
+    introduction: {
+      type: Boolean,
+      default: false,
+    },
+  },
   methods: {
     handleAllComponentsReady() {
       this.transitionController = new ParagraphTransitionController(this);

@@ -2,9 +2,9 @@ import {
   AbstractTransitionController,
   IAbstractTransitionComponent,
 } from 'vue-transition-component';
-import { Expo, TimelineMax } from 'gsap';
+import { TimelineMax } from 'gsap';
 
-export default class ParagraphTransitionController extends AbstractTransitionController {
+export default class LinkTransitionController extends AbstractTransitionController {
   /**
    * Use this method to setup your transition in timeline
    *
@@ -19,7 +19,7 @@ export default class ParagraphTransitionController extends AbstractTransitionCon
     parent: IAbstractTransitionComponent,
     id: string,
   ): void {
-    timeline.from(parent.$refs.copy, 2, {
+    timeline.from(parent.$refs.link, 2, {
       y: 25,
       autoAlpha: 0,
     });

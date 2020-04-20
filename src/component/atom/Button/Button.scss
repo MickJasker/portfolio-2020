@@ -14,13 +14,29 @@
 
   &:after {
     content: '';
-    height: 0.5rem;
-    background: var(--color-primary);
+    height: 2rem;
+    background: currentColor;
+    color: var(--color-accent);
+    left: -0.5rem;
     transition: 0.3s ease-out;
     width: 40%;
     min-width: 4rem;
+    position: absolute;
+    z-index: -1;
+    top: 0.5rem;
+    box-shadow: 0 0.5rem 2rem currentColor;
     display: block;
-    margin-top: 0.5rem;
+  }
+
+  @media (prefers-color-scheme: dark) {
+
+    &:after {
+      color: $colorAccent;
+      height: 0.5rem;
+      left: 0;
+      bottom: -0.5rem;
+      top: initial;
+    }
   }
 
   @media (hover: hover) {
@@ -46,7 +62,8 @@
 
     &:after {
       opacity: 0.5;
-      background: $colorLight;
+      color: var(--color-light);
+      background: currentColor;
     }
 
     &:active {

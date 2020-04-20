@@ -7,6 +7,7 @@
       <Heading
         ref="heading"
         level="1"
+        :class="$style.heading"
       >
         {{ heading }}<span class="highlight">.</span>
       </Heading>

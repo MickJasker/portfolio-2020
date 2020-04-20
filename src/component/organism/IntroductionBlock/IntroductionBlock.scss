@@ -7,6 +7,10 @@
     margin: 0 2rem;
     font-size: 2rem;
 
+    .heading {
+      line-height: 1;
+    }
+
     p {
       font-size: 1em;
       margin: 3rem 0;
@@ -19,6 +23,7 @@
     align-items: center;
     margin: 10rem 0 0;
     justify-content: space-between;
+    padding-left: 4rem;
 
     main {
       margin: 0 4rem 0 0;

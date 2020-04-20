@@ -2,7 +2,7 @@
 <script src="./Paragraph.js"></script>
 
 <template>
-  <div :class="[$style.paragraph]">
+  <div :class="[$style.paragraph, { [$style.introduction]: introduction }]">
     <p ref="copy">
       <slot />
     </p>

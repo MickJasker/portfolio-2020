@@ -39,7 +39,7 @@
       ref="introductionBlock"
       heading="Ik zal me even voorstellen"
       :class="$style.introduction"
-      :src="require('../../asset/image/profile.jpg')"
+      :src="require('../../asset/image/profile.png')"
       @isReady="handleScrollComponentReady"
     >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
