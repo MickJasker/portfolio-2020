@@ -39,7 +39,7 @@ export default class ArticleStatisticsTransitionController extends AbstractTrans
           ease: Expo.easeOut,
         },
         0.2,
-        '=-1.2',
+        '=-1.75',
       )
       .staggerFromTo(
         parent.$refs.author,

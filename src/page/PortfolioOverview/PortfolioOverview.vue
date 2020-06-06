@@ -12,6 +12,10 @@
         {
           to: 'portfolio/stichting-ik-wil/overig/leeswijzer',
           copy: 'Leeswijzer Stichting Ik Wil'
+        },
+        {
+          to: 'portfolio/pidz/overig/leeswijzer',
+          copy: 'Leeswijzer PIDZ'
         }
       ]"
       :image="{
@@ -44,8 +48,8 @@
         </Heading>
         <ArticleList
           v-for="(subcategory, index2) in category.subcategories"
-          :key="`subcategory-${subcategory.title}-${index2}`"
-          :ref="`subcategory-${subcategory.title}-${index2}`"
+          :key="`${category.title.split(' ').join('-')}-subcategory-${subcategory.title}-${index2}`"
+          :ref="`${category.title.split(' ').join('-')}-subcategory-${subcategory.title}-${index2}`"
           :title="subcategory.title"
           :parent-category="category.title"
           :articles="subcategory.articles"

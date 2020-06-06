@@ -3,22 +3,17 @@
 
 <template>
   <section :class="[$style.articleStatistics]">
-    <time
+    <span
       class="transition-in"
       :class="$style.readTime"
     >
-      <template v-if="readTime >= 1">
-        {{ Math.round(readTime) }}<sub>min</sub>
-      </template>
-      <template v-else>
-        <sub>&lt;</sub>1<sub>min</sub>
-      </template>
-    </time>
-    <time
-      class="transition-in"
-      :class="$style.publishDate"
-      :datetime="publishDate"
-    >{{ formattedDate }}</time>
+      {{ readTime }}<sub>woorden</sub>
+    </span>
+<!--    <time-->
+<!--      class="transition-in"-->
+<!--      :class="$style.publishDate"-->
+<!--      :datetime="publishDate"-->
+<!--    >{{ formattedDate }}</time>-->
     <div
       class="transition-in"
       :class="$style.authorContainer"

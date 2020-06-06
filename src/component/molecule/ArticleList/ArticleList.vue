@@ -14,7 +14,7 @@
       <ul>
         <li
           v-for="(article, index) in articles"
-          :key="`articles-${title}-${article.title}-${index}`"
+          :key="`${parentCategory}-${title}-${article.title}-${index}}`"
           ref="articleListItem"
         >
           <router-link

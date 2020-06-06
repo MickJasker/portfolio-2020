@@ -45,7 +45,7 @@ export default class ArticleListTransitionController extends AbstractTransitionC
         },
         { y: 0, autoAlpha: 1 },
         0.15,
-        '=-1.25',
+        '=-1.75',
       );
   }
 

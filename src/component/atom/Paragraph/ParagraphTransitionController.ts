@@ -22,6 +22,7 @@ export default class ParagraphTransitionController extends AbstractTransitionCon
     timeline.from(parent.$refs.copy, 2, {
       y: 25,
       autoAlpha: 0,
+      ease: Expo.easeOut,
     });
   }
 
