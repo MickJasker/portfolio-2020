@@ -32,18 +32,18 @@ export default class ArticleStatisticsTransitionController extends AbstractTrans
       )
       .staggerFrom(
         parent.$el.querySelectorAll('.transition-in'),
-        2,
+        1,
         {
           opacity: 0,
           y: 25,
           ease: Expo.easeOut,
         },
-        0.2,
+        0.1,
         '=-1.75',
       )
       .staggerFromTo(
         parent.$refs.author,
-        2,
+        1,
         {
           y: 50,
           autoAlpha: 0,

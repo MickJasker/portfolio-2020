@@ -21,7 +21,7 @@ export default class ListTransitionController extends AbstractTransitionControll
   ): void {
     timeline.staggerFromTo(
       parent.$refs.listItem,
-      2,
+      1,
       {
         y: 25,
         autoAlpha: 0,
