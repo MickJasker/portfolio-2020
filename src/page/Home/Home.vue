@@ -32,7 +32,7 @@
     <img
       ref="videoBlock"
       :class="$style.videoBlock"
-      :src="$versionRoot + 'image/ikWil.jpg'"
+      :src="$versionRoot + 'image/pidz.jpg'"
       @isReady="handleScrollComponentReady"
     >
     <!-- <IntroductionBlock

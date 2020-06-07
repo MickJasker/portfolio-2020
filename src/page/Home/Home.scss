@@ -3,6 +3,10 @@
   min-height: 100vh;
   position: relative;
 
+  img {
+    filter: saturate(0);
+  }
+
   @include respond-to(MEDIUM) {
     display: grid;
     grid-template-columns: 3fr 2fr;
