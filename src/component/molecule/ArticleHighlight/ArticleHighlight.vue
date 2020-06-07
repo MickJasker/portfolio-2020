@@ -5,15 +5,13 @@
   <section :class="$style.articleHighlight">
     <main>
       <h1 ref="title">
-        Leeswijzer project – LeesGeest
+        Leeswijzer project – PIDZ
       </h1>
       <p ref="copy">
-        Stichting ‘Ik Wil’ biedt hulp aan de bewoners van de wijk. Het doel van de stichting is er
-        voor zorgen dat de buurtbewoners elkaar gaan helpen en de stichting zelf overbodig worden.
-        De opdracht voor ons is: Ontwerp een platform om lokale bewoners in aandachtswijken in staat
-        te stellen elkaar te helpen om minder dagelijkse problemen te hebben. Op dit moment wordt er
-        namelijk vooral hulp aangeboden vanuit de stichting zelf. Wanneer de buurtbewoners elkaar
-        gaan helpen zorgt dit voor meer sociaal contact en kan de hulp komen vanuit de mensen zelf.
+        In 2019 waren er ruim 1.1 miljoen zzp’ers op de arbeidsmarkt. Het CBS voorspelt dat dit
+        aantal in 2020 alleen maar toe zal nemen. Deze zelfstandigen zitten in alle sectoren van de
+        arbeidsmarkt. Zo ook in de zorg. Er zijn verschillende platformen die bemiddelen in klussen
+        voor zzp’ers in de zorg. PIDZ is een van deze bemiddelaars.
       </p>
       <div
         ref="cta"
@@ -21,7 +19,7 @@
       >
         <Button
           inverted
-          to="/portfolio/stichting-ik-wil/overig/leeswijzer"
+          to="/portfolio/pidz/overig/leeswijzer"
           copy="Lees meer"
         />
       </div>
