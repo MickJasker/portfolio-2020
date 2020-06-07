@@ -7,6 +7,7 @@
     :class="[$style.article]"
   >
     <header>
+      <router-link :class="[$style.backBtn]" to="/portfolio">Terug naar overzicht</router-link>
       <Hero
         ref="hero"
         :class="$style.hero"

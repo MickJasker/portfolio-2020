@@ -5,6 +5,16 @@
     font-size: 2rem;
   }
 
+  .back-btn {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    color: var(--color-primary);
+    font-size: 3rem;
+    text-decoration: none;
+    z-index: 100;
+  }
+
   @include respond-to(LARGE) {
     article {
       padding: 5rem 4rem;
