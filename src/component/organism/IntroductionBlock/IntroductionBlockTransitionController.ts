@@ -22,7 +22,7 @@ export default class IntroductionBlockTransitionController extends AbstractTrans
     timeline
       .fromTo(
         parent.$refs.image,
-        2,
+        1,
         {
           x: 50,
           autoAlpha: 0,
@@ -36,7 +36,7 @@ export default class IntroductionBlockTransitionController extends AbstractTrans
       .add(this.getTimeline(<IAbstractTransitionComponent>parent.$refs.heading), '=-2.5')
       .fromTo(
         parent.$refs.copy,
-        2,
+        1,
         {
           y: 50,
           autoAlpha: 0,
@@ -50,7 +50,7 @@ export default class IntroductionBlockTransitionController extends AbstractTrans
       )
       .fromTo(
         parent.$refs.cta,
-        2,
+        1,
         {
           y: 50,
           autoAlpha: 0,

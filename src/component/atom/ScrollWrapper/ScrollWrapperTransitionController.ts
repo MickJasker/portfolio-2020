@@ -21,7 +21,7 @@ export default class ScrollWrapperTransitionController extends AbstractTransitio
   ): void {
     timeline.fromTo(
       parent.$el,
-      2,
+      1,
       {
         y: 50,
         autoAlpha: 0,
