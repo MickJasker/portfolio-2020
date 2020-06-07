@@ -21,7 +21,7 @@ export default class HeadingTransitionController extends AbstractTransitionContr
   ): void {
     timeline.fromTo(
       parent.$refs.heading,
-      2,
+      1,
       {
         y: 25,
         autoAlpha: 0,

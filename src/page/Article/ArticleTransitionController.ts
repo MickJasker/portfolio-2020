@@ -18,7 +18,11 @@ export default class ArticleTransitionController extends AbstractTransitionContr
     timeline: TimelineMax,
     parent: IAbstractTransitionComponent,
     id: string,
-  ): void {}
+  ): void {
+    timeline.from(parent.$el, 0.5, {
+      opacity: 0,
+    });
+  }
 
   /**
    * Use this method to setup your transition out timeline
@@ -34,7 +38,7 @@ export default class ArticleTransitionController extends AbstractTransitionContr
     parent: IAbstractTransitionComponent,
     id: string,
   ): void {
-    timeline.to(parent.$el, 1, {
+    timeline.to(parent.$el, 0.5, {
       opacity: 0,
     });
   }

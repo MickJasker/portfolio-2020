@@ -19,7 +19,7 @@ export default class LinkTransitionController extends AbstractTransitionControll
     parent: IAbstractTransitionComponent,
     id: string,
   ): void {
-    timeline.from(parent.$refs.link, 2, {
+    timeline.from(parent.$refs.link, 1, {
       y: 25,
       autoAlpha: 0,
       ease: Expo.easeOut,

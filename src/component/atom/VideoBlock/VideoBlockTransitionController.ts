@@ -22,7 +22,7 @@ export default class VideoBlockTransitionController extends AbstractTransitionCo
     timeline
       .fromTo(
         parent.$el,
-        2,
+        1,
         {
           y: 50,
           autoAlpha: 0,
@@ -36,7 +36,7 @@ export default class VideoBlockTransitionController extends AbstractTransitionCo
       )
       .fromTo(
         parent.$refs['bg-video'],
-        2,
+        1,
         {
           opacity: 0,
         },
@@ -49,7 +49,7 @@ export default class VideoBlockTransitionController extends AbstractTransitionCo
       )
       .fromTo(
         parent.$refs.button,
-        2,
+        1,
         {
           opacity: 0,
           y: 20,

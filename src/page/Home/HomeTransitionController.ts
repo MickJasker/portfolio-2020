@@ -19,7 +19,7 @@ export default class HomeTransitionController extends AbstractTransitionControll
     parent: IAbstractTransitionComponent,
     id: string,
   ): void {
-    timeline.from(parent.$el, 1, {
+    timeline.from(parent.$el, 0.5, {
       opacity: 0,
     });
   }

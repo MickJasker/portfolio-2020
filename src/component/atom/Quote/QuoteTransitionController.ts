@@ -19,7 +19,7 @@ export default class QuoteTransitionController extends AbstractTransitionControl
     parent: IAbstractTransitionComponent,
     id: string,
   ): void {
-    timeline.from(parent.$el, 2, {
+    timeline.from(parent.$el, 1, {
       y: 25,
       autoAlpha: 0,
       ease: Expo.easeOut,

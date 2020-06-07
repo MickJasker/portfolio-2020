@@ -28,13 +28,13 @@ export default class HeroTransitionController extends AbstractTransitionControll
 
     // @ts-ignore
     timeline
-      .from(parent.$el, 2, {
+      .from(parent.$el, 1, {
         opacity: 0,
         ease: Expo.easeOut,
       })
       .from(
         parent.$refs.subtitle,
-        2,
+        1,
         {
           y: 50,
           opacity: 0,
@@ -44,7 +44,7 @@ export default class HeroTransitionController extends AbstractTransitionControll
       )
       .staggerFrom(
         title,
-        2,
+        1,
         {
           y: '5vw',
           opacity: 0,
@@ -56,7 +56,7 @@ export default class HeroTransitionController extends AbstractTransitionControll
     if (parent.$refs.copy) {
       timeline.from(
         parent.$refs.copy,
-        2,
+        1,
         {
           y: 10,
           opacity: 0,
@@ -69,7 +69,7 @@ export default class HeroTransitionController extends AbstractTransitionControll
     if (parent.$refs.cta) {
       timeline.staggerFrom(
         parent.$refs.cta,
-        2,
+        1,
         {
           y: 10,
           opacity: 0,
