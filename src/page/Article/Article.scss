@@ -12,7 +12,6 @@
   }
 
   @include respond-to(XLARGE) {
-
     header {
       grid-template-columns: 15vw 100rem 1fr 1fr;
       width: 100%;
@@ -36,8 +35,6 @@
         font-size: 2rem;
         margin: 0 auto 10rem;
         max-width: 80ch;
-        padding-bottom: 10rem;
-        border-bottom: 1px solid rgba(127, 127, 127, 0.99);
       }
     }
 

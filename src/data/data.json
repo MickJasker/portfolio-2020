@@ -6,6 +6,1286 @@
     },
     "categories": [
       {
+        "title": "PIDZ",
+        "subcategories": [
+          {
+            "title": "Analyseren",
+            "img": "image/analytics.jpg",
+            "articles": [
+              {
+                "title": "Individuele Analyse van de Opdracht",
+                "image": {
+                  "src": "image/pidz.jpg"
+                },
+                "authors": [
+                  {
+                    "name": "Mick Jasker",
+                    "img": "image/mick.jpg"
+                  }
+                ],
+                "statistics": {
+                  "publishDate": "02/11/2020"
+                },
+                "content": []
+              },
+              {
+                "title": "Project Plan",
+                "authors": [
+                  {
+                    "name": "Mick Jasker",
+                    "img": "image/mick.jpg"
+                  },
+                  {
+                    "name": "Bart van Lier",
+                    "img": "image/bart.jpg"
+                  }
+                ],
+                "image": {
+                  "src": "image/pidz.jpg"
+                },
+                "copy": "Dit projectdocument wordt afgesproken wat we gaan doen en hoe we dat gaan doen. Het plan geeft ons een beter overzicht over hoe we ons doel kunnen behalen en de gewenste resultaten kunnen leveren. Ook zorgt voor controle over het verloop van het project.",
+                "statistics": {
+                  "publishDate": "02/14/2020"
+                },
+                "content": [
+                  {
+                    "name": "paragraph",
+                    "props": {
+                      "introduction": true
+                    },
+                    "content": "In 2019 waren er ruim 1.1 miljoen zzp’ers op de arbeidsmarkt.\nHet CBS voorspelt dat dit aantal in 2020 alleen maar toe\nzal nemen. Deze zelfstandigen zitten in alle sectoren van de\narbeidsmarkt. Zo ook in de zorg. Er zijn verschillende platformen\ndie bemiddelen in klussen voor zzp’ers in de zorg. PIDZ is een van\ndeze bemiddelaars."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Over PIDZ"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "PIDZ is een servicebureau in de zorg dat de\njuiste match maakt tussen opdrachten van\nzorginstellingen en zelfstandige zorgprofessionals.\nDeze match wordt gemaakt via een eenvoudig en\nsnel te gebruiken online platform, MijnPIDZ. Doordat\nde intake van zorginstellingen en zorgprofessionals zeer\nserieus genomen wordt, kan een juiste match gegarandeerd\nworden. Door middel van een zorgvuldig intakeproces\nwordt ervoor gezorgd dat er alleen ervaren, gekwalificeerde\nen gemotiveerde zorgprofessionals worden gekoppeld aan\nzorginstellingen. Ons is gevraagd om verschillende belangrijke\ncomponenten binnen het WijPIDZ project te gaan ontwerpen en\nrealiseren."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Het Probleem"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "PIDZ heeft een onderzoek uitgevoerd naar knelpunten. Hieruit\nzijn vier problemen duidelijk geworden:"
+                  },
+                  {
+                    "name": "list",
+                    "props": {
+                      "type": "unordered",
+                      "items": [
+                        "De zzp’er besteedt vaak veel tijd en soms geld aan de\nzoektocht naar betrouwbare artikelen.",
+                        "Zzp’ers raken de weg kwijt in de diversiteit van het\nscholingsaanbod.",
+                        "Er is behoefte aan vakbekwame collega’s.",
+                        "De zzp’ers zoeken een one-stop-shop die hen ontzorgd in tijd,\nbetrouwbaarheid van informatie, verbinding faciliteert en kosten kan\nverlagen."
+                      ]
+                    }
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Wij hebben de keuze laten vallen op het eerste probleem. Omdat wij maar\nmet twee mensen aan het project werken hebben we voor één probleem\ngekozen. We verkiezen daarmee kwaliteit over kwantiteit."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "De Opdracht"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Opdrachtomschrijving"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "De opdracht is om een component te ontwerpen binnen wijPIDZ waarin\nzzp’ers betrouwbare, en eventueel gratis, artikelen kunnen vinden binnen\nhun vakgebied."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Doel van de opdracht"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Het primaire doel van de opdracht is om het huidige platform mijnPIDZ uit\nte breiden zodat de ZZP’er minder tijd en geld kwijt is aan het zoeken van\nbetrouwbare artikelen binnen hun vakgebied."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Analyse van de opdracht"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Uit het uitgevoerde onderzoek van PIDZ blijkt dat de zzp’er veel tijd, en\nvaak ook geld, kwijt is aan het zoeken naar betrouwbare artikelen binnen\nhun vakgebied. Het is belangrijk dat deze mensen een plek krijgen waar\nze snel, en het liefst gratis, betrouwbare artikelen kunnen vinden."
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Wanneer er geen betrouwbare artikelen gevonden worden kan\ndit negatieve gevolgen hebben voor het functioneren van de\nzorgmedewerker. De zorgmedewerker zou dan niet-geverifieerde of\nonbetrouwbare informatie kunnen gebruiken bij het uitvoeren van hun\nberoep. Dit kan op zijn beurt gevolgen hebben voor de patiënten die\nde zorgmedewerker verzorgt. Wanneer de zzp’er wel toegang heeft tot\nbetrouwbare artikelen, is de kans groot dat dit positief bijdraagt aan het\nfunctioneren als zorg zzp’er."
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "De uitdaging van deze opdracht is het uitvinden hoe artikelen verzameld\nen geverifieerd kunnen worden. Verder kunnen we het systeem\nvoortbouwen op de producteisen die PIDZ al heeft opgesteld. Ook kunnen\nwe gebruik maken van het onderzoek wat PIDZ heeft uitgevoerd."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Design Challenge"
+                  },
+                  {
+                    "name": "quote",
+                    "content": "Hoe kunnen we een systeem maken dat betrouwbare artikelen aan de\nzzp’er beschikbaar stelt, terwijl de tijd en middelen die de zzp’er moet\nbesteden aan het vinden van deze artikelen verlaagd wordt?"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Eisen van de opdracht"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "PIDZ heeft requirements waar het project aan moet voldoen:"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Algemeen"
+                  },
+                  {
+                    "name": "list",
+                    "props": {
+                      "type": "unordered",
+                      "items": [
+                        "Prototype op schermniveau (gevalideerd)",
+                        "Prototype op functieniveau (gevalideerd)",
+                        "Prototype dient eenvoudig te vertalen zijn naar bijvoorbeeld WIX of\nWordpress",
+                        "Beschikbaar voor tablet, smartphone en desktop",
+                        "Privé Platform voor zzp’ers aangesloten bij PIDZ. Mogelijk in de\ntoekomst een open platform. Hier mogen jullie al wel over nadenken en\nmeenemen in het advies"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Artikelen"
+                  },
+                  {
+                    "name": "list",
+                    "props": {
+                      "type": "unordered",
+                      "items": [
+                        "Op een gestructureerde manier informatie inwinnen en over bepaalde\nonderwerpen met elkaar in gesprek kunnen gaan",
+                        "Mogelijkheid tot categoriseren van artikelen per thema",
+                        "Uitnodigende lay-out met afbeeldingen (zzp’ers triggeren om artikelen\nte lezen)",
+                        "Review op schaalniveau 1-5. Hoe interessant vindt de lezer het artikel?",
+                        "Mogelijkheid tot plaatsen van opmerkingen",
+                        "Mogelijkheid om als zzp’er artikel te uploaden op het WijPIDZ platform",
+                        "Informatie over de schrijver van het artikel weergeven (naam, foto, werk,\nopleiding etc.)",
+                        "Optie tot delen van artikel via o.a. social media"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Deelvragen"
+                  },
+                  {
+                    "name": "list",
+                    "props": {
+                      "type": "ordered",
+                      "items": [
+                        "Waar vindt de zzp’er nu zijn informatie?",
+                        "Hoe weet de zzp’er dat de informatie die hij\nmomenteel op internet vindt betrouwbaar is?",
+                        "Hoeveel tijd per week besteedt een zzp’er aan\nhet opzoeken en lezen van artikelen?",
+                        "Hoeveel zzp’ers zijn er in elk van de\nverschillende takken van de zorg werkzaam?",
+                        "Hoe zorg je ervoor dat de geplaatste\nartikelen in WijPIDZ betrouwbaar zijn?"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Scope"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Doordat wij maar met twee man zijn gaan\nwij alleen de focus leggen op het artikel\ncomponent. Wij geloven in kwaliteit boven\nkwantiteit en kunnen dit als we alles gaan\nmaken niet waarborgen."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Wat valt er binnen de scope van de opdracht?"
+                  },
+                  {
+                    "name": "list",
+                    "props": {
+                      "type": "unordered",
+                      "items": [
+                        "Onderzoek naar de hoofdvraag en deelvragen",
+                        "LoFi- en HiFi prototype uitgewerkt in Sketch",
+                        "Communicatiestrategie",
+                        "Business model",
+                        "Trend analyse",
+                        "Uitwerking MVP in VueJS",
+                        "Conversieplan"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Wat valt er buiten de scope?"
+                  },
+                  {
+                    "name": "list",
+                    "props": {
+                      "type": "unordered",
+                      "items": [
+                        "Integratie met huidige systeem",
+                        "Inkoop component",
+                        "Opleiding component",
+                        "Kennisdeling component"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Aanpak & Planning"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Projectmethode"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Voor dit project wordt gebruik gemaakt van de Scrum methode omdat we\neen strakke planning aanhouden en snel resultaten neer willen zetten.\nDe eerder gevormde design challenge staat daarbij centraal zodat het\nprojectdoel behaald gaat worden. Om overzicht te houden over wat er\nmoet gebeuren en wie welk onderdeel maakt, maken we gebruik van\nKanban-board in Jira."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Onderzoekstrategieën"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Vanuit het FHICT research framework worden de volgende strategieën\ntoegepast:"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Bieb onderzoeken"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Om erachter te komen waar kansen en mogelijkheden liggen, doen\nwe een trend analyse. We krijgen hierdoor inzicht in de trends rondom\nnieuwsartikelen en de fake-news hype. We kunnen hier over leren zodat\nwe hierop in kunnen spelen. Het is ook belangrijk om te onderzoeken of\nde concurrenten dezelfde problemen ervaren en hoe ze deze eventueel\noplossen. Daarom maken we gebruik van benchmark creation. Wat betreft\ndesign hoeven we het wiel niet opnieuw uit te vinden. We kijken naar best,\ngood & bad practices om te kijken hoe we ons platform het beste vorm\nkunnen geven en een goed UX-systeem kunnen hanteren."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Veld onderzoeken"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Om antwoord te kunnen geven op de volgende deelvragen gaan we een\nenquête versturen."
+                  },
+                  {
+                    "name": "list",
+                    "props": {
+                      "type": "unordered",
+                      "items": [
+                        "Waar vindt de zzp’er nu zijn informatie?",
+                        "Hoe weet de zzp’er dat de informatie die hij momenteel op internet\nvindt betrouwbaar is?",
+                        "Hoeveel tijd per week besteedt een zzp’er aan het opzoeken en lezen\nvan artikelen?"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Een enquête geeft kwantitatieve informatie. Omdat er straks veel artikelen\nop het platform weergegeven gaan worden willen we van zoveel mogelijk\nmensen data verzamelen. Op deze manier kunnen wij voor iedere tak\nbinnen de zorg de best passende informatie aanbieden."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Werkplaats"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Wanneer er een concept of design staat, kunnen we dit tastbaar maken\ndoor middel van prototyping. Vervolgens gaan we daarmee testen om\nte kijken of onze oplossing het probleem ook daadwerkelijk oplost.\nUiteindelijk willen we het product gaan valideren door middel van een\nproof of concept."
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Het is ook belangrijk dat onze gebruikers betrokken worden bij\nhet designproces. Dit kan leiden tot verrassende en verstandige\nontdekkingen. Dit proces wordt ook wel co-creation genoemd."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Lab"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Om kleine functionaliteiten te testen, maken we gebruik van de Wizard\nof Oz methode. Op deze manier kunnen we valideren of onze ideeën in\nde context ook toepasbaar zijn. Vanzelfsprekend worden alle designs en\nopgeleverde producten getest met de gebruiker. Deze manier van testen\nwordt ook wel usability testing genoemd."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Showroom"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Bugs zijn onvermijdelijk. Omdat je veel bezig bent met naar je eigen code\nte staren zijn deze bugs snel te missen. Door middel van co-reflection laten\nwe andere mensen niet alleen over onze code, maar ook over andere\ndeelproducten heen kijken."
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Een vertegenwoordiger van de klant en experts doorlopen het eindproduct\nvoordat het wordt opgeleverd om ervoor te zorgen dat de kwaliteit van het\nproduct voldoet aan vooraf vastgestelde normen. Deze methode wordt\nook wel quality review genoemd."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Afspraken rondom communicatie"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "De communicatie verloopt hoofdzakelijk via Slack. Primaire communicatie\nmet docenten en opdrachtgevers verloopt via e-mail, MS Teams of\nWhatsApp. Dit is afhankelijk van de vookeur van de opdrachtgever of\nleraar. Elke werkdag om negen uur wordt er een stand-up verzorgt via\nGoogle Meet. Hier zijn we allebei aanwezig, tenzij anders besproken\nis. Om de opdrachtgever op de hoogte te houden van onze voortgang,\nstreven we ernaar om tweewekelijks de status van het project te\npresenteren."
+                  }
+                ]
+              },
+              {
+                "title": "Presenteren van Artikelen – Trend Analyse",
+                "authors": [
+                  {
+                    "name": "Mick Jasker",
+                    "img": "image/mick.jpg"
+                  }
+                ],
+                "image": {
+                  "src": "image/pidz.jpg"
+                },
+                "statistics": {
+                  "publishDate": "04/20/2020"
+                },
+                "content": [
+                  {
+                    "name": "paragraph",
+                    "props": {
+                      "introduction": true
+                    },
+                    "content": "Om PIDZ te voorzien van een platform om de zzp’er artikelen te laten lezen is onderzoek naar trends in het presenteren van artikelen een belangrijk onderdeel. In dit rapport geef ik beeld van een vergelijkbaar platform en kijk ik naar hoe traditionele media zijn artikelen presenteert."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Doel"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Om de zzp’er van meer informatie te voorzien via artikelen is het belangrijk dat het duidelijk en uitnodigend is voor de gebruiker. Omdat er online vergelijkbare platformen zijn die hier al heel veel ervaring mee hebben is het een goed idee om naar deze platformen te kijken om een zo goed mogelijk product te verwezenlijken."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Hoofdvraag"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Hoe kun je het beste een artikel presenteren aan de zzp'er?"
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Vergelijkbaar Platform"
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Medium"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Een bekend platform voor het plaatsen en lezen van artikelen is Medium.com. Deze website biedt aan meer dan 120 miljoen lezers (Medium, z.d.). Medium schrijft weinig tot geen artikelen en besteedt dat zelf uit aan hun gebruikers. Hierdoor gebruiken meerdere schrijvers en organisaties Medium als podium."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Aanmelden"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Wanneer je als gebruiker aanmeldt bij Medium word je meteen gevraagd welke onderwerpen je interessant vindt. Nadat je aangemeld bent word je op de homepagina gepresenteerd met meerdere artikelen die gekoppeld zijn aan je interesses."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Homepagina"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zoals beschreven hierboven wordt op de homepagina gepresenteerd met artikelen die matchen met je interesses. De layout van de pagina is vergelijkbaar met die van een traditionele krant.\n"
+                  },
+                  {
+                    "name": "ImageBlock",
+                    "props": {
+                      "src": "image/medium-home-screen.png",
+                      "caption": "Medium home pagina"
+                    }
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Medium houdt ook bij welke artikelen je leest. Met deze informatie kan Medium je vergelijkbare artikelen voorleggen. Hierdoor zit je niet vast aan de onderwerpen die je bij het aanmelden hebt aangegeven."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Artikel pagina"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Op de artikel pagina staat bovenaan de titel met informatie zoals de auteur, publicatiedatum, een korte beschrijving, social media links en – een vrij unieke feature – een indicator hoe lang je ongeveer doet om het artikel te lezen. Met deze informatie kun je snel besluiten of je het artikel nu wil lezen, of – wanneer het een lang artikel is – later wanneer je meer tijd hebt."
+                  },
+                  {
+                    "name": "ImageBlock",
+                    "props": {
+                      "src": "image/medium-article-screen.png",
+                      "caption": "Medium home pagina"
+                    }
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "De rest van het artikel is vrij eenvoudig qua vormgeving. Medium probeert echt de aandacht op de inhoud van het artikel te leggen."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Bronverwijzing"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Een opvallend punt is dat Medium niet controleert op juiste bronverwijzing. In artikelen worden schrijvers zelf verantwoordelijk gehouden voor het juist presenteren van informatie, Medium acht zichzelf ook niet verantwoordelijk voor onjuiste artikelen of nep nieuws. Medium heeft wel een set regels die lezers moeten beschermen tegen nepnieuws, haat, intimidatie etc. Omdat Medium een snel groeiende collectie aan artikelen heeft kunnen ze niet alle artikelen handmatig controleren, daarom zijn ze afhankelijk van de lezers die artikelen rapporteren. Artikelen die gerapporteerd zijn worden dan handmatig gecontroleerd en – indien nodig – worden er maatregelen getroffen zoals het verwijderen van het artikel."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Geprinte media"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Voordat het internet zijn opmars maakte begin jaren 90 waren mensen voornamelijk afhankelijk van kranten en tijdschriften voor hun informatievoorziening. Ook in 2020 met het internet groter dan ooit zijn kranten en tijdschriften nog populair."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Layout"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Een van de grote verschillen tussen geprinte media en digitale media is dat geprinte media is dat het trend is om veelvuldig gebruik te maken van kolommen. In het voorbeeld rechts is duidelijk te zien dat de tekst is ingedeeld in kolommen. Kolommen heeft wel een aandeel in webdesign maar dan in veel mindere mate. Een reden hiervoor is dat het gebruik van grote stukken tekst in kolommen hand in hand gaat met gebruik van woordafbreking. De regels voor het gebruiken van woordafbreking verschillen per taal. Omdat de ondersteuning hiervoor nog niet breed wordt geboden door browsers, is woordafbreking niet of nauwelijks mogelijk. Een andere reden dat er in geprinte media gebruik gemaakt wordt van kolommen is het gebrek aan ruimte. Een bladzijde heeft maar een beperkt formaat en met het gebruik van kolommen kan er meer tekst kwijt waardoor er uiteindelijk minder pagina’s nodig zijn, wat goedkoper is. Online is die limiet niet van toepassing, een pagina is immers oneindig. In een usertest kun je duidelijk maken of het gebruik van kolommen een positieve bijdrage heeft aan de user experience."
+                  },
+                  {
+                    "name": "ImageBlock",
+                    "props": {
+                      "src": "image/news-paper-screen.jpg",
+                      "caption": "De Volkskrant voorpagina"
+                    }
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Conclusie"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Er zijn meerdere platformen en methodes om je gebruiker een artikel voor te schotelen. Aan de ene kant heb je de geprinte media dat veel met kolommen werkt. En aan de andere kant heb je de digitale media die hun content in één kolom plaatsen. Doordat het op dit moment nog technisch lastig is om woordafbreking te implementeren in een webbrowser zie je het gebruik van meerdere kolommen niet veel terug in websites. Verder gebruikersonderzoek zal – wanneer browserondersteuning groter is – nodig zijn om uit te wijzen dat het gebruik van meerdere kolommen in website voordelen heeft."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Bronnen"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Medium. (z.d.). Welcome to Medium, where words matter. Geraadpleegd op 19 mei 2020, van https://medium.com/about"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Adviseren",
+            "img": "image/advice.jpg",
+            "articles": [
+              {
+                "title": "Business Model Canvas",
+                "authors": [
+                  {
+                    "name": "Mick Jasker",
+                    "img": "image/mick.jpg"
+                  }
+                ],
+                "image": {
+                  "src": "image/pidz.jpg"
+                },
+                "statistics": {
+                  "publishDate": "02/19/2020"
+                },
+                "content": [
+                  {
+                    "name": "paragraph",
+                    "content": "TODO"
+                  }
+                ]
+              },
+              {
+                "title": "Conversieplan",
+                "authors": [
+                  {
+                    "name": "Mick Jasker",
+                    "img": "image/mick.jpg"
+                  }
+                ],
+                "image": {
+                  "src": "image/pidz.jpg"
+                },
+                "statistics": {
+                  "publishDate": "02/19/2020"
+                },
+                "content": [
+                  {
+                    "name": "paragraph",
+                    "content": "TODO"
+                  }
+                ]
+              },
+              {
+                "title": "Communicatieplan",
+                "authors": [
+                  {
+                    "name": "Mick Jasker",
+                    "img": "image/mick.jpg"
+                  }
+                ],
+                "image": {
+                  "src": "image/pidz.jpg"
+                },
+                "statistics": {
+                  "publishDate": "02/19/2020"
+                },
+                "content": [
+                  {
+                    "name": "paragraph",
+                    "content": "TODO"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Ontwerpen",
+            "img": "image/design.jpg",
+            "articles": [
+              {
+                "title": "Ontwerp Artikel Overzicht",
+                "authors": [
+                  {
+                    "name": "Mick Jasker",
+                    "img": "image/mick.jpg"
+                  }
+                ],
+                "image": {
+                  "src": "image/pidz.jpg"
+                },
+                "statistics": {
+                  "publishDate": "03/10/2020"
+                },
+                "content": [
+                  {
+                    "name": "paragraph",
+                    "props": {
+                      "introduction": true
+                    },
+                    "content": "Het ontwerp voor het artikel overzicht is opgedeeld in meerdere onderdelen."
+                  },
+                  {
+                    "name": "ImageBlock",
+                    "props": {
+                      "src": "image/pidz-article-overview.jpg",
+                      "caption": "Artikel Overzicht"
+                    }
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Hero"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Bovenaan de pagina wordt de gebruiker begroet met een grote hero met waar een artikel uitgelicht wordt. Het gebruik hiervan is geïnspireerd door implementaties zoals NOS.nl."
+                  },
+                  {
+                    "name": "ImageBlock",
+                    "props": {
+                      "src": "image/pidz-hero.jpg",
+                      "caption": "Hero"
+                    }
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Van boven naar beneden bestaat de hero uit:"
+                  },
+                  {
+                    "name": "list",
+                    "props": {
+                      "type": "ordered",
+                      "items": [
+                        "De tekst ‘IN DE SPOTLIGHT’, om duidelijk te maken dat het uitgelicht artikel betreft.",
+                        "De titel wordt groot uitgelicht door gebruik van een groot lettertype en gebruik van de volledige container breedte.",
+                        "Onder de titel wordt de auteur, het onderwerp/doelgroep en de tijd van publicatie uitgelicht.",
+                        "De omschrijving beschrijft in ±20 woorden het artikel.",
+                        "Tot slot wordt een opvallende rode call-to-action gebruikt om de gebruiker te verleiden het artikel te lezen."
+                      ]
+                    }
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "‘Speciaal voor jou’ carousel"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Direct onder de hero staat een carrousel. Deze carrousel bevat een aantal artikelen die – op basis van de lees historie van de gebruiker – aanbevolen zijn aan de gebruiker. Om de aandacht te trekken zal de carousel na ±10 seconden verder gaan naar de volgende slide. Om te voorkomen dat de carrousel beweegt terwijl de gebruiker aan het lezen is deze functionaliteit uitgeschakeld als de muis over carrousel heen beweegt."
+                  },
+                  {
+                    "name": "ImageBlock",
+                    "props": {
+                      "src": "image/pidz-carousel.jpg",
+                      "caption": "‘Speciaal voor jou’ carousel"
+                    }
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Overzicht van Recente Artikelen"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Het grootste deel van de pagina wordt in beslag genomen door het overzicht van recente artikelen. Net als bij de Hero en de ‘Speciaal voor Jou’ Carrousel hebben de artikelen in het overzicht de titel, auteur, onderwerp, tijd van publicatie en een korte omschrijving."
+                  },
+                  {
+                    "name": "ImageBlock",
+                    "props": {
+                      "src": "image/pidz-recent-articles.jpg",
+                      "caption": "Overzicht van Recente Artikelen"
+                    }
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Zoeken & Filter"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Het kleinste component zit naast de recente artikelen. Bovenin staat een zoekbalk. In het midden staat een overzicht van alle onderwerpen, door er op te klikken kunnen de artikelen gefilterd worden. Tot slot staat een CTA om de gebruiker een artikel te laten plaatsen."
+                  },
+                  {
+                    "name": "ImageBlock",
+                    "props": {
+                      "src": "image/pidz-search-filter.jpg",
+                      "caption": "Overzicht van Recente Artikelen"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "User Test – Sketch Prototype",
+                "authors": [
+                  {
+                    "name": "Mick Jasker",
+                    "img": "image/mick.jpg"
+                  },
+                  {
+                    "name": "Bart van Lier",
+                    "img": "image/bart.jpg"
+                  }
+                ],
+                "image": {
+                  "src": "image/pidz.jpg"
+                },
+                "statistics": {
+                  "publishDate": "03/10/2020"
+                },
+                "content": [
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Product Under Review"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "De volgende prototypes willen we gaan testen:"
+                  },
+                  {
+                    "name": "list",
+                    "props": {
+                      "type": "unordered",
+                      "items": [
+                        "Artikel Overzicht",
+                        "Artikel Pagina"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Business Case"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "De test beantwoord verschillende vragen die betrekking hebben op het design van de service. De antwoorden dragen bij aan het iteratieproces. Wanneer deze vragen niet beantwoord worden kan dit grote gevolgen hebben voor de development fase. Het kan zijn dat het product niet goed aansluit bij de doelgroep."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Test Objectives"
+                  },
+                  {
+                    "name": "list",
+                    "props": {
+                      "type": "unordered",
+                      "items": [
+                        "Is de navigatie door de app duidelijk?",
+                        "Vertrouwen mensen de dienst?",
+                        "Snapt de gebruiker het ‘like’ systeem",
+                        "Snapt de gebruiker de filter"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Participants"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Op het moment van schrijven is het nog niet bekend hoeveel deelnemer we ter beschikking hebben."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Equipment"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Door de huidige coronacrisis is het niet mogelijk om op locatie tests uit te voeren. Daarom maken we gebruik van Microsoft Teams. De deelnemers worden gevraagd om hun scherm te delen. Om bij de deelnemer de emotie en gezichtsuitdrukkingen te zien wordt gevraagd om de camera van hun computer aan te zetten tijdens de test. Om een beeld te krijgen van de gedachtegang van de gebruiker wordt gevraagd of zij de Think a Loud methode kunnen toepassen.\nOm alles uiteindelijk vast te leggen worden de testen opgenomen.\nUiteraard wordt om het bovenstaande te doen toestemming gevraagd aan de deelnemers.\n"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Test Tasks"
+                  },
+                  {
+                    "name": "list",
+                    "props": {
+                      "type": "unordered",
+                      "items": [
+                        "Klik op het volgende artikel: Huisarts mag coronapatiënt bloedverdunners voorschrijven bij tromboserisico",
+                        "Klik op het volgende artikel: Ziekenhuizen hervatten reguliere zorg 'stap voor stap'",
+                        "Klik op het volgende artikel: Meeste ov-reizigers houden zich aan mondkapjesplicht, 'wel wennen aan benauwdheid'",
+                        "Filter de artikelen op 'Ouderenzorg'",
+                        "Geef het artikel ‘Ziekenhuizen hervatten reguliere zorg 'stap voor stap' een waardering. (heartbeats)",
+                        "Beantwoord de volgende vraag: denkt u dat het bericht betrouwbaar is? Waarom wel waarom niet?"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Responibilities"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Mick Jasker (opdracht geven, notuleren)."
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Bart van Lier(notuleren, opdracht geven)."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Location & dates"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "9 juni op afstand via MS Teams"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Prototype"
+                  },
+                  {
+                    "name": "Link",
+                    "props": {
+                      "type": "ext",
+                      "to": "https://www.sketch.com/s/3af974fc-ea61-4c22-81df-aefc89099be3/a/QJx0Rx/play"
+                    },
+                    "content": "Vindt het prototype hier"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Results"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "TODO"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Conclusie"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "TODO"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Realiseren",
+            "img": "image/development.jpg",
+            "articles": [
+              {
+                "title": "Technische realisatie",
+                "image": {
+                  "src": "image/pidz.jpg"
+                },
+                "authors": [
+                  {
+                    "name": "Mick Jasker",
+                    "img": "image/mick.jpg"
+                  },
+                  {
+                    "name": "Bart van Lier",
+                    "img": "image/bart.jpg"
+                  }
+                ],
+                "statistics": {
+                  "publishDate": "02/11/2020"
+                },
+                "content": [
+                  {
+                    "name": "paragraph",
+                    "content": "TODO"
+                  }
+                ]
+              },
+              {
+                "title": "Workshop GSAP",
+                "image": {
+                  "src": "image/flow.jpg"
+                },
+                "authors": [
+                  {
+                    "name": "Mick Jasker",
+                    "img": "image/mick.jpg"
+                  }
+                ],
+                "statistics": {
+                  "publishDate": "04/13/2020"
+                },
+                "content": [
+                  {
+                    "name": "paragraph",
+                    "props": {
+                      "introduction": true
+                    },
+                    "content": "Tijdens mijn stage/werk bij MediaMonks heb ik veel ervaring opgedaan met het werken met Greensock Animation Platform (GSAP). Omdat ik hier veel waarde hecht aan deze kennis heb ik een workshop gegeven om mijn kennis te delen. Ik was erg tevreden over het verloop van de workshop en heb meerdere positieve reacties gekregen. Een probleem wel was dat de stream over MS Teams niet optimaal is, daardoor waren de animaties/video's niet altijd goed zichtbaar. Om dit te verhelpen kan ik de broncode voor aanvang van de workshop delen zodat de mensen zelf mee kunnen doen."
+                  },
+                  {
+                    "name": "VideoPlayer",
+                    "props": {
+                      "src": "video/workshop-gsap.mp4",
+                      "caption": "Workshop GSAP"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Overig",
+            "img": "image/index.jpg",
+            "articles": [
+              {
+                "title": "Leeswijzer",
+                "image": {
+                  "src": "image/pidz.jpg"
+                },
+                "authors": [
+                  {
+                    "name": "Mick Jasker",
+                    "img": "image/mick.jpg"
+                  }
+                ],
+                "statistics": {
+                  "publishDate": "04/20/2020"
+                },
+                "content": [
+                  {
+                    "name": "paragraph",
+                    "props": {
+                      "introduction": true
+                    },
+                    "content": "In 2019 waren er ruim 1.1 miljoen zzp’ers op de arbeidsmarkt.\nHet CBS voorspelt dat dit aantal in 2020 alleen maar toe\nzal nemen. Deze zelfstandigen zitten in alle sectoren van de\narbeidsmarkt. Zo ook in de zorg. Er zijn verschillende platformen\ndie bemiddelen in klussen voor zzp’ers in de zorg. PIDZ is een van\ndeze bemiddelaars."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Over PIDZ"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "PIDZ is een servicebureau in de zorg dat de\njuiste match maakt tussen opdrachten van\nzorginstellingen en zelfstandige zorgprofessionals.\nDeze match wordt gemaakt via een eenvoudig en\nsnel te gebruiken online platform, MijnPIDZ. Doordat\nde intake van zorginstellingen en zorgprofessionals zeer\nserieus genomen wordt, kan een juiste match gegarandeerd\nworden. Door middel van een zorgvuldig intakeproces\nwordt ervoor gezorgd dat er alleen ervaren, gekwalificeerde\nen gemotiveerde zorgprofessionals worden gekoppeld aan\nzorginstellingen. Ons is gevraagd om verschillende belangrijke\ncomponenten binnen het WijPIDZ project te gaan ontwerpen en\nrealiseren."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Het Probleem"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "PIDZ heeft een onderzoek uitgevoerd naar knelpunten. Hieruit\nzijn vier problemen duidelijk geworden:"
+                  },
+                  {
+                    "name": "list",
+                    "props": {
+                      "type": "unordered",
+                      "items": [
+                        "De zzp’er besteedt vaak veel tijd en soms geld aan de\nzoektocht naar betrouwbare artikelen.",
+                        "Zzp’ers raken de weg kwijt in de diversiteit van het\nscholingsaanbod.",
+                        "Er is behoefte aan vakbekwame collega’s.",
+                        "De zzp’ers zoeken een one-stop-shop die hen ontzorgd in tijd,\nbetrouwbaarheid van informatie, verbinding faciliteert en kosten kan\nverlagen."
+                      ]
+                    }
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Wij hebben de keuze laten vallen op het eerste probleem. Omdat wij maar\nmet twee mensen aan het project werken hebben we voor één probleem\ngekozen. We verkiezen daarmee kwaliteit over kwantiteit."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "De Opdracht"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Opdrachtomschrijving"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "De opdracht is om een component te ontwerpen binnen wijPIDZ waarin\nzzp’ers betrouwbare, en eventueel gratis, artikelen kunnen vinden binnen\nhun vakgebied."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Doel van de opdracht"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Het primaire doel van de opdracht is om het huidige platform mijnPIDZ uit\nte breiden zodat de ZZP’er minder tijd en geld kwijt is aan het zoeken van\nbetrouwbare artikelen binnen hun vakgebied."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Aanpak"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Project Plan"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Om een goed beeld te krijgen wat we willen gaan doen hebben we eerst een projectplan opgesteld. Omdat we er voor gekozen hebben om maar met twee mensen zijn hebben we ervoor gekozen om maar 1 van de 4 componenten uit te werken. Kwaliteit gaat immers boven kwantiteit. Om alles efficiënt te laten verlopen hebben we een JIRA bord aangemaakt en hier een planning gemaakt. Met behulp van het Kanban principe worden de taken verdeeld. Om de communicatie hoog te houden was er elke dag om negen uur een stand up en verliep de andere communicatie via Slack."
+                  },
+                  {
+                    "name": "Link",
+                    "props": {
+                      "to": "/portfolio/pidz/analyseren/project-plan",
+                      "type": "ext"
+                    },
+                    "content": "Zie Project Plan"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Presenteren van Artikelen – Trend Analyse"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Om PIDZ te voorzien van een platform om de zzp’er artikelen te laten lezen is onderzoek naar trends in het presenteren van artikelen een belangrijk onderdeel. In de trendanalyse beschrijf ik wat de huidige trends zijn voor het presenteren van artikelen en hoe we deze trends kunnen toepassen in het PIDZ platform."
+                  },
+                  {
+                    "name": "Link",
+                    "props": {
+                      "to": "/portfolio/pidz/analyseren/presenteren-van-artikelen-–-trend-analyse",
+                      "type": "ext"
+                    },
+                    "content": "Zie Presenteren van Artikelen – Trend Analyse"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Business Model Canvas"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "TODO"
+                  },
+                  {
+                    "name": "Link",
+                    "props": {
+                      "to": "/portfolio/pidz/adviseren/business-model-canvas",
+                      "type": "ext"
+                    },
+                    "content": "Zie Business Model Canvas"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Conversieplan"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "TODO"
+                  },
+                  {
+                    "name": "Link",
+                    "props": {
+                      "to": "/portfolio/pidz/adviseren/conversieplan",
+                      "type": "ext"
+                    },
+                    "content": "Zie Conversieplan"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Communicatieplan"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "TODO"
+                  },
+                  {
+                    "name": "Link",
+                    "props": {
+                      "to": "/portfolio/pidz/adviseren/communicatieplan",
+                      "type": "ext"
+                    },
+                    "content": "Zie Communicatieplan"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Ontwerp Artikel Overzicht"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Voor het ontwerp ben ik verantwoordelijk geweest voor het artikeloverzicht. Ik tijdens het ontwerp hiervan rekening gehouden met de resultaten uit de trendanalyse. Op het moment van schrijven ben ik nog af aan het wachten op een usertest die gepland staat voor 9 juni. Hierdoor kan het design nog veranderen."
+                  },
+                  {
+                    "name": "Link",
+                    "props": {
+                      "to": "/portfolio/pidz/ontwerpen/ontwerp-artikel-overzicht",
+                      "type": "ext"
+                    },
+                    "content": "Zie Ontwerp Artikel Overzicht"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "User Test – Sketch Prototype"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Voor de voorbereiding van een usertest op het Sketch Prototype hebben we een testplan opgesteld. Om het eenvoudig te houden hebben we gebruik gemaakt van het Usability Test Plan Dashboard. Omdat de test gepland is voor 9 juni zijn de resultaten nog niet verwerkt en kan ik hierop nog niet reflecteren."
+                  },
+                  {
+                    "name": "Link",
+                    "props": {
+                      "to": "/portfolio/pidz/ontwerpen/user-test-–-sketch-prototype",
+                      "type": "ext"
+                    },
+                    "content": "Zie User Test – Sketch Prototype"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Workshop GSAP"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Tijdens mijn stage/werk bij MediaMonks heb ik veel ervaring opgedaan met het werken met Greensock Animation Platform (GSAP). Omdat ik hier veel waarde hecht aan deze kennis heb ik een workshop gegeven om mijn kennis te delen. Ik was erg tevreden over het verloop van de workshop en heb meerdere positieve reacties gekregen. Een probleem wel was dat de stream over MS Teams niet optimaal is, daardoor waren de animaties/video's niet altijd goed zichtbaar. Om dit te verhelpen kan ik de broncode voor aanvang van de workshop delen zodat de mensen zelf mee kunnen doen."
+                  },
+                  {
+                    "name": "Link",
+                    "props": {
+                      "to": "/portfolio/pidz/realiseren/workshop-gsap",
+                      "type": "ext"
+                    },
+                    "content": "Zie Workshop GSAP"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Reflectie"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Doordat het vorige project van Stichting Ik Wil door de corona crisis zeer slecht is verlopen stond er voor dit project veel op het spel. Tot nu toe ben ik niet ontevreden hoe het allemaal loopt. Hoewel door het plotseling annulering van mijn afstudeerstage bij TDE mijn motivatie terug loopt. De uitkomst van dit semester is voor mij dan nog moeilijk te voorspellen. Ik moet nog vrij veel doen om zoveel mogelijk leerdoelen af te strepen. Wat ik absoluut moet verbeteren is dat ik meer moet communiceren met leraren, normaal zou een leraar regelmatig langslopen maar omdat ik nu thuis zit gebeurt dat niet, hierdoor loop ik zeer waardevolle feedback momentjes mis."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
         "title": "Stichting Ik Wil",
         "subcategories": [
           {

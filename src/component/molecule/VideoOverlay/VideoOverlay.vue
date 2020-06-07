@@ -9,7 +9,10 @@
     >
       <Icon name="close" />
     </button>
-    <video ref="video">
+    <video
+      ref="video"
+      controls
+    >
       <source
         :src="src"
         type="video/mp4"
