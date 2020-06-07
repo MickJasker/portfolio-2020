@@ -13,22 +13,6 @@
             "img": "image/analytics.jpg",
             "articles": [
               {
-                "title": "Individuele Analyse van de Opdracht",
-                "image": {
-                  "src": "image/pidz.jpg"
-                },
-                "authors": [
-                  {
-                    "name": "Mick Jasker",
-                    "img": "image/mick.jpg"
-                  }
-                ],
-                "statistics": {
-                  "publishDate": "02/11/2020"
-                },
-                "content": []
-              },
-              {
                 "title": "Project Plan",
                 "authors": [
                   {
