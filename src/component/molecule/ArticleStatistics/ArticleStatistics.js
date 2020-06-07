@@ -8,7 +8,7 @@ export default {
   extends: ScrollComponentMixin,
   props: {
     readTime: {
-      type: Number,
+      type: String,
       required: true,
     },
     publishDate: {

@@ -6,9 +6,8 @@
   background: var(--color-primary);
   padding: 5rem;
   display: flex;
-  box-shadow: 5rem 5rem 100rem rgba($colorPrimary, 0.5), 0 0 10rem rgba($colorPrimary, 0.1);
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-direction: column;
 
   .read-time {
@@ -75,7 +74,6 @@
       align-items: center;
       font-size: 8rem;
       position: relative;
-
 
       &:not(:first-child) {
         margin-left: -2rem;

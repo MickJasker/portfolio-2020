@@ -2,7 +2,7 @@ import {
   AbstractTransitionController,
   IAbstractTransitionComponent,
 } from 'vue-transition-component';
-import { TimelineMax } from 'gsap';
+import { TimelineMax, Expo } from 'gsap';
 
 export default class LinkTransitionController extends AbstractTransitionController {
   /**
@@ -22,6 +22,7 @@ export default class LinkTransitionController extends AbstractTransitionControll
     timeline.from(parent.$refs.link, 2, {
       y: 25,
       autoAlpha: 0,
+      ease: Expo.easeOut,
     });
   }
 

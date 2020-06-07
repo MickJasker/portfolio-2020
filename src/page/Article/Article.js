@@ -38,7 +38,7 @@ export default {
       categoryFrm: null,
       subcategoryFrm: null,
       article: null,
-      readTime: 0,
+      readTime: '',
       sentenceEnd: '.',
     };
   },
@@ -49,7 +49,7 @@ export default {
     this.$nextTick(() => {
       const { article } = this.$refs;
       if (article) {
-        this.readTime = article.innerText.split(' ').length / 250;
+        this.readTime = String(article.innerText.split(' ').length);
 
         this.handleSentenceEnding();
       }

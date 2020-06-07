@@ -31,7 +31,7 @@ export default class ListTransitionController extends AbstractTransitionControll
         autoAlpha: 1,
         ease: Expo.easeOut,
       },
-      0.1,
+      0.05,
     );
   }
 

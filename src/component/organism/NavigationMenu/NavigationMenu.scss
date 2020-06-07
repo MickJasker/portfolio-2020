@@ -94,7 +94,7 @@
 
   nav {
     background: rgba($colorLight, 0.5);
-    backdrop-filter: blur(2rem);
+    backdrop-filter: blur(10rem);
     opacity: 0;
     transition: 0.5s ease-out;
     height: 100%;

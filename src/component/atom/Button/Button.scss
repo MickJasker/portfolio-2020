@@ -24,12 +24,10 @@
     position: absolute;
     z-index: -1;
     top: 0.5rem;
-    box-shadow: 0 0.5rem 2rem currentColor;
     display: block;
   }
 
   @media (prefers-color-scheme: dark) {
-
     &:after {
       color: $colorAccent;
       height: 0.5rem;

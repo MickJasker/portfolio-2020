@@ -1,5 +1,11 @@
 /* stylelint-disable-next-line block-no-empty */
 .portfolio-overview {
+  .category {
+    padding-bottom: 5rem;
+    border-bottom: 2px solid var(--color-primary);
+    margin-bottom: 10rem;
+  }
+
   @include respond-to(XLARGE) {
     grid-template-columns: auto 30rem 65rem 65rem 30rem auto;
     display: grid;
