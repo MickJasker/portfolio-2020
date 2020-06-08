@@ -2,7 +2,7 @@ import {
   AbstractTransitionController,
   IAbstractTransitionComponent,
 } from 'vue-transition-component';
-import { TimelineMax } from 'gsap';
+import { TimelineMax, Expo } from 'gsap';
 
 export default class QuoteTransitionController extends AbstractTransitionController {
   /**
@@ -19,9 +19,10 @@ export default class QuoteTransitionController extends AbstractTransitionControl
     parent: IAbstractTransitionComponent,
     id: string,
   ): void {
-    timeline.from(parent.$el, 2, {
+    timeline.from(parent.$el, 1, {
       y: 25,
       autoAlpha: 0,
+      ease: Expo.easeOut,
     });
   }
 

@@ -8,16 +8,14 @@
       height: 100%;
       background: #fff;
       object-fit: cover;
-      box-shadow:
-        0 1rem 1rem rgba($colorDark, 0.15),
-        0 1rem 1rem rgba($colorDark, 0.15),
-        2.5rem 2.5rem 0 var(--color-primary),
-        5rem 5rem 20rem rgba($colorPrimary, 0.5);
+      box-shadow: 0 1rem 1rem rgba($colorDark, 0.15), 0 1rem 1rem rgba($colorDark, 0.15),
+        1.5rem 2.5rem 0 var(--color-primary);
     }
 
     figcaption {
       margin-left: 10rem;
       margin-top: 4rem;
+      font-style: italic;
     }
   }
 }

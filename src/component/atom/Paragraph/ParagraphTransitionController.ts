@@ -19,9 +19,10 @@ export default class ParagraphTransitionController extends AbstractTransitionCon
     parent: IAbstractTransitionComponent,
     id: string,
   ): void {
-    timeline.from(parent.$refs.copy, 2, {
+    timeline.from(parent.$refs.copy, 1, {
       y: 25,
       autoAlpha: 0,
+      ease: Expo.easeOut,
     });
   }
 

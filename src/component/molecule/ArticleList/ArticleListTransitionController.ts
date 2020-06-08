@@ -23,7 +23,7 @@ export default class ArticleListTransitionController extends AbstractTransitionC
       .add(this.getTimeline(<IAbstractTransitionComponent>parent.$refs.heading))
       .fromTo(
         parent.$refs.image,
-        2,
+        1,
         {
           y: 50,
           autoAlpha: 0,
@@ -37,15 +37,15 @@ export default class ArticleListTransitionController extends AbstractTransitionC
       )
       .staggerFromTo(
         parent.$refs.articleListItem,
-        2,
+        1,
         {
           y: 20,
           autoAlpha: 0,
           ease: Expo.easeOut,
         },
         { y: 0, autoAlpha: 1 },
-        0.15,
-        '=-1.25',
+        0.1,
+        '=-1',
       );
   }
 

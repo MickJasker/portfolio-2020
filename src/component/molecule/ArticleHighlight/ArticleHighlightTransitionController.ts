@@ -22,7 +22,7 @@ export default class ArticleHighlightTransitionController extends AbstractTransi
     timeline
       .fromTo(
         parent.$el,
-        2,
+        1,
         {
           y: 50,
           autoAlpha: 0,
@@ -35,7 +35,7 @@ export default class ArticleHighlightTransitionController extends AbstractTransi
       )
       .fromTo(
         parent.$refs.title,
-        2,
+        1,
         {
           y: 25,
           opacity: 0,
@@ -49,7 +49,7 @@ export default class ArticleHighlightTransitionController extends AbstractTransi
       )
       .fromTo(
         parent.$refs.copy,
-        2,
+        1,
         {
           y: 25,
           opacity: 0,
@@ -63,7 +63,7 @@ export default class ArticleHighlightTransitionController extends AbstractTransi
       )
       .fromTo(
         parent.$refs.cta,
-        2,
+        1,
         {
           y: 25,
           opacity: 0,

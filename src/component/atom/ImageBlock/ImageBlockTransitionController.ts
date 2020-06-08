@@ -20,14 +20,14 @@ export default class ImageBlockTransitionController extends AbstractTransitionCo
     id: string,
   ): void {
     timeline
-      .from(parent.$refs.image, 2, {
+      .from(parent.$refs.image, 1, {
         y: 50,
         autoAlpha: 0,
         ease: Expo.easeOut,
       })
       .from(
         parent.$refs.caption,
-        2,
+        1,
         {
           y: 50,
           autoAlpha: 0,
