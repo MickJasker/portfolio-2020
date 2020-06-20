@@ -585,8 +585,404 @@
                 },
                 "content": [
                   {
+                    "name": "ImageBlock",
+                    "props": {
+                      "src": "image/bmc.png",
+                      "caption": "Business Model Canvas"
+                    }
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Customer Segments"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Zzp'er"
+                  },
+                  {
                     "name": "paragraph",
-                    "content": "TODO"
+                    "content": "Als bemiddelingsbureau tussen zzp’ers en zorginstellingen zijn de zzp’ers de primaire doelgroep voor het platform."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Zorgmedewerkers"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Omdat het platform niet alleen relevant is voor de PIDZ zzp’ers zou als secundaire groep zorgmedewerkers in het algemeen genomen kunnen worden."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Value Proposition"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Betrouwbare Informatie"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Omdat de zzp’er in de huidige situatie veel informatie van social media afhaalt is er weinig controle of informatie daadwerkelijk betrouwbaar is. WijPIDZ moet de gebruiker van betrouwbare artikelen voorzien."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Relevante Artikelen"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Om ervoor te zorgen dat de gebruiker niet terugkeert naar onbetrouwbare bronnen van informatie moet de informatie op het platform relevant zijn voor de gebruiker."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Verzamelplaats van Artikelen"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Doordat PIDZ zelf geen (tot weinig) artikelen gaat publiceren is de groep gebruikers hier zelf verantwoordelijk voor. Hierdoor verandert het platform in een verzamelplaats van artikelen."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Makkelijk Filteren op Onderwerpen"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "De zorg bestaat uit veel subgroepen zoals verpleegkunde, ouderenzorg, gehandicaptenzorg etc. hierdoor moet het voor de gebruiker eenvoudig zijn op onderwerpen te filteren die voor hem relevant zijn."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Informatie over Ondernemen"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Als zzp’er bij PIDZ werk je niet alleen in de zorg, je bent ook ondernemer. Hierom moeten er op het platform ook ruimte zijn om hier informatie over te delen, denk aan: boekhouden, ondernemerschap en financiën."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Revenue streams"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Bemiddelingskosten"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "PIDZ verdient het grootste gedeelte van hun geld bemiddelingskosten die gemaakt worden tussen de zorginstellingen en de zzp'er. Hieruit zal een gedeelte naar het platform moeten gaan."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Advertenties"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "PIDZ kan ruimte op het platform verkopen aan adverteerders. Hier is het wel belangrijk dat de betrouwbaarheid van WijPIDZ bovenaan staat, advertenties moeten dus duidelijk gemarkeerd worden."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Abonnement"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Voor het gebruik van WijPIDZ kan een maandelijkse contributie gevraagd worden. Omdat het platform toegankelijk te houden voor de PIDZ zzp’er is het voor hun gratis, dit geldt dus alleen voor gebruikers buiten PIDZ."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Channels"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "MijnPIDZ"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Op het huidige platform MijnPIDZ kan geadverteerd worden voor het WijPIDZ platform."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Email"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Via gerichte email marketing onder de zzp’er kan het platform verder onder de aandacht te brengen."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Vakbladen"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Om een bredere doelgroep buiten de zzp'er te bereiken wordt er geadverteerd in gerelateerde vakbladen."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Social Media"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Tot slot wordt op social media geadverteerd door gerichte posts en door het plaatsen van posts in Facebook groepen waar veel zzp'ers actief zijn."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Customer Relationships"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Klantenservice"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Vragen en problemen kunnen opgelost worden via een klantenservice. Dit kan zowel via social media, email of telefoon."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Delen Uitgelichte Artikelen op Social Media"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Om gebruikers een podium te geven kunnen artikelen als uitgelicht gemarkeerd worden, deze artikelen kunnen dan op social media gedeeld worden."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Nieuwsbrief"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Om de gebruiker op de hoogte te houden van de laatste ontwikkelingen wordt er regelmatig een nieuwsbrief gedeeld, dit kan via email, social media en via het platform zelf."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Key Activities"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Verzamelen van Artikelen"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Doordat het platform afhankelijk is van een collectie artikelen is de belangrijkste activiteit het verzamelen van artikelen. Dit wordt primair uitgevoerd door de gebruikers zelf maar kan ook door PIDZ gedaan worden."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Gebruikersonderzoek"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Omdat de behoefte van de gebruiker kan veranderen in loop der tijden hoort PIDZ dit constant te blijven monitoren en onderzoek te doen."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Modereren"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Om het platform betrouwbaar te houden moeten artikelen gemodereerd worden op het gebruik van correcte bronvermelding en het houden aan de algemene voorwaarden."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Key Resources"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Gebruikers"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "De gebruiker is bij verre de belangrijkste resource van het platform, zonder gebruikers geen artikelen en dus ook geen werkend product."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Hosting"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Het platform moet ook op server gehost en onderhouden worden."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Moderators"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zonder moderators heb je geen garantie dat de geplaatste artikelen nog betrouwbaar zijn."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Adverteerders"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Om geld op te brengen zijn adverteerders een belangrijke resource."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Key Partners"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Zzp’ers"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zoals eerder beschreven is zonder de zzp’er een werkend platform niet mogelijk."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Cost Structure"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Onderhoud"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Het platform moet blijvend onderhouden worden, denk hierbij aan het oplossen van bugs, UX problemen, netwerken etc."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Hosting"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zoals eerder beschreven is hosting een belangrijk onderdeel van het platform, hier zijn uiteraard kosten aan verbonden."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Development"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Een platform is nooit af en aan het ontwikkelen van nieuwe features zijn kosten verbonden."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Personeel"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Personeel dat o.a. wordt gevraagd voor het modereren moet ook betaald worden, hierbij komen ook de personeelskosten voor onderhoud, hosting, development etc."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Adverteren"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Het adverteren op social media en in vakbladen brengt een grote kostenpost met zich mee."
                   }
                 ]
               },
@@ -1147,7 +1543,7 @@
                   },
                   {
                     "name": "paragraph",
-                    "content": "TODO"
+                    "content": "Om een beeld te krijgen wat hoe het business model van het platform uitziet heb ik een business model canvas opgesteld."
                   },
                   {
                     "name": "Link",
