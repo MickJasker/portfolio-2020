@@ -1316,19 +1316,138 @@
                     "content": "Results"
                   },
                   {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Taak 1"
+                  },
+                  {
                     "name": "paragraph",
-                    "content": "TODO"
+                    "content": "Voor het vinden van het eeste artikel deden de test personen gemiddeld 4,2 seconden. Uit de onder gelegen heatmap is duidelijk op te maken dat het grootste deel van de groep op de CTA drukt. Wel valt op dat er een aantal kliks buiten de CTA geregsitreerd zijn."
+                  },
+                  {
+                    "name": "ImageBlock",
+                    "props": {
+                      "src": "image/PIDZ-hero-heatmap.jpg",
+                      "caption": "Hero heatmap"
+                    }
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Taak 2"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Voor het vinden van het derde artikel in het recente artikelen overzicht deden gebruikers er gemedild 17,2 seconden over. Dit is aanzienelijk langer dan de eerste taak. Een verklaarbare reden is dat een testpersoon er 45 seconden over deed en hiermee het gemiddelde omhoog tilde. Uit de heatmap is op te maken dat de gebruikers begrijpen hoe dit component werkt."
+                  },
+                  {
+                    "name": "ImageBlock",
+                    "props": {
+                      "src": "image/PIDZ-recents-heatmap.jpg",
+                      "caption": "Hero heatmap"
+                    }
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Taak 3"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "De derde taak deden gebruikers gemmedild 1,7 seconden, veel snellen dan de andere taken. In de heatmap is duidelijk te zien dat alle gebuikers het juiste artikel aanklikte. Een corospondent probeerde zelfs gebruik te maken van de carousel controls, die voor dit prototype niet functioneel waren."
+                  },
+                  {
+                    "name": "ImageBlock",
+                    "props": {
+                      "src": "image/PIDZ-carousel-heatmap.jpg",
+                      "caption": "Hero heatmap"
+                    }
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Taak 4"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "De laatste taak volbrachten de gebruikers in gemideld 6,6 seconden. Uit de heatmap is duidelijk op te maken dat het hartje makkelijk te vinden is."
+                  },
+                  {
+                    "name": "ImageBlock",
+                    "props": {
+                      "src": "image/PIDZ-heart-heatmap.jpg",
+                      "caption": "Hero heatmap"
+                    }
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Vragen"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Tot slot zijn corospondenten gevraagd of ze het artikel betrouwbaar vonden. Hieruit kwamen de volgende antwoorden:"
+                  },
+                  {
+                    "name": "Quote",
+                    "content": "Ik geloof niet alles en kijk er met een nuchtere blik naar want er worden soms berichten geschreven die niet altijd kloppen. Een smeuïg bericht zorgt voor een hogere oplage."
+                  },
+                  {
+                    "name": "Quote",
+                    "content": "De berichten lijken mij betrouwbaar omdat ze lijken op krantenartikelen en een serieuze lay-out hebben. Ook staan er verwijswoorden/belangrijke woorden bovenin waar het artikel over gaat. Verder staat er ook de auteur die je zelf kan checken."
+                  },
+                  {
+                    "name": "Quote",
+                    "content": "Ik denk het wel, het leken nieuwsartikelen."
+                  },
+                  {
+                    "name": "Quote",
+                    "content": "Geen idee. Ik was vooral bezig met de opdrachten die ik kreeg, dus ik heb totaal niet gelet op de inhoud."
+                  },
+                  {
+                    "name": "Quote",
+                    "content": "Ik heb inhoudelijk niet naar de berichten gekeken, dus geen idee."
                   },
                   {
                     "name": "heading",
                     "props": {
                       "level": "1"
                     },
-                    "content": "Conclusie"
+                    "content": "Conclusie & Aanbevelingen"
                   },
                   {
                     "name": "paragraph",
-                    "content": "TODO"
+                    "content": "Uit de bovenstaande resultaten kun je volgende conclusies trekken."
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "De de CTA in de hero is duidelijk maar een aantal gebruikers drukte ook op het de hero zelf. Om het gebruik makkelijker te maken is het goed om de hele hero klikbaar te maken."
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Voor het recente artikelen overzicht vond niet het artikel snel, niemand maakte gebruik van de zoekfunctie. Om dit op te lossen zou bij een eerste bezoek een aantal features uitgelicht, zoals de zoekfunctie."
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Uit de heatmap en de snelheid waarmee de gebruiker de carousel wist te gebruiken kun je concluderen dat de carousel goed werkt."
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Ook basis van de heatmaps en snelheid kun je concluderen dat het waarderingsysteem goed werkt."
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Uit de vraag of de artikelen betrouwbaar zijn kun je concluderen dat het ‘geverifieerd’ icoontje niet goed genoeg opvalt. Dit moet opvalender gemaakt worden."
                   }
                 ]
               }
@@ -1619,7 +1738,7 @@
                   },
                   {
                     "name": "paragraph",
-                    "content": "Voor de voorbereiding van een usertest op het Sketch Prototype hebben we een testplan opgesteld. Om het eenvoudig te houden hebben we gebruik gemaakt van het Usability Test Plan Dashboard. Omdat de test gepland is voor 9 juni zijn de resultaten nog niet verwerkt en kan ik hierop nog niet reflecteren."
+                    "content": "Voor de voorbereiding van een usertest op het Sketch Prototype hebben we een testplan opgesteld. Om het eenvoudig te houden hebben we gebruik gemaakt van het Usability Test Plan Dashboard. De dag voor de executie kregen we te horen van PIDZ dat zij liever hadden dat de test in Useberry werd gedaan in plaats van 1-op-1 sessies via teams. Hierom heb ik snel de prototypes omgezet naar Useberry. Nadat we na een paar dagen pas 1 reactie kregen hebben we ons eigen netwerk ingeschakeld om de test uit te voeren. Achteraf doe ik liever aan 1-op-1 tests omdat je zo veel kwalitatieve data kan krijgen, een methode als Useberry is pas beter als je heel erg veel correspondenten hebt."
                   },
                   {
                     "name": "Link",
