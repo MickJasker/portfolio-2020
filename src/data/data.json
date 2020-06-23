@@ -562,6 +562,224 @@
                     "content": "Medium. (z.d.). Welcome to Medium, where words matter. Geraadpleegd op 19 mei 2020, van https://medium.com/about"
                   }
                 ]
+              },
+              {
+                "title": "Het online consumeren van informatie – Consumer Trend Canvas",
+                "authors": [
+                  {
+                    "name": "Mick Jasker",
+                    "img": "image/mick.jpg"
+                  }
+                ],
+                "image": {
+                  "src": "image/pidz.jpg"
+                },
+                "statistics": {
+                  "publishDate": "04/20/2020"
+                },
+                "content": [
+                  {
+                    "name": "paragraph",
+                    "props": {
+                      "introduction": true
+                    },
+                    "content": "Na feedback op mijn eerdere trend analyse heb ik een Consumer Trend Canvas opgesteld om een beter inzicht te krijgen in de trend en hoe deze toe te passen."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Trend"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Het online consumeren van informatie."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Analyze"
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Basic Needs"
+                  },
+                  {
+                    "name": "List",
+                    "props": {
+                      "type": "unordered",
+                      "items": [
+                        "Kennis",
+                        "Educatie",
+                        "Betrouwbare informatie",
+                        "Beeldvorming"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Drivers of Change"
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Shifts"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "In de tweede helft van de vorige eeuw toen de televisie zijn intrede deed in de huiskamer verschoof de consumering van informatie van alleen kranten en radio naar ook televisie. Nu in het informatietijdperk wordt deze verplaatsing steeds meer doorgezet naar online informatiebronnen."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Triggers"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Met de (vrijwel) onbeperkte vrijheid op het internet is stroom van desinformatie alleen maar groter geworden. Door deze stroom van desinformatie is in 2020 het vertrouwen onder Amerikanen 41%, vergeleken met 53% in 1997 (Brenan, 2020)."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Emerging Consumer Expectations"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zoals eerder beschreven is neemt het vertrouwen in het nieuws af, daardoor is de behoefte naar betrouwbaar nieuws heel groot."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Inspiration"
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Medium.com"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Een bekend platform voor het plaatsen en lezen van artikelen is Medium.com. Deze website biedt aan meer dan 120 miljoen lezers (Medium, z.d.). Medium schrijft weinig tot geen artikelen en besteedt dat zelf uit aan hun gebruikers. Hierdoor gebruiken meerdere schrijvers en organisaties Medium als podium."
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Een opvallend punt is dat Medium niet controleert op juiste bronverwijzing. In artikelen worden schrijvers zelf verantwoordelijk gehouden voor het juist presenteren van informatie, Medium acht zichzelf ook niet verantwoordelijk voor onjuiste artikelen of nep nieuws. Medium heeft wel een set regels die lezers moeten beschermen tegen nepnieuws, haat, intimidatie etc. Omdat Medium een snel groeiende collectie aan artikelen heeft kunnen ze niet alle artikelen handmatig controleren, daarom zijn ze afhankelijk van de lezers die artikelen rapporteren. Artikelen die gerapporteerd zijn worden dan handmatig gecontroleerd en – indien nodig – worden er maatregelen getroffen zoals het verwijderen van het artikel."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "NOS.nl"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "De NOS is een journalistieke organisatie waar ze met een redactie werken. Hierdoor worden artikelen altijd geplaatst door journalisten van de NOS en is het plaatsen van artikelen dus gecontroleerd. Een kritiek op deze manier werken is dat de journalisten selectief kunnen zijn in welke informatie ze plaatsen."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Apply"
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Innovation Potential"
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Vison"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zorgmedewerkers een wereld bieden waar ze eenvoudige informatie kunnen vergaren."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Business Model"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zoals beschreven in het Business Model Canvas is het platform is feitelijk waardeloos zonder betrouwbare informatie."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Product/Service"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Een platform dat gebruikers artikelen laat lezen en publiceren die betrouwbaar zijn."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Marketing/Campaigns"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Door de gebruiker in de campagnes te laten zien dat artikelen op het platform actief worden gemodereerd om onjuiste informatie weg te filteren."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Who"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zoals beschreven in het Business Model Canvas en het Comunicatieplan zijn zzp’ers en medewerkers in de zorg de doelgroep."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Bronnen"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Brenan, B. M. (2020, 8 april). Americans’ Trust in Mass Media Edges Down to 41%. Gallup.com. https://news.gallup.com/poll/267047/americans-trust-mass-media-edges-down.aspx"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Medium. (z.d.). Welcome to Medium, where words matter. Geraadpleegd 19 mei 2020, van https://medium.com/about"
+                  }
+                ]
               }
             ]
           },
@@ -1652,6 +1870,33 @@
                       "type": "ext"
                     },
                     "content": "Zie Presenteren van Artikelen – Trend Analyse"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Het online consumeren van informatie – Consumer Trend Canvas"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Op basis van feedback van Michiel over de bovenstaande trendanalyse heb ik de al vergaarde informatie gebruikt om een Consumer Trend Canvas. Voor dit canvas heb ik het volgende template gebruikt:"
+                  },
+                  {
+                    "name": "Link",
+                    "props": {
+                      "to": "https://trendwatching.com/trends/consumertrendcanvas/",
+                      "type": "ext"
+                    },
+                    "content": "TrendWatching | CONSUMER TREND CANVAS"
+                  },
+                  {
+                    "name": "Link",
+                    "props": {
+                      "to": "/portfolio/pidz/analyseren/het-online-consumeren-van-informatie-–-consumer-trend-canvas",
+                      "type": "ext"
+                    },
+                    "content": "Zie Het online consumeren van informatie – Consumer Trend Canvas"
                   },
                   {
                     "name": "heading",
