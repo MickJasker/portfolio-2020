@@ -1205,7 +1205,7 @@
                 ]
               },
               {
-                "title": "Conversieplan",
+                "title": "Communicatie– en Conversieplan",
                 "authors": [
                   {
                     "name": "Mick Jasker",
@@ -1220,29 +1220,235 @@
                 },
                 "content": [
                   {
-                    "name": "paragraph",
-                    "content": "TODO"
-                  }
-                ]
-              },
-              {
-                "title": "Communicatieplan",
-                "authors": [
-                  {
-                    "name": "Mick Jasker",
-                    "img": "image/mick.jpg"
-                  }
-                ],
-                "image": {
-                  "src": "image/pidz.jpg"
-                },
-                "statistics": {
-                  "publishDate": "02/19/2020"
-                },
-                "content": [
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Doelgroep"
+                  },
                   {
                     "name": "paragraph",
-                    "content": "TODO"
+                    "content": "De primaire doelgroep bestaat voornamelijk uit zzp’ers die werkzaam zijn in de zorg. Deze zzp’ers zijn werkzaam over breed spectrum aan richtingen in de zorg. "
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Waar is de doelgroep aanwezig?"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Volgens de opdrachtgever bevindt de doelgroep zich voornamelijk op social media zoals Facebook en WhatsApp groepen."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Interesses"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Doordat de doelgroep hoofdzakelijk werkt in de zorg zijn ze vooral geïnteresseerd in artikelen over de zorg. De zorg is wel een heel brede term op te delen in veel subonderwerpen, denk hierbij aan bijvoorbeeld: ouderenzorg, dermatologie, verpleegkunde etc. Omdat de de gebruiker een zzp’er is en dus een een ondernemer zijn onderwerpen die betrekking hebben tot ondernemerschap ook interessant voor de doelgroep."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Gedrag"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Het gedrag van van de gebruiker wordt gedefinieerd door een user archetype. In een recent artikel (Dodani, 2019) sluit de ‘caregiver’ het beste aan op de doelgroep. Deze archetype is:"
+                  },
+                  {
+                    "name": "list",
+                    "props": {
+                      "type": "unordered",
+                      "items": [
+                        "Empatish",
+                        "Altruïstisch",
+                        "Emotioneel",
+                        "Vrijgevig"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Persona"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Op basis van de bovenstaande informatie heb ik de volgende persona opgesteld."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Naam"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Linda"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Leeftijd"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "44 jaar"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Werk"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zzp’er aangesloten bij PIDZ, gespecialiseerd in ouderenzorg."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Opleiding"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "HBO Bachelor Verpleegkunde"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Karakter"
+                  },
+                  {
+                    "name": "list",
+                    "props": {
+                      "type": "unordered",
+                      "items": [
+                        "Zorgzaam",
+                        "Altruïstisch",
+                        "Gefocused",
+                        "Energiek"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Hobby's"
+                  },
+                  {
+                    "name": "list",
+                    "props": {
+                      "type": "unordered",
+                      "items": [
+                        "In de tuin werken",
+                        "Fietsen"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Doel"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Binnen een jaar moet minimaal 40% van de actieve PIDZ zzp’ers gebruik maken van het wijPIDZ platform."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Boodschap"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Ik wil de doelgroep overtuigen om gebruik te gaan maken van het nieuwe wijPIDZ platform."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Mediums"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zoals eerder beschreven is de doelgroep veel aanwezig op in social media groepen op bijvoorbeeld Facebook. PIDZ kan in deze groepen gericht adverteren op het platform. In posts worden de voordelen van het platform uitgelicht."
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Omdat PIDZ nauw samenwerkt met de doelgroep hebben ze ook beschikking tot email marketing. Door met gerichte mails de doelgroep op de hoogte brengen van het nieuwe platform."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Conversion Funnel"
+                  },
+                  {
+                    "name": "list",
+                    "props": {
+                      "type": "unordered",
+                      "items": [
+                        "De doelgroep wordt eerst op de hoogte gebracht van het bestaan van het platform. Dit wordt, zoals eerder beschreven, gedaan via social media posts en gerichte email marketing.",
+                        "Tijdens de tweede stap wordt interesse gewekt, dit kan tegelijk gedaan worden met het op de hoogte brengen van de doelgroep.",
+                        "Om de registratie makkelijker te maken kan de doelgroep gebruik maken van het account dat ze al bij PIDZ hebben.",
+                        "Gebruiker leest artikel(en).",
+                        "Omdat het platform draait op een community is funnel compleet zodra de gebruiker zelf een artikel schrijft/deelt.",
+                        "De hele cyclus begin vervolgens opnieuw om de gebruiker te behouden op het platform."
+                      ]
+                    }
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Validatie"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Om te valideren of de eerder doelstellingen ook behaald worden moet er gebruik worden gemaakt van een analytisch programma zoals Google Analytics. Gecombineerd met de data van het bestaande MijnPIDZ kan je inzicht krijgen of je je doelstelling haalt en of je eventueel het plan moet aanpassen."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Bronnen"
+                  },
+                  {
+                    "name": "Link",
+                    "props": {
+                      "to": "https://news.gallup.com/poll/267047/americans-trust-mass-media-edges-down.aspx",
+                      "type": "ext"
+                    },
+                    "content": "Brenan, B. M. (2020, 8 april). Americans’ Trust in Mass Media Edges Down to 41%. Gallup.com. https://news.gallup.com/poll/267047/americans-trust-mass-media-edges-down.aspx"
                   }
                 ]
               }
@@ -1922,38 +2128,19 @@
                     "props": {
                       "level": "2"
                     },
-                    "content": "Conversieplan"
+                    "content": "Communicatie- en Conversieplan"
                   },
                   {
                     "name": "paragraph",
-                    "content": "TODO"
+                    "content": "Om het voor PIDZ duidelijk te maken hoe ze het beste het nieuwe platform kunnen promoten aan de doelgroep heb ik een comuncatieplan opgesteld."
                   },
                   {
                     "name": "Link",
                     "props": {
-                      "to": "/portfolio/pidz/adviseren/conversieplan",
+                      "to": "/portfolio/pidz/adviseren/communicatie–en-conversieplan",
                       "type": "ext"
                     },
-                    "content": "Zie Conversieplan"
-                  },
-                  {
-                    "name": "heading",
-                    "props": {
-                      "level": "2"
-                    },
-                    "content": "Communicatieplan"
-                  },
-                  {
-                    "name": "paragraph",
-                    "content": "TODO"
-                  },
-                  {
-                    "name": "Link",
-                    "props": {
-                      "to": "/portfolio/pidz/adviseren/communicatieplan",
-                      "type": "ext"
-                    },
-                    "content": "Zie Communicatieplan"
+                    "content": "Zie Communicatie- en Conversieplan"
                   },
                   {
                     "name": "heading",
@@ -2022,6 +2209,148 @@
                   {
                     "name": "paragraph",
                     "content": "Doordat het vorige project van Stichting Ik Wil door de corona crisis zeer slecht is verlopen stond er voor dit project veel op het spel. Tot nu toe ben ik niet ontevreden hoe het allemaal loopt. Hoewel door het plotseling annulering van mijn afstudeerstage bij TDE mijn motivatie terug loopt. De uitkomst van dit semester is voor mij dan nog moeilijk te voorspellen. Ik moet nog vrij veel doen om zoveel mogelijk leerdoelen af te strepen. Wat ik absoluut moet verbeteren is dat ik meer moet communiceren met leraren, normaal zou een leraar regelmatig langslopen maar omdat ik nu thuis zit gebeurt dat niet, hierdoor loop ik zeer waardevolle feedback momentjes mis."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Verantwoording"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Strategie & Concepting"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Oordeelsvorming"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zie projectplan en analyse"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Trends"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zie Presenteren van Artikelen – Trend Analyse en Het online consumeren van informatie – Consumer Trend Canvas"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Concept"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zie conceptdocument"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Business-model"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zie Business Model Canvas"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Marketing"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zie Comunicatie- en Conversieplan"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Comunicatie"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zie Workshop GSAP en opleveringspresentatie"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Profesionele Houding"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zie leeswijzer, refelectie en presentatie"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "User Experience Design"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Design"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zie design artikel overzicht"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "User Experience"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zie UX onderzoek"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Gebruikersonderzoek"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zie UX onderzoek en comunicatieplan"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Development"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zie Workhops GSAP en Technische Realisatie"
                   }
                 ]
               }
