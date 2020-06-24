@@ -1517,6 +1517,7 @@
                         "De tekst ‘IN DE SPOTLIGHT’, om duidelijk te maken dat het uitgelicht artikel betreft.",
                         "De titel wordt groot uitgelicht door gebruik van een groot lettertype en gebruik van de volledige container breedte.",
                         "Onder de titel wordt de auteur, het onderwerp/doelgroep en de tijd van publicatie uitgelicht.",
+                        "Het vinkje geeft aan dat het artikel geverifieerd is. Uit gebruikersonderzoek is gebleken dat dit niet goed genoeg opviel, hierom heb ik ervoor gekozen om een uitroepteken toe te voegen als artikel nog niet is geverifieerd. Hierdoor is het snellen duidelijk voor de gebruiker dat ze het artikel extra kritisch moeten bekijken.",
                         "De omschrijving beschrijft in ±20 woorden het artikel.",
                         "Tot slot wordt een opvallende rode call-to-action gebruikt om de gebruiker te verleiden het artikel te lezen."
                       ]
