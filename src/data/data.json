@@ -1425,6 +1425,13 @@
                     }
                   },
                   {
+                    "name": "ImageBlock",
+                    "props": {
+                      "src": "image/conversion-funnel.svg",
+                      "caption": "Conversie Funnel"
+                    }
+                  },
+                  {
                     "name": "heading",
                     "props": {
                       "level": "1"
