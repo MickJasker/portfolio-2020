@@ -2138,7 +2138,7 @@
                   {
                     "name": "Link",
                     "props": {
-                      "to": "/portfolio/pidz/adviseren/communicatie–en-conversieplan",
+                      "to": "/portfolio/pidz/adviseren/communicatie–-en-conversieplan",
                       "type": "ext"
                     },
                     "content": "Zie Communicatie- en Conversieplan"
@@ -2278,7 +2278,7 @@
                   },
                   {
                     "name": "paragraph",
-                    "content": "Zie Comunicatie- en Conversieplan"
+                    "content": "Zie Comunicatie- en Conversieplan en business Model Canvas"
                   },
                   {
                     "name": "heading",
