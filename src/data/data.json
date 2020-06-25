@@ -1945,6 +1945,34 @@
             "img": "image/index.jpg",
             "articles": [
               {
+                "title": "Eindpresentatie",
+                "image": {
+                  "src": "image/pidz.jpg"
+                },
+                "authors": [
+                  {
+                    "name": "Mick Jasker",
+                    "img": "image/mick.jpg"
+                  },
+                  {
+                    "name": "Bart van Lier",
+                    "img": "image/bart.jpg"
+                  }
+                ],
+                "statistics": {
+                  "publishDate": "04/20/2020"
+                },
+                "content": [
+                  {
+                    "name": "VideoPlayer",
+                    "props": {
+                      "src": "video/eindpresentatie-pidz.mp4",
+                      "caption": "EindpresentatieP"
+                    }
+                  }
+                ]
+              },
+              {
                 "title": "Leeswijzer",
                 "image": {
                   "src": "image/pidz.jpg"
@@ -2203,6 +2231,35 @@
                   {
                     "name": "heading",
                     "props": {
+                      "level": "2"
+                    },
+                    "content": "Workshop GSAP"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Als afsluiting van het project hebben we aan PIDZ het prototype en de resultaten gepresenteerd. Vanuit PIDZ hebben we erg positieve feedback gekregen. Wel hadden ze een aantal opmerkingen:"
+                  },
+                  {
+                    "name": "List",
+                    "props": {
+                      "type": "unordered",
+                      "items": [
+                        "Hoe bepaal je de waarde van een heartbeat in het waarderingssysteem? Dit kan opgelost worden door naast het aantal Heartbeats het aantal gebruikers te zetten dat Heartbeats heeft gegeven.",
+                        "Hoe zorg je ervoor dat het platform hufterproof is? 100% hufterproof bestaat naar mijn mening niet. Om het platform te beschermen tegen ‘hufters’ die moedwillend nepnieuws proberen te verspreiden moet actief gebruik worden gemaakt van moderators."
+                      ]
+                    }
+                  },
+                  {
+                    "name": "Link",
+                    "props": {
+                      "to": "/portfolio/pidz/overig/eindpresentatie",
+                      "type": "ext"
+                    },
+                    "content": "Zie Eindpresentatie"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
                       "level": "1"
                     },
                     "content": "Reflectie"
@@ -2289,14 +2346,14 @@
                   },
                   {
                     "name": "paragraph",
-                    "content": "Zie Workshop GSAP en opleveringspresentatie"
+                    "content": "Zie Workshop GSAP en Eindpresentatie"
                   },
                   {
                     "name": "heading",
                     "props": {
                       "level": "3"
                     },
-                    "content": "Profesionele Houding"
+                    "content": "Professionele Houding"
                   },
                   {
                     "name": "paragraph",
