@@ -1903,7 +1903,78 @@
                 "content": [
                   {
                     "name": "paragraph",
-                    "content": "TODO"
+                    "props": {
+                      "introduction": true
+                    },
+                    "content": "Voor het realiseren van een technisch prototype hebben we gebruik gemaakt van de volgende technieken."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Vue"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Als framework hebben we gebruik gemaakt van Vue. We hebben voor dit framework gekozen omdat het makkelijk in gebruik is, snel en schaalbaar. Bovendien heb ik er al ongeveer twee jaar ervaring mee. Om het platform snel op te zetten hebben we gebruik gemaakt van een boilerplate die ik gebruik bij MediaMonks."
+                  },
+                  {
+                    "name": "Link",
+                    "props": {
+                      "to": "https://github.com/hjeti/vue-skeleton",
+                      "type": "ext"
+                    },
+                    "content": "Vue Skeleton"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "GSAP"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Om het platform te voorzien van soepele transities hebben we gebruik gemaakt van GreenSock Animation Platform (GSAP). Een paar weken geleden heb ik een workshop over GSAP gegeven."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Firebase"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Voor authenticatie, databases en hosting hebben we Firebase gebruikt. Firebase is een platform van Google die het zeer eenvoudig maakt om een backend te maken met JavaScript."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "GitHub"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Het repository kan op GitHub gevonden worden."
+                  },
+                  {
+                    "name": "Link",
+                    "props": {
+                      "to": "https://github.com/SwurlMedia/PIDZ-platform",
+                      "type": "ext"
+                    },
+                    "content": "GitHub"
+                  },
+                  {
+                    "name": "Link",
+                    "props": {
+                      "to": "https://dev-pidz.web.app/",
+                      "type": "ext"
+                    },
+                    "content": "Demo"
                   }
                 ]
               },
@@ -2233,7 +2304,26 @@
                     "props": {
                       "level": "2"
                     },
-                    "content": "Workshop GSAP"
+                    "content": "Technische Realisatie"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Om tot een technisch prototype te komen heb ik ook bijgedrage aan devlopen. Ik ben hoofdzakelijk verantwoordelijk geweest voor de artikeloverzicht pagina en het inloggen/registreren."
+                  },
+                  {
+                    "name": "Link",
+                    "props": {
+                      "type": "ext",
+                      "to": ""
+                    },
+                    "content": "Zie Technische Realisatie"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Eindpresentatie"
                   },
                   {
                     "name": "paragraph",
