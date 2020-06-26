@@ -1606,6 +1606,13 @@
                 },
                 "content": [
                   {
+                    "name": "ImageBlock",
+                    "props": {
+                      "src": "image/Testplan-dashboard.jpg",
+                      "caption": "Testplan Dashboard"
+                    }
+                  },
+                  {
                     "name": "heading",
                     "props": {
                       "level": "1"
@@ -1652,7 +1659,7 @@
                         "Is de navigatie door de app duidelijk?",
                         "Vertrouwen mensen de dienst?",
                         "Snapt de gebruiker het ‘like’ systeem",
-                        "Snapt de gebruiker de filter"
+                        "Snapt de gebruiker de filter functie"
                       ]
                     }
                   },
@@ -2277,7 +2284,7 @@
                   },
                   {
                     "name": "paragraph",
-                    "content": "Voor de voorbereiding van een usertest op het Sketch Prototype hebben we een testplan opgesteld. Om het eenvoudig te houden hebben we gebruik gemaakt van het Usability Test Plan Dashboard. De dag voor de executie kregen we te horen van PIDZ dat zij liever hadden dat de test in Useberry werd gedaan in plaats van 1-op-1 sessies via teams. Hierom heb ik snel de prototypes omgezet naar Useberry. Nadat we na een paar dagen pas 1 reactie kregen hebben we ons eigen netwerk ingeschakeld om de test uit te voeren. Achteraf doe ik liever aan 1-op-1 tests omdat je zo veel kwalitatieve data kan krijgen, een methode als Useberry is pas beter als je heel erg veel correspondenten hebt."
+                    "content": "Voor de voorbereiding van een usertest op het Sketch Prototype hebben we een testplan opgesteld. Om het eenvoudig te houden hebben we gebruik gemaakt van het Usability Test Plan Dashboard. De dag voor de executie kregen we te horen van PIDZ dat zij liever hadden dat de test in Useberry werd gedaan in plaats van 1-op-1 sessies via teams. Hierom heb ik snel de prototypes omgezet naar Useberry. Nadat we na een paar dagen pas 1 reactie kregen hebben we ons eigen netwerk ingeschakeld om de test uit te voeren. Achteraf doe ik liever aan 1-op-1 tests omdat je zo veel kwalitatieve data kan krijgen, een methode als Useberry is pas beter als je heel erg veel correspondenten hebt. Ik ben samen met Bart verantwoordelijk geweest voor het opstellen van het testplan. Ik heb uiteindelijk de resultaten verwerkt en de conclusies getrokken."
                   },
                   {
                     "name": "Link",
