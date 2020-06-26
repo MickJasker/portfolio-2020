@@ -2099,23 +2099,7 @@
                   },
                   {
                     "name": "paragraph",
-                    "content": "PIDZ heeft een onderzoek uitgevoerd naar knelpunten. Hieruit\nzijn vier problemen duidelijk geworden:"
-                  },
-                  {
-                    "name": "list",
-                    "props": {
-                      "type": "unordered",
-                      "items": [
-                        "De zzp’er besteedt vaak veel tijd en soms geld aan de\nzoektocht naar betrouwbare artikelen.",
-                        "Zzp’ers raken de weg kwijt in de diversiteit van het\nscholingsaanbod.",
-                        "Er is behoefte aan vakbekwame collega’s.",
-                        "De zzp’ers zoeken een one-stop-shop die hen ontzorgd in tijd,\nbetrouwbaarheid van informatie, verbinding faciliteert en kosten kan\nverlagen."
-                      ]
-                    }
-                  },
-                  {
-                    "name": "paragraph",
-                    "content": "Wij hebben de keuze laten vallen op het eerste probleem. Omdat wij maar\nmet twee mensen aan het project werken hebben we voor één probleem\ngekozen. We verkiezen daarmee kwaliteit over kwantiteit."
+                    "content": "In eerder onderzoek door PIDZ kwam naar voren dat de zzp’er vaak veel tijd en soms geld kwijt is aan het zoeken naar betrouwbare en relevante informatie. Op dit moment wordt veel informatie op social media kanalen gedeeld waardoor het moeilijk is om de betrouwbaarheid te waarborgen. Doordat de informatie niet altijd betrouwbaar is kan het zijn dat de zzp’er op verkeerde informatie gaat handelen, dit kan een potentieel risico zijn voor patiënten. "
                   },
                   {
                     "name": "heading",
@@ -2162,7 +2146,24 @@
                   },
                   {
                     "name": "paragraph",
-                    "content": "Om een goed beeld te krijgen wat we willen gaan doen hebben we eerst een projectplan opgesteld. Omdat we er voor gekozen hebben om maar met twee mensen zijn hebben we ervoor gekozen om maar 1 van de 4 componenten uit te werken. Kwaliteit gaat immers boven kwantiteit. Om alles efficiënt te laten verlopen hebben we een JIRA bord aangemaakt en hier een planning gemaakt. Met behulp van het Kanban principe worden de taken verdeeld. Om de communicatie hoog te houden was er elke dag om negen uur een stand up en verliep de andere communicatie via Slack."
+                    "content": "Om een goed beeld te krijgen wat we willen gaan doen hebben we eerst een projectplan opgesteld. Omdat we er voor gekozen hebben om maar met twee mensen zijn hebben we ervoor gekozen om maar 1 van de 4 componenten uit te werken. Kwaliteit gaat immers boven kwantiteit. Om alles efficiënt te laten verlopen hebben we een JIRA bord aangemaakt en hier een planning gemaakt. Met behulp van het Kanban principe worden de taken verdeeld. Om de communicatie hoog te houden was er elke dag om negen uur een stand up en verliep de andere communicatie via Slack. Voor het opstellen van het projectplan was ik verantwoordelijk voor het volgende:"
+                  },
+                  {
+                    "name": "List",
+                    "props": {
+                      "type": "unordered",
+                      "items": [
+                        "Opdrachtomschrijving",
+                        "Doel van de opdracht",
+                        "Eisen aan de opdracht",
+                        "Scope",
+                        "Communicatie"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Alle andere kopjes zijn door Bart gedaan, wel hebben we uiteraard op elkaars werk feedback gegeven en overleg gepleegd door middel van peer reviews."
                   },
                   {
                     "name": "Link",
@@ -2370,7 +2371,7 @@
                   },
                   {
                     "name": "paragraph",
-                    "content": "Doordat het vorige project van Stichting Ik Wil door de corona crisis zeer slecht is verlopen stond er voor dit project veel op het spel. Tot nu toe ben ik niet ontevreden hoe het allemaal loopt. Hoewel door het plotseling annulering van mijn afstudeerstage bij TDE mijn motivatie terug loopt. De uitkomst van dit semester is voor mij dan nog moeilijk te voorspellen. Ik moet nog vrij veel doen om zoveel mogelijk leerdoelen af te strepen. Wat ik absoluut moet verbeteren is dat ik meer moet communiceren met leraren, normaal zou een leraar regelmatig langslopen maar omdat ik nu thuis zit gebeurt dat niet, hierdoor loop ik zeer waardevolle feedback momentjes mis."
+                    "content": "Doordat het vorige project van Stichting Ik Wil door de corona crisis zeer slecht is verlopen stond er voor dit project veel op het spel. Terugkijkend op dit project ben ik niet ontevreden over wat ik heb kunnen bereiken. Wat ik wel echt beter moet doen is meer feedback vragen. In de oude situatie waar we nog op school werkte kon ik veel makkelijker feedback vragen aan docenten. In de huidige situatie ben je toch afhankelijk van MS Teams waar je niet altijd reactie op krijg en dat feedback via tekst toch minder waardevol is dan mondelinge feedback. Om hierover heen te komen hebben we regelmatig elkaars werk van feedback voorzien door middel van peer reviews. Tijdens mijn afstuderen heb ik het geluk dat ik de mensen uit het team al redelijk goed ken, hierdoor kan ik veel makkelijker om hulp/feedback vragen, ook als door de pandemie werken op locatie nog niet of beperkt mogelijk is."
                   },
                   {
                     "name": "heading",
@@ -2395,7 +2396,7 @@
                   },
                   {
                     "name": "paragraph",
-                    "content": "Zie projectplan en analyse"
+                    "content": "Zie projectplan"
                   },
                   {
                     "name": "heading",
@@ -2417,7 +2418,7 @@
                   },
                   {
                     "name": "paragraph",
-                    "content": "Zie conceptdocument"
+                    "content": "Zie design en eindpresentatie"
                   },
                   {
                     "name": "heading",
