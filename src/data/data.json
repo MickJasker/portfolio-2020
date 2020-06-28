@@ -2337,7 +2337,7 @@
                     "name": "Link",
                     "props": {
                       "type": "ext",
-                      "to": ""
+                      "to": "http://localhost:8080/portfolio/pidz/realiseren/technische-realisatie"
                     },
                     "content": "Zie Technische Realisatie"
                   },
