@@ -562,6 +562,224 @@
                     "content": "Medium. (z.d.). Welcome to Medium, where words matter. Geraadpleegd op 19 mei 2020, van https://medium.com/about"
                   }
                 ]
+              },
+              {
+                "title": "Het online consumeren van informatie – Consumer Trend Canvas",
+                "authors": [
+                  {
+                    "name": "Mick Jasker",
+                    "img": "image/mick.jpg"
+                  }
+                ],
+                "image": {
+                  "src": "image/pidz.jpg"
+                },
+                "statistics": {
+                  "publishDate": "04/20/2020"
+                },
+                "content": [
+                  {
+                    "name": "paragraph",
+                    "props": {
+                      "introduction": true
+                    },
+                    "content": "Na feedback op mijn eerdere trend analyse heb ik een Consumer Trend Canvas opgesteld om een beter inzicht te krijgen in de trend en hoe deze toe te passen."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Trend"
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Het online consumeren van informatie."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Analyze"
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Basic Needs"
+                  },
+                  {
+                    "name": "List",
+                    "props": {
+                      "type": "unordered",
+                      "items": [
+                        "Kennis",
+                        "Educatie",
+                        "Betrouwbare informatie",
+                        "Beeldvorming"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Drivers of Change"
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Shifts"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "In de tweede helft van de vorige eeuw toen de televisie zijn intrede deed in de huiskamer verschoof de consumering van informatie van alleen kranten en radio naar ook televisie. Nu in het informatietijdperk wordt deze verplaatsing steeds meer doorgezet naar online informatiebronnen."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Triggers"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Met de (vrijwel) onbeperkte vrijheid op het internet is stroom van desinformatie alleen maar groter geworden. Door deze stroom van desinformatie is in 2020 het vertrouwen onder Amerikanen 41%, vergeleken met 53% in 1997 (Brenan, 2020)."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Emerging Consumer Expectations"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zoals eerder beschreven is neemt het vertrouwen in het nieuws af, daardoor is de behoefte naar betrouwbaar nieuws heel groot."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Inspiration"
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Medium.com"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Een bekend platform voor het plaatsen en lezen van artikelen is Medium.com. Deze website biedt aan meer dan 120 miljoen lezers (Medium, z.d.). Medium schrijft weinig tot geen artikelen en besteedt dat zelf uit aan hun gebruikers. Hierdoor gebruiken meerdere schrijvers en organisaties Medium als podium."
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Een opvallend punt is dat Medium niet controleert op juiste bronverwijzing. In artikelen worden schrijvers zelf verantwoordelijk gehouden voor het juist presenteren van informatie, Medium acht zichzelf ook niet verantwoordelijk voor onjuiste artikelen of nep nieuws. Medium heeft wel een set regels die lezers moeten beschermen tegen nepnieuws, haat, intimidatie etc. Omdat Medium een snel groeiende collectie aan artikelen heeft kunnen ze niet alle artikelen handmatig controleren, daarom zijn ze afhankelijk van de lezers die artikelen rapporteren. Artikelen die gerapporteerd zijn worden dan handmatig gecontroleerd en – indien nodig – worden er maatregelen getroffen zoals het verwijderen van het artikel."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "NOS.nl"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "De NOS is een journalistieke organisatie waar ze met een redactie werken. Hierdoor worden artikelen altijd geplaatst door journalisten van de NOS en is het plaatsen van artikelen dus gecontroleerd. Een kritiek op deze manier werken is dat de journalisten selectief kunnen zijn in welke informatie ze plaatsen."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Apply"
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Innovation Potential"
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Vison"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zorgmedewerkers een wereld bieden waar ze eenvoudige informatie kunnen vergaren."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Business Model"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zoals beschreven in het Business Model Canvas is het platform is feitelijk waardeloos zonder betrouwbare informatie."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Product/Service"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Een platform dat gebruikers artikelen laat lezen en publiceren die betrouwbaar zijn."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Marketing/Campaigns"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Door de gebruiker in de campagnes te laten zien dat artikelen op het platform actief worden gemodereerd om onjuiste informatie weg te filteren."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Who"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zoals beschreven in het Business Model Canvas en het Comunicatieplan zijn zzp’ers en medewerkers in de zorg de doelgroep."
+                  },
+                  {
+                    "name": "Heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Bronnen"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Brenan, B. M. (2020, 8 april). Americans’ Trust in Mass Media Edges Down to 41%. Gallup.com. https://news.gallup.com/poll/267047/americans-trust-mass-media-edges-down.aspx"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Medium. (z.d.). Welcome to Medium, where words matter. Geraadpleegd 19 mei 2020, van https://medium.com/about"
+                  }
+                ]
               }
             ]
           },
@@ -585,13 +803,409 @@
                 },
                 "content": [
                   {
+                    "name": "ImageBlock",
+                    "props": {
+                      "src": "image/bmc.png",
+                      "caption": "Business Model Canvas"
+                    }
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Customer Segments"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Zzp'er"
+                  },
+                  {
                     "name": "paragraph",
-                    "content": "TODO"
+                    "content": "Als bemiddelingsbureau tussen zzp’ers en zorginstellingen zijn de zzp’ers de primaire doelgroep voor het platform."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Zorgmedewerkers"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Omdat het platform niet alleen relevant is voor de PIDZ zzp’ers zou als secundaire groep zorgmedewerkers in het algemeen genomen kunnen worden."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Value Proposition"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Betrouwbare Informatie"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Omdat de zzp’er in de huidige situatie veel informatie van social media afhaalt is er weinig controle of informatie daadwerkelijk betrouwbaar is. WijPIDZ moet de gebruiker van betrouwbare artikelen voorzien."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Relevante Artikelen"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Om ervoor te zorgen dat de gebruiker niet terugkeert naar onbetrouwbare bronnen van informatie moet de informatie op het platform relevant zijn voor de gebruiker."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Verzamelplaats van Artikelen"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Doordat PIDZ zelf geen (tot weinig) artikelen gaat publiceren is de groep gebruikers hier zelf verantwoordelijk voor. Hierdoor verandert het platform in een verzamelplaats van artikelen."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Makkelijk Filteren op Onderwerpen"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "De zorg bestaat uit veel subgroepen zoals verpleegkunde, ouderenzorg, gehandicaptenzorg etc. hierdoor moet het voor de gebruiker eenvoudig zijn op onderwerpen te filteren die voor hem relevant zijn."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Informatie over Ondernemen"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Als zzp’er bij PIDZ werk je niet alleen in de zorg, je bent ook ondernemer. Hierom moeten er op het platform ook ruimte zijn om hier informatie over te delen, denk aan: boekhouden, ondernemerschap en financiën."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Revenue streams"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Bemiddelingskosten"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "PIDZ verdient het grootste gedeelte van hun geld bemiddelingskosten die gemaakt worden tussen de zorginstellingen en de zzp'er. Hieruit zal een gedeelte naar het platform moeten gaan."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Advertenties"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "PIDZ kan ruimte op het platform verkopen aan adverteerders. Hier is het wel belangrijk dat de betrouwbaarheid van WijPIDZ bovenaan staat, advertenties moeten dus duidelijk gemarkeerd worden."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Abonnement"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Voor het gebruik van WijPIDZ kan een maandelijkse contributie gevraagd worden. Omdat het platform toegankelijk te houden voor de PIDZ zzp’er is het voor hun gratis, dit geldt dus alleen voor gebruikers buiten PIDZ."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Channels"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "MijnPIDZ"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Op het huidige platform MijnPIDZ kan geadverteerd worden voor het WijPIDZ platform."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Email"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Via gerichte email marketing onder de zzp’er kan het platform verder onder de aandacht te brengen."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Vakbladen"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Om een bredere doelgroep buiten de zzp'er te bereiken wordt er geadverteerd in gerelateerde vakbladen."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Social Media"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Tot slot wordt op social media geadverteerd door gerichte posts en door het plaatsen van posts in Facebook groepen waar veel zzp'ers actief zijn."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Customer Relationships"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Klantenservice"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Vragen en problemen kunnen opgelost worden via een klantenservice. Dit kan zowel via social media, email of telefoon."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Delen Uitgelichte Artikelen op Social Media"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Om gebruikers een podium te geven kunnen artikelen als uitgelicht gemarkeerd worden, deze artikelen kunnen dan op social media gedeeld worden."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Nieuwsbrief"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Om de gebruiker op de hoogte te houden van de laatste ontwikkelingen wordt er regelmatig een nieuwsbrief gedeeld, dit kan via email, social media en via het platform zelf."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Key Activities"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Verzamelen van Artikelen"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Doordat het platform afhankelijk is van een collectie artikelen is de belangrijkste activiteit het verzamelen van artikelen. Dit wordt primair uitgevoerd door de gebruikers zelf maar kan ook door PIDZ gedaan worden."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Gebruikersonderzoek"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Omdat de behoefte van de gebruiker kan veranderen in loop der tijden hoort PIDZ dit constant te blijven monitoren en onderzoek te doen."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Modereren"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Om het platform betrouwbaar te houden moeten artikelen gemodereerd worden op het gebruik van correcte bronvermelding en het houden aan de algemene voorwaarden."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Key Resources"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Gebruikers"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "De gebruiker is bij verre de belangrijkste resource van het platform, zonder gebruikers geen artikelen en dus ook geen werkend product."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Hosting"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Het platform moet ook op server gehost en onderhouden worden."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Moderators"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zonder moderators heb je geen garantie dat de geplaatste artikelen nog betrouwbaar zijn."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Adverteerders"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Om geld op te brengen zijn adverteerders een belangrijke resource."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Key Partners"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Zzp’ers"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zoals eerder beschreven is zonder de zzp’er een werkend platform niet mogelijk."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Cost Structure"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Onderhoud"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Het platform moet blijvend onderhouden worden, denk hierbij aan het oplossen van bugs, UX problemen, netwerken etc."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Hosting"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zoals eerder beschreven is hosting een belangrijk onderdeel van het platform, hier zijn uiteraard kosten aan verbonden."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Development"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Een platform is nooit af en aan het ontwikkelen van nieuwe features zijn kosten verbonden."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Personeel"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Personeel dat o.a. wordt gevraagd voor het modereren moet ook betaald worden, hierbij komen ook de personeelskosten voor onderhoud, hosting, development etc."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Adverteren"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Het adverteren op social media en in vakbladen brengt een grote kostenpost met zich mee."
                   }
                 ]
               },
               {
-                "title": "Conversieplan",
+                "title": "Communicatie– en Conversieplan",
                 "authors": [
                   {
                     "name": "Mick Jasker",
@@ -606,29 +1220,242 @@
                 },
                 "content": [
                   {
-                    "name": "paragraph",
-                    "content": "TODO"
-                  }
-                ]
-              },
-              {
-                "title": "Communicatieplan",
-                "authors": [
-                  {
-                    "name": "Mick Jasker",
-                    "img": "image/mick.jpg"
-                  }
-                ],
-                "image": {
-                  "src": "image/pidz.jpg"
-                },
-                "statistics": {
-                  "publishDate": "02/19/2020"
-                },
-                "content": [
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Doelgroep"
+                  },
                   {
                     "name": "paragraph",
-                    "content": "TODO"
+                    "content": "De primaire doelgroep bestaat voornamelijk uit zzp’ers die werkzaam zijn in de zorg. Deze zzp’ers zijn werkzaam over breed spectrum aan richtingen in de zorg. "
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Waar is de doelgroep aanwezig?"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Volgens de opdrachtgever bevindt de doelgroep zich voornamelijk op social media zoals Facebook en WhatsApp groepen."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Interesses"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Doordat de doelgroep hoofdzakelijk werkt in de zorg zijn ze vooral geïnteresseerd in artikelen over de zorg. De zorg is wel een heel brede term op te delen in veel subonderwerpen, denk hierbij aan bijvoorbeeld: ouderenzorg, dermatologie, verpleegkunde etc. Omdat de de gebruiker een zzp’er is en dus een een ondernemer zijn onderwerpen die betrekking hebben tot ondernemerschap ook interessant voor de doelgroep."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Gedrag"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Het gedrag van van de gebruiker wordt gedefinieerd door een user archetype. In een recent artikel (Dodani, 2019) sluit de ‘caregiver’ het beste aan op de doelgroep. Deze archetype is:"
+                  },
+                  {
+                    "name": "list",
+                    "props": {
+                      "type": "unordered",
+                      "items": [
+                        "Empatish",
+                        "Altruïstisch",
+                        "Emotioneel",
+                        "Vrijgevig"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Persona"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Op basis van de bovenstaande informatie heb ik de volgende persona opgesteld."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Naam"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Linda"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Leeftijd"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "44 jaar"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Werk"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zzp’er aangesloten bij PIDZ, gespecialiseerd in ouderenzorg."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Opleiding"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "HBO Bachelor Verpleegkunde"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Karakter"
+                  },
+                  {
+                    "name": "list",
+                    "props": {
+                      "type": "unordered",
+                      "items": [
+                        "Zorgzaam",
+                        "Altruïstisch",
+                        "Gefocused",
+                        "Energiek"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Hobby's"
+                  },
+                  {
+                    "name": "list",
+                    "props": {
+                      "type": "unordered",
+                      "items": [
+                        "In de tuin werken",
+                        "Fietsen"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Doel"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Binnen een jaar moet minimaal 40% van de actieve PIDZ zzp’ers gebruik maken van het wijPIDZ platform."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Boodschap"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Ik wil de doelgroep overtuigen om gebruik te gaan maken van het nieuwe wijPIDZ platform."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Mediums"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zoals eerder beschreven is de doelgroep veel aanwezig op in social media groepen op bijvoorbeeld Facebook. PIDZ kan in deze groepen gericht adverteren op het platform. In posts worden de voordelen van het platform uitgelicht."
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Omdat PIDZ nauw samenwerkt met de doelgroep hebben ze ook beschikking tot email marketing. Door met gerichte mails de doelgroep op de hoogte brengen van het nieuwe platform."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Conversion Funnel"
+                  },
+                  {
+                    "name": "list",
+                    "props": {
+                      "type": "unordered",
+                      "items": [
+                        "De doelgroep wordt eerst op de hoogte gebracht van het bestaan van het platform. Dit wordt, zoals eerder beschreven, gedaan via social media posts en gerichte email marketing.",
+                        "Tijdens de tweede stap wordt interesse gewekt, dit kan tegelijk gedaan worden met het op de hoogte brengen van de doelgroep.",
+                        "Om de registratie makkelijker te maken kan de doelgroep gebruik maken van het account dat ze al bij PIDZ hebben.",
+                        "Gebruiker leest artikel(en).",
+                        "Omdat het platform draait op een community is funnel compleet zodra de gebruiker zelf een artikel schrijft/deelt.",
+                        "De hele cyclus begin vervolgens opnieuw om de gebruiker te behouden op het platform."
+                      ]
+                    }
+                  },
+                  {
+                    "name": "ImageBlock",
+                    "props": {
+                      "src": "image/conversion-funnel.svg",
+                      "caption": "Conversie Funnel"
+                    }
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Validatie"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Om te valideren of de eerder doelstellingen ook behaald worden moet er gebruik worden gemaakt van een analytisch programma zoals Google Analytics. Gecombineerd met de data van het bestaande MijnPIDZ kan je inzicht krijgen of je je doelstelling haalt en of je eventueel het plan moet aanpassen."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Bronnen"
+                  },
+                  {
+                    "name": "Link",
+                    "props": {
+                      "to": "https://news.gallup.com/poll/267047/americans-trust-mass-media-edges-down.aspx",
+                      "type": "ext"
+                    },
+                    "content": "Brenan, B. M. (2020, 8 april). Americans’ Trust in Mass Media Edges Down to 41%. Gallup.com. https://news.gallup.com/poll/267047/americans-trust-mass-media-edges-down.aspx"
                   }
                 ]
               }
@@ -658,7 +1485,15 @@
                     "props": {
                       "introduction": true
                     },
-                    "content": "Het ontwerp voor het artikel overzicht is opgedeeld in meerdere onderdelen."
+                    "content": "Het ontwerp voor het artikel overzicht is opgedeeld in meerdere onderdelen. Voor het design heb ik gebruik het Refactoring UI Book."
+                  },
+                  {
+                    "name": "Link",
+                    "props": {
+                      "type": "ext",
+                      "to": "https://refactoringui.com/book/"
+                    },
+                    "content": "refactoringui.com/book/"
                   },
                   {
                     "name": "ImageBlock",
@@ -697,6 +1532,7 @@
                         "De tekst ‘IN DE SPOTLIGHT’, om duidelijk te maken dat het uitgelicht artikel betreft.",
                         "De titel wordt groot uitgelicht door gebruik van een groot lettertype en gebruik van de volledige container breedte.",
                         "Onder de titel wordt de auteur, het onderwerp/doelgroep en de tijd van publicatie uitgelicht.",
+                        "Het vinkje geeft aan dat het artikel geverifieerd is. Uit gebruikersonderzoek is gebleken dat dit niet goed genoeg opviel, hierom heb ik ervoor gekozen om een uitroepteken toe te voegen als artikel nog niet is geverifieerd. Hierdoor is het snellen duidelijk voor de gebruiker dat ze het artikel extra kritisch moeten bekijken.",
                         "De omschrijving beschrijft in ±20 woorden het artikel.",
                         "Tot slot wordt een opvallende rode call-to-action gebruikt om de gebruiker te verleiden het artikel te lezen."
                       ]
@@ -778,6 +1614,13 @@
                 },
                 "content": [
                   {
+                    "name": "ImageBlock",
+                    "props": {
+                      "src": "image/Testplan-dashboard.jpg",
+                      "caption": "Testplan Dashboard"
+                    }
+                  },
+                  {
                     "name": "heading",
                     "props": {
                       "level": "1"
@@ -824,7 +1667,7 @@
                         "Is de navigatie door de app duidelijk?",
                         "Vertrouwen mensen de dienst?",
                         "Snapt de gebruiker het ‘like’ systeem",
-                        "Snapt de gebruiker de filter"
+                        "Snapt de gebruiker de filter functie"
                       ]
                     }
                   },
@@ -920,19 +1763,138 @@
                     "content": "Results"
                   },
                   {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Taak 1"
+                  },
+                  {
                     "name": "paragraph",
-                    "content": "TODO"
+                    "content": "Voor het vinden van het eeste artikel deden de test personen gemiddeld 4,2 seconden. Uit de onder gelegen heatmap is duidelijk op te maken dat het grootste deel van de groep op de CTA drukt. Wel valt op dat er een aantal kliks buiten de CTA geregsitreerd zijn."
+                  },
+                  {
+                    "name": "ImageBlock",
+                    "props": {
+                      "src": "image/PIDZ-hero-heatmap.jpg",
+                      "caption": "Hero heatmap"
+                    }
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Taak 2"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Voor het vinden van het derde artikel in het recente artikelen overzicht deden gebruikers er gemedild 17,2 seconden over. Dit is aanzienelijk langer dan de eerste taak. Een verklaarbare reden is dat een testpersoon er 45 seconden over deed en hiermee het gemiddelde omhoog tilde. Uit de heatmap is op te maken dat de gebruikers begrijpen hoe dit component werkt."
+                  },
+                  {
+                    "name": "ImageBlock",
+                    "props": {
+                      "src": "image/PIDZ-recents-heatmap.jpg",
+                      "caption": "Hero heatmap"
+                    }
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Taak 3"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "De derde taak deden gebruikers gemmedild 1,7 seconden, veel snellen dan de andere taken. In de heatmap is duidelijk te zien dat alle gebuikers het juiste artikel aanklikte. Een corospondent probeerde zelfs gebruik te maken van de carousel controls, die voor dit prototype niet functioneel waren."
+                  },
+                  {
+                    "name": "ImageBlock",
+                    "props": {
+                      "src": "image/PIDZ-carousel-heatmap.jpg",
+                      "caption": "Hero heatmap"
+                    }
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Taak 4"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "De laatste taak volbrachten de gebruikers in gemideld 6,6 seconden. Uit de heatmap is duidelijk op te maken dat het hartje makkelijk te vinden is."
+                  },
+                  {
+                    "name": "ImageBlock",
+                    "props": {
+                      "src": "image/PIDZ-heart-heatmap.jpg",
+                      "caption": "Hero heatmap"
+                    }
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Vragen"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Tot slot zijn corospondenten gevraagd of ze het artikel betrouwbaar vonden. Hieruit kwamen de volgende antwoorden:"
+                  },
+                  {
+                    "name": "Quote",
+                    "content": "Ik geloof niet alles en kijk er met een nuchtere blik naar want er worden soms berichten geschreven die niet altijd kloppen. Een smeuïg bericht zorgt voor een hogere oplage."
+                  },
+                  {
+                    "name": "Quote",
+                    "content": "De berichten lijken mij betrouwbaar omdat ze lijken op krantenartikelen en een serieuze lay-out hebben. Ook staan er verwijswoorden/belangrijke woorden bovenin waar het artikel over gaat. Verder staat er ook de auteur die je zelf kan checken."
+                  },
+                  {
+                    "name": "Quote",
+                    "content": "Ik denk het wel, het leken nieuwsartikelen."
+                  },
+                  {
+                    "name": "Quote",
+                    "content": "Geen idee. Ik was vooral bezig met de opdrachten die ik kreeg, dus ik heb totaal niet gelet op de inhoud."
+                  },
+                  {
+                    "name": "Quote",
+                    "content": "Ik heb inhoudelijk niet naar de berichten gekeken, dus geen idee."
                   },
                   {
                     "name": "heading",
                     "props": {
                       "level": "1"
                     },
-                    "content": "Conclusie"
+                    "content": "Conclusie & Aanbevelingen"
                   },
                   {
                     "name": "paragraph",
-                    "content": "TODO"
+                    "content": "Uit de bovenstaande resultaten kun je volgende conclusies trekken."
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "De de CTA in de hero is duidelijk maar een aantal gebruikers drukte ook op het de hero zelf. Om het gebruik makkelijker te maken is het goed om de hele hero klikbaar te maken."
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Voor het recente artikelen overzicht vond niet het artikel snel, niemand maakte gebruik van de zoekfunctie. Om dit op te lossen zou bij een eerste bezoek een aantal features uitgelicht, zoals de zoekfunctie."
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Uit de heatmap en de snelheid waarmee de gebruiker de carousel wist te gebruiken kun je concluderen dat de carousel goed werkt."
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Ook basis van de heatmaps en snelheid kun je concluderen dat het waarderingsysteem goed werkt."
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Uit de vraag of de artikelen betrouwbaar zijn kun je concluderen dat het ‘geverifieerd’ icoontje niet goed genoeg opvalt. Dit moet opvalender gemaakt worden."
                   }
                 ]
               }
@@ -963,7 +1925,78 @@
                 "content": [
                   {
                     "name": "paragraph",
-                    "content": "TODO"
+                    "props": {
+                      "introduction": true
+                    },
+                    "content": "Voor het realiseren van een technisch prototype hebben we gebruik gemaakt van de volgende technieken."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Vue"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Als framework hebben we gebruik gemaakt van Vue. We hebben voor dit framework gekozen omdat het makkelijk in gebruik is, snel en schaalbaar. Bovendien heb ik er al ongeveer twee jaar ervaring mee. Om het platform snel op te zetten hebben we gebruik gemaakt van een boilerplate die ik gebruik bij MediaMonks."
+                  },
+                  {
+                    "name": "Link",
+                    "props": {
+                      "to": "https://github.com/hjeti/vue-skeleton",
+                      "type": "ext"
+                    },
+                    "content": "Vue Skeleton"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "GSAP"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Om het platform te voorzien van soepele transities hebben we gebruik gemaakt van GreenSock Animation Platform (GSAP). Een paar weken geleden heb ik een workshop over GSAP gegeven."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Firebase"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Voor authenticatie, databases en hosting hebben we Firebase gebruikt. Firebase is een platform van Google die het zeer eenvoudig maakt om een backend te maken met JavaScript."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "GitHub"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Het repository kan op GitHub gevonden worden."
+                  },
+                  {
+                    "name": "Link",
+                    "props": {
+                      "to": "https://github.com/SwurlMedia/PIDZ-platform",
+                      "type": "ext"
+                    },
+                    "content": "GitHub"
+                  },
+                  {
+                    "name": "Link",
+                    "props": {
+                      "to": "https://dev-pidz.web.app/",
+                      "type": "ext"
+                    },
+                    "content": "Demo"
                   }
                 ]
               },
@@ -1004,6 +2037,34 @@
             "title": "Overig",
             "img": "image/index.jpg",
             "articles": [
+              {
+                "title": "Eindpresentatie",
+                "image": {
+                  "src": "image/pidz.jpg"
+                },
+                "authors": [
+                  {
+                    "name": "Mick Jasker",
+                    "img": "image/mick.jpg"
+                  },
+                  {
+                    "name": "Bart van Lier",
+                    "img": "image/bart.jpg"
+                  }
+                ],
+                "statistics": {
+                  "publishDate": "04/20/2020"
+                },
+                "content": [
+                  {
+                    "name": "VideoPlayer",
+                    "props": {
+                      "src": "video/eindpresentatie-pidz.mp4",
+                      "caption": "EindpresentatieP"
+                    }
+                  }
+                ]
+              },
               {
                 "title": "Leeswijzer",
                 "image": {
@@ -1046,23 +2107,7 @@
                   },
                   {
                     "name": "paragraph",
-                    "content": "PIDZ heeft een onderzoek uitgevoerd naar knelpunten. Hieruit\nzijn vier problemen duidelijk geworden:"
-                  },
-                  {
-                    "name": "list",
-                    "props": {
-                      "type": "unordered",
-                      "items": [
-                        "De zzp’er besteedt vaak veel tijd en soms geld aan de\nzoektocht naar betrouwbare artikelen.",
-                        "Zzp’ers raken de weg kwijt in de diversiteit van het\nscholingsaanbod.",
-                        "Er is behoefte aan vakbekwame collega’s.",
-                        "De zzp’ers zoeken een one-stop-shop die hen ontzorgd in tijd,\nbetrouwbaarheid van informatie, verbinding faciliteert en kosten kan\nverlagen."
-                      ]
-                    }
-                  },
-                  {
-                    "name": "paragraph",
-                    "content": "Wij hebben de keuze laten vallen op het eerste probleem. Omdat wij maar\nmet twee mensen aan het project werken hebben we voor één probleem\ngekozen. We verkiezen daarmee kwaliteit over kwantiteit."
+                    "content": "In eerder onderzoek door PIDZ kwam naar voren dat de zzp’er vaak veel tijd en soms geld kwijt is aan het zoeken naar betrouwbare en relevante informatie. Op dit moment wordt veel informatie op social media kanalen gedeeld waardoor het moeilijk is om de betrouwbaarheid te waarborgen. Doordat de informatie niet altijd betrouwbaar is kan het zijn dat de zzp’er op verkeerde informatie gaat handelen, dit kan een potentieel risico zijn voor patiënten. "
                   },
                   {
                     "name": "heading",
@@ -1109,7 +2154,24 @@
                   },
                   {
                     "name": "paragraph",
-                    "content": "Om een goed beeld te krijgen wat we willen gaan doen hebben we eerst een projectplan opgesteld. Omdat we er voor gekozen hebben om maar met twee mensen zijn hebben we ervoor gekozen om maar 1 van de 4 componenten uit te werken. Kwaliteit gaat immers boven kwantiteit. Om alles efficiënt te laten verlopen hebben we een JIRA bord aangemaakt en hier een planning gemaakt. Met behulp van het Kanban principe worden de taken verdeeld. Om de communicatie hoog te houden was er elke dag om negen uur een stand up en verliep de andere communicatie via Slack."
+                    "content": "Om een goed beeld te krijgen wat we willen gaan doen hebben we eerst een projectplan opgesteld. Omdat we er voor gekozen hebben om maar met twee mensen zijn hebben we ervoor gekozen om maar 1 van de 4 componenten uit te werken. Kwaliteit gaat immers boven kwantiteit. Om alles efficiënt te laten verlopen hebben we een JIRA bord aangemaakt en hier een planning gemaakt. Met behulp van het Kanban principe worden de taken verdeeld. Om de communicatie hoog te houden was er elke dag om negen uur een stand up en verliep de andere communicatie via Slack. Voor het opstellen van het projectplan was ik verantwoordelijk voor het volgende:"
+                  },
+                  {
+                    "name": "List",
+                    "props": {
+                      "type": "unordered",
+                      "items": [
+                        "Opdrachtomschrijving",
+                        "Doel van de opdracht",
+                        "Eisen aan de opdracht",
+                        "Scope",
+                        "Communicatie"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "Paragraph",
+                    "content": "Alle andere kopjes zijn door Bart gedaan, wel hebben we uiteraard op elkaars werk feedback gegeven en overleg gepleegd door middel van peer reviews."
                   },
                   {
                     "name": "Link",
@@ -1143,11 +2205,38 @@
                     "props": {
                       "level": "2"
                     },
+                    "content": "Het online consumeren van informatie – Consumer Trend Canvas"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Op basis van feedback van Michiel over de bovenstaande trendanalyse heb ik de al vergaarde informatie gebruikt om een Consumer Trend Canvas. Voor dit canvas heb ik het volgende template gebruikt:"
+                  },
+                  {
+                    "name": "Link",
+                    "props": {
+                      "to": "https://trendwatching.com/trends/consumertrendcanvas/",
+                      "type": "ext"
+                    },
+                    "content": "TrendWatching | CONSUMER TREND CANVAS"
+                  },
+                  {
+                    "name": "Link",
+                    "props": {
+                      "to": "/portfolio/pidz/analyseren/het-online-consumeren-van-informatie-–-consumer-trend-canvas",
+                      "type": "ext"
+                    },
+                    "content": "Zie Het online consumeren van informatie – Consumer Trend Canvas"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
                     "content": "Business Model Canvas"
                   },
                   {
                     "name": "paragraph",
-                    "content": "TODO"
+                    "content": "Om een beeld te krijgen wat hoe het business model van het platform uitziet heb ik een business model canvas opgesteld."
                   },
                   {
                     "name": "Link",
@@ -1162,38 +2251,19 @@
                     "props": {
                       "level": "2"
                     },
-                    "content": "Conversieplan"
+                    "content": "Communicatie- en Conversieplan"
                   },
                   {
                     "name": "paragraph",
-                    "content": "TODO"
+                    "content": "Om het voor PIDZ duidelijk te maken hoe ze het beste het nieuwe platform kunnen promoten aan de doelgroep heb ik een comuncatieplan opgesteld."
                   },
                   {
                     "name": "Link",
                     "props": {
-                      "to": "/portfolio/pidz/adviseren/conversieplan",
+                      "to": "/portfolio/pidz/adviseren/communicatie–-en-conversieplan",
                       "type": "ext"
                     },
-                    "content": "Zie Conversieplan"
-                  },
-                  {
-                    "name": "heading",
-                    "props": {
-                      "level": "2"
-                    },
-                    "content": "Communicatieplan"
-                  },
-                  {
-                    "name": "paragraph",
-                    "content": "TODO"
-                  },
-                  {
-                    "name": "Link",
-                    "props": {
-                      "to": "/portfolio/pidz/adviseren/communicatieplan",
-                      "type": "ext"
-                    },
-                    "content": "Zie Communicatieplan"
+                    "content": "Zie Communicatie- en Conversieplan"
                   },
                   {
                     "name": "heading",
@@ -1223,7 +2293,7 @@
                   },
                   {
                     "name": "paragraph",
-                    "content": "Voor de voorbereiding van een usertest op het Sketch Prototype hebben we een testplan opgesteld. Om het eenvoudig te houden hebben we gebruik gemaakt van het Usability Test Plan Dashboard. Omdat de test gepland is voor 9 juni zijn de resultaten nog niet verwerkt en kan ik hierop nog niet reflecteren."
+                    "content": "Voor de voorbereiding van een usertest op het Sketch Prototype hebben we een testplan opgesteld. Om het eenvoudig te houden hebben we gebruik gemaakt van het Usability Test Plan Dashboard. De dag voor de executie kregen we te horen van PIDZ dat zij liever hadden dat de test in Useberry werd gedaan in plaats van 1-op-1 sessies via teams. Hierom heb ik snel de prototypes omgezet naar Useberry. Nadat we na een paar dagen pas 1 reactie kregen hebben we ons eigen netwerk ingeschakeld om de test uit te voeren. Achteraf doe ik liever aan 1-op-1 tests omdat je zo veel kwalitatieve data kan krijgen, een methode als Useberry is pas beter als je heel erg veel correspondenten hebt. Ik ben samen met Bart verantwoordelijk geweest voor het opstellen van het testplan. Ik heb uiteindelijk de resultaten verwerkt en de conclusies getrokken."
                   },
                   {
                     "name": "Link",
@@ -1255,13 +2325,203 @@
                   {
                     "name": "heading",
                     "props": {
+                      "level": "2"
+                    },
+                    "content": "Technische Realisatie"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Om tot een technisch prototype te komen heb ik ook bijgedrage aan devlopen. Ik ben hoofdzakelijk verantwoordelijk geweest voor de artikeloverzicht pagina en het inloggen/registreren."
+                  },
+                  {
+                    "name": "Link",
+                    "props": {
+                      "type": "ext",
+                      "to": ""
+                    },
+                    "content": "Zie Technische Realisatie"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Eindpresentatie"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Als afsluiting van het project hebben we aan PIDZ het prototype en de resultaten gepresenteerd. Vanuit PIDZ hebben we erg positieve feedback gekregen. Wel hadden ze een aantal opmerkingen:"
+                  },
+                  {
+                    "name": "List",
+                    "props": {
+                      "type": "unordered",
+                      "items": [
+                        "Hoe bepaal je de waarde van een heartbeat in het waarderingssysteem? Dit kan opgelost worden door naast het aantal Heartbeats het aantal gebruikers te zetten dat Heartbeats heeft gegeven.",
+                        "Hoe zorg je ervoor dat het platform hufterproof is? 100% hufterproof bestaat naar mijn mening niet. Om het platform te beschermen tegen ‘hufters’ die moedwillend nepnieuws proberen te verspreiden moet actief gebruik worden gemaakt van moderators."
+                      ]
+                    }
+                  },
+                  {
+                    "name": "Link",
+                    "props": {
+                      "to": "/portfolio/pidz/overig/eindpresentatie",
+                      "type": "ext"
+                    },
+                    "content": "Zie Eindpresentatie"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
                       "level": "1"
                     },
                     "content": "Reflectie"
                   },
                   {
                     "name": "paragraph",
-                    "content": "Doordat het vorige project van Stichting Ik Wil door de corona crisis zeer slecht is verlopen stond er voor dit project veel op het spel. Tot nu toe ben ik niet ontevreden hoe het allemaal loopt. Hoewel door het plotseling annulering van mijn afstudeerstage bij TDE mijn motivatie terug loopt. De uitkomst van dit semester is voor mij dan nog moeilijk te voorspellen. Ik moet nog vrij veel doen om zoveel mogelijk leerdoelen af te strepen. Wat ik absoluut moet verbeteren is dat ik meer moet communiceren met leraren, normaal zou een leraar regelmatig langslopen maar omdat ik nu thuis zit gebeurt dat niet, hierdoor loop ik zeer waardevolle feedback momentjes mis."
+                    "content": "Doordat het vorige project van Stichting Ik Wil door de corona crisis zeer slecht is verlopen stond er voor dit project veel op het spel. Terugkijkend op dit project ben ik niet ontevreden over wat ik heb kunnen bereiken. Wat ik wel echt beter moet doen is meer feedback vragen. In de oude situatie waar we nog op school werkte kon ik veel makkelijker feedback vragen aan docenten. In de huidige situatie ben je toch afhankelijk van MS Teams waar je niet altijd reactie op krijg en dat feedback via tekst toch minder waardevol is dan mondelinge feedback. Om hierover heen te komen hebben we regelmatig elkaars werk van feedback voorzien door middel van peer reviews. Tijdens mijn afstuderen heb ik het geluk dat ik de mensen uit het team al redelijk goed ken, hierdoor kan ik veel makkelijker om hulp/feedback vragen, ook als door de pandemie werken op locatie nog niet of beperkt mogelijk is."
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "1"
+                    },
+                    "content": "Verantwoording"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Strategie & Concepting"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Oordeelsvorming"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zie projectplan"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Trends"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zie Presenteren van Artikelen – Trend Analyse en Het online consumeren van informatie – Consumer Trend Canvas"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Concept"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zie ontwerp en eindpresentatie"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Business-model"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zie Business Model Canvas"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Marketing"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zie Comunicatie- en Conversieplan en business Model Canvas"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Comunicatie"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zie Workshop GSAP en Eindpresentatie"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Professionele Houding"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zie leeswijzer, refelectie en presentatie"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "User Experience Design"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Design"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zie ontwerp artikel overzicht"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "User Experience"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zie UX onderzoek"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "3"
+                    },
+                    "content": "Gebruikersonderzoek"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zie UX onderzoek en comunicatieplan"
+                  },
+                  {
+                    "name": "heading",
+                    "props": {
+                      "level": "2"
+                    },
+                    "content": "Development"
+                  },
+                  {
+                    "name": "paragraph",
+                    "content": "Zie Workhops GSAP en Technische Realisatie"
                   }
                 ]
               }
