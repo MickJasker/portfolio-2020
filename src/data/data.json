@@ -1485,7 +1485,15 @@
                     "props": {
                       "introduction": true
                     },
-                    "content": "Het ontwerp voor het artikel overzicht is opgedeeld in meerdere onderdelen."
+                    "content": "Het ontwerp voor het artikel overzicht is opgedeeld in meerdere onderdelen. Voor het design heb ik gebruik het Refactoring UI Book."
+                  },
+                  {
+                    "name": "Link",
+                    "props": {
+                      "type": "ext",
+                      "to": "https://refactoringui.com/book/"
+                    },
+                    "content": "refactoringui.com/book/"
                   },
                   {
                     "name": "ImageBlock",
@@ -2418,7 +2426,7 @@
                   },
                   {
                     "name": "paragraph",
-                    "content": "Zie design en eindpresentatie"
+                    "content": "Zie ontwerp en eindpresentatie"
                   },
                   {
                     "name": "heading",
@@ -2480,7 +2488,7 @@
                   },
                   {
                     "name": "paragraph",
-                    "content": "Zie design artikel overzicht"
+                    "content": "Zie ontwerp artikel overzicht"
                   },
                   {
                     "name": "heading",
