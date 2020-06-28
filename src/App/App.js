@@ -36,8 +36,7 @@ export default {
   mounted() {
     Vue.use(ScrollTrackerPlugin, {
       config: {
-        setDebugLabel: process.env.NODE_ENV !== 'production',
-        transitionInThreshold: 1,
+        setDebugLabel: false,
       },
     });
   },
