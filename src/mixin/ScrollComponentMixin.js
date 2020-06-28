@@ -6,7 +6,7 @@ export default {
   extends: AbstractTransitionComponent,
   props: {
     addToScrollTracker: VueTypes.bool.def(true),
-    transitionInThreshold: VueTypes.number.def(0.25),
+    transitionInThreshold: VueTypes.number.def(0.1),
     inViewProgressThreshold: VueTypes.number.def(0),
   },
   data() {
